@@ -1,0 +1,50 @@
+---
+import { postUrl, type Post } from '@/lib/posts';
+
+interface Props {
+  post: Post;
+  /** Override the image alt text (the "Latest Articles" block uses a generic alt). */
+  alt?: string;
+  decoding?: 'async' | 'sync' | 'auto';
+}
+
+const { post, alt, decoding } = Astro.props;
+const { card } = post.data;
+const url = postUrl(post);
+const title = post.data.cardTitle ?? post.data.title;
+---
+<div class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 p-4">
+  {card.image && (
+    <div class="relative overflow-hidden h-35 md:h-64 rounded-xl mb-4">
+      <img
+        decoding={decoding}
+        src={card.image}
+        alt={alt ?? card.alt}
+        class="w-full h-[80%]  transition-transform duration-700 group-hover:scale-110"
+      />
+      <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    </div>
+  )}
+
+  <div class="p-2">
+    {card.labels.length > 0 && (
+      <div class="flex flex-wrap gap-2 mb-4">
+        {card.labels.map((label) => (
+          <span class="text-xs font-medium bg-gray-100 px-3 py-1 rounded-full"><Fragment set:html={label} /></span>
+        ))}
+      </div>
+    )}
+
+    <h3 class="text-xl font-bold mb-3 leading-tight">
+      <a href={url} class="hover:text-blue-600 transition"><Fragment set:html={title} /></a>
+    </h3>
+
+    {card.excerpt && (
+      <p class="text-gray-600 text-sm mb-4 line-clamp-3"><Fragment set:html={card.excerpt} /></p>
+    )}
+
+    <a href={url} class="inline-flex items-center text-[#0595C4] font-semibold text-sm">
+      Read More <span class="ml-2">→</span>
+    </a>
+  </div>
+</div>

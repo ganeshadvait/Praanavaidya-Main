@@ -1,0 +1,31 @@
+---
+// Homepage-only "we are hiring" popup (opens after 10s).
+---
+<div id="image-popup-overlay">
+    <div id="image-popup-box">
+        <span id="popup-close">✕</span>
+        <img src="/images/2026/10/praanavaidya-hiring-banner.avif" alt="Popup Banner">
+    </div>
+</div>
+<script is:inline>
+document.addEventListener("DOMContentLoaded", function(){
+    var overlay = document.getElementById("image-popup-overlay");
+    if (!overlay) return;
+
+    function openPopup() {
+        overlay.classList.remove("hiding");
+        overlay.classList.add("visible");
+    }
+
+    function closePopup() {
+        overlay.classList.add("hiding");
+        setTimeout(function(){
+            overlay.classList.remove("visible", "hiding");
+        }, 400);
+    }
+
+    document.getElementById("popup-close").onclick = closePopup;
+
+    setTimeout(openPopup, 10000);
+});
+</script>

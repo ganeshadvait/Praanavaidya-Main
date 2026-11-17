@@ -1,0 +1,280 @@
+/* Job application form. Applies only on pages with data-styles~="job-application-form" (see BaseLayout "styles" prop) */
+:where([data-styles~="job-application-form"]) .pv-careers {
+      --pv-ink:#1f2a2e;
+      --pv-accent:#0595C4;
+      --pv-accent-dark:#047fa7;
+      --pv-line:#e3e6e4;
+      --pv-muted:#5d6b66;
+      --pv-bg:#f4f7f5;
+      --pv-card:#ffffff;
+      --pv-err:#c0392b;
+      --pv-ok:#188038;
+      --pv-radius:12px;
+      display:block !important;
+      float:none !important;
+      clear:both;
+      width:100% !important;
+      max-width:880px !important;
+      margin:0 auto !important;
+      padding:2.5rem 1.25rem !important;
+      box-sizing:border-box;
+      position:relative;
+      z-index:1;
+      font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;
+      color:var(--pv-ink);
+      line-height:1.5;
+    }
+:where([data-styles~="job-application-form"]) .pv-careers *,
+:where([data-styles~="job-application-form"]) .pv-careers *::before,
+:where([data-styles~="job-application-form"]) .pv-careers *::after {
+      box-sizing:border-box;
+    }
+:where([data-styles~="job-application-form"]) .pv-head {
+      text-align:center;
+      margin-bottom:2rem;
+    }
+:where([data-styles~="job-application-form"]) .pv-brand {
+      display:inline-block;
+      font-size:.8rem;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+      color:var(--pv-accent);
+      font-weight:700;
+      margin-bottom:.5rem;
+    }
+:where([data-styles~="job-application-form"]) .pv-head h1 {
+      font-size:clamp(1.5rem,5vw,2.2rem);
+      margin:0 0 .4rem;
+      line-height:1.2;
+    }
+:where([data-styles~="job-application-form"]) .pv-head p {
+      color:var(--pv-muted);
+      margin:0;
+      font-size:clamp(.88rem,2.5vw,.98rem);
+    }
+:where([data-styles~="job-application-form"]) .pv-card {
+      background:var(--pv-card);
+      border:1px solid var(--pv-line);
+      border-radius:var(--pv-radius);
+      box-shadow:0 1px 4px rgba(31,42,46,.05);
+      padding:1.75rem;
+      width:100%;
+    }
+:where([data-styles~="job-application-form"]) .pv-careers fieldset {
+      border:0;
+      padding:0;
+      margin:0 0 2rem;
+      min-width:0;
+    }
+:where([data-styles~="job-application-form"]) .pv-careers fieldset:last-of-type {
+      margin-bottom:1.25rem;
+    }
+:where([data-styles~="job-application-form"]) .pv-careers legend {
+      font-size:1.05rem;
+      font-weight:700;
+      color:var(--pv-ink);
+      padding:0;
+      display:flex;
+      align-items:center;
+      gap:.6rem;
+      width:100%;
+      margin-bottom:1.1rem;
+    }
+:where([data-styles~="job-application-form"]) .pv-careers legend::after {
+      content:"";
+      flex:1;
+      height:1px;
+      background:var(--pv-line);
+    }
+:where([data-styles~="job-application-form"]) .pv-grid {
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:1.1rem 1.25rem;
+    }
+:where([data-styles~="job-application-form"]) .pv-field {
+      display:flex;
+      flex-direction:column;
+      gap:.4rem;
+      min-width:0;
+    }
+:where([data-styles~="job-application-form"]) .pv-field.pv-full {
+      grid-column:1 / -1;
+    }
+:where([data-styles~="job-application-form"]) .pv-careers label {
+      font-size:.85rem;
+      font-weight:600;
+      color:var(--pv-ink);
+    }
+:where([data-styles~="job-application-form"]) .pv-req {
+      color:var(--pv-err);
+    }
+:where([data-styles~="job-application-form"]) .pv-hint {
+      font-size:.78rem;
+      color:var(--pv-muted);
+      font-weight:400;
+    }
+:where([data-styles~="job-application-form"]) .pv-careers input,
+:where([data-styles~="job-application-form"]) .pv-careers select,
+:where([data-styles~="job-application-form"]) .pv-careers textarea {
+      width:100%;
+      max-width:100%;
+      padding:.7rem .75rem;
+      font-size:16px;
+      color:var(--pv-ink);
+      border:1px solid var(--pv-line);
+      border-radius:9px;
+      background:#fff;
+      font-family:inherit;
+      transition:border-color .15s, box-shadow .15s;
+    }
+:where([data-styles~="job-application-form"]) .pv-careers input:focus,
+:where([data-styles~="job-application-form"]) .pv-careers select:focus,
+:where([data-styles~="job-application-form"]) .pv-careers textarea:focus {
+      outline:none;
+      border-color:var(--pv-accent);
+      box-shadow:0 0 0 3px rgba(5,149,196,.15);
+    }
+:where([data-styles~="job-application-form"]) .pv-careers input[type="file"] {
+      padding:.55rem;
+      background:var(--pv-bg);
+      cursor:pointer;
+    }
+:where([data-styles~="job-application-form"]) .pv-careers input.pv-invalid,
+:where([data-styles~="job-application-form"]) .pv-careers select.pv-invalid {
+      border-color:var(--pv-err);
+      box-shadow:0 0 0 3px rgba(192,57,43,.12);
+    }
+:where([data-styles~="job-application-form"]) .pv-error {
+      display:none;
+      color:var(--pv-err);
+      font-size:.78rem;
+      font-weight:600;
+      margin-top:-.15rem;
+    }
+:where([data-styles~="job-application-form"]) .pv-error.show {
+      display:block;
+    }
+:where([data-styles~="job-application-form"]) .pv-radio {
+      display:flex;
+      gap:1.25rem;
+      flex-wrap:wrap;
+      padding-top:.2rem;
+    }
+:where([data-styles~="job-application-form"]) .pv-radio label {
+      display:flex;
+      align-items:center;
+      gap:.4rem;
+      font-weight:400;
+      cursor:pointer;
+    }
+:where([data-styles~="job-application-form"]) .pv-radio input {
+      width:auto;
+    }
+:where([data-styles~="job-application-form"]) .pv-hp {
+      position:absolute;
+      left:-9999px;
+      width:1px;
+      height:1px;
+      overflow:hidden;
+    }
+:where([data-styles~="job-application-form"]) .pv-consent {
+      display:flex;
+      gap:.6rem;
+      align-items:flex-start;
+      font-size:.85rem;
+      color:var(--pv-muted);
+      margin:1.25rem 0 0;
+    }
+:where([data-styles~="job-application-form"]) .pv-consent input {
+      width:auto;
+      flex:0 0 auto;
+      margin-top:.2rem;
+    }
+:where([data-styles~="job-application-form"]) .pv-submit {
+      width:100%;
+      padding:.95rem 1.5rem;
+      font-size:1.02rem;
+      font-weight:700;
+      color:#fff;
+      background:var(--pv-accent);
+      border:0;
+      border-radius:10px;
+      cursor:pointer;
+      transition:background .15s, transform .05s;
+      margin-top:1.25rem;
+    }
+:where([data-styles~="job-application-form"]) .pv-submit:hover {
+      background:var(--pv-accent-dark);
+    }
+:where([data-styles~="job-application-form"]) .pv-submit:disabled {
+      opacity:.65;
+      cursor:not-allowed;
+    }
+:where([data-styles~="job-application-form"]) .pv-submit:active {
+      transform:translateY(1px);
+    }
+:where([data-styles~="job-application-form"]) .pv-submit:focus-visible {
+      outline:3px solid var(--pv-ink);
+      outline-offset:2px;
+    }
+:where([data-styles~="job-application-form"]) .pv-status {
+      margin-top:1rem;
+      text-align:center;
+      font-size:.9rem;
+      font-weight:600;
+      min-height:1.2em;
+    }
+:where([data-styles~="job-application-form"]) .pv-status.ok {
+      color:var(--pv-ok);
+    }
+:where([data-styles~="job-application-form"]) .pv-status.err {
+      color:var(--pv-err);
+    }
+:where([data-styles~="job-application-form"]) .pv-footnote {
+      text-align:center;
+      color:var(--pv-muted);
+      font-size:.8rem;
+      margin-top:1.25rem;
+    }
+@media (max-width:768px) {
+:where([data-styles~="job-application-form"]) .pv-careers {
+        padding:2rem 1rem !important;
+      }
+:where([data-styles~="job-application-form"]) .pv-card {
+        padding:1.5rem;
+      }
+:where([data-styles~="job-application-form"]) .pv-careers fieldset {
+        margin-bottom:1.6rem;
+      }
+}
+@media (max-width:600px) {
+:where([data-styles~="job-application-form"]) .pv-grid {
+        grid-template-columns:1fr;
+        gap:1rem;
+      }
+:where([data-styles~="job-application-form"]) .pv-card {
+        padding:1.15rem;
+      }
+:where([data-styles~="job-application-form"]) .pv-careers legend {
+        font-size:1rem;
+      }
+}
+@media (max-width:380px) {
+:where([data-styles~="job-application-form"]) .pv-careers {
+        padding:1.5rem .75rem !important;
+      }
+:where([data-styles~="job-application-form"]) .pv-card {
+        padding:1rem;
+      }
+:where([data-styles~="job-application-form"]) .pv-head {
+        margin-bottom:1.5rem;
+      }
+:where([data-styles~="job-application-form"]) .pv-radio {
+        gap:1rem;
+      }
+}
+@media (prefers-reduced-motion:reduce) {
+:where([data-styles~="job-application-form"]) .pv-careers * {
+        transition:none !important;
+      }
+}

@@ -1,0 +1,680 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const seo = {
+  "title": "Job Application - Praanavaidya",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "meta": [
+    [
+      "property",
+      "og:locale",
+      "en_US"
+    ],
+    [
+      "property",
+      "og:type",
+      "article"
+    ],
+    [
+      "property",
+      "og:title",
+      "Job Application - Praanavaidya"
+    ],
+    [
+      "property",
+      "og:url",
+      "https://praanavaidya.com/job-application/"
+    ],
+    [
+      "property",
+      "og:site_name",
+      "Praanavaidya"
+    ],
+    [
+      "property",
+      "article:publisher",
+      "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+    ],
+    [
+      "property",
+      "article:modified_time",
+      "2026-06-30T00:58:19+00:00"
+    ],
+    [
+      "name",
+      "twitter:card",
+      "summary_large_image"
+    ],
+    [
+      "name",
+      "twitter:label1",
+      "Est. reading time"
+    ],
+    [
+      "name",
+      "twitter:data1",
+      "1 minute"
+    ]
+  ],
+  "links": [
+    [
+      "canonical",
+      "https://praanavaidya.com/job-application/"
+    ]
+  ],
+  "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/job-application\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/job-application\\/\",\"name\":\"Job Application - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2026-06-29T16:41:18+00:00\",\"dateModified\":\"2026-06-30T00:58:19+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/job-application\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/job-application\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/praanavaidya.com\\/job-application\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/praanavaidya.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Job Application\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+};
+
+const page = {
+  "bodyClass": "wp-singular page-template-default page page-id-10946 wp-embed-responsive wp-theme-blocksy wp-child-theme-blocksy-child"
+};
+---
+<BaseLayout styles={['job-application-form']} seo={seo} bodyClass={page.bodyClass}>
+	<div
+		class="ct-container-full"
+				data-content="normal"		>
+
+	<article
+		id="post-10946"
+		class="post-10946 page type-page status-publish hentry">
+
+		<div class="entry-content is-layout-constrained">
+				
+  <div class="pv-careers">
+
+    <div class="pv-head">
+      <span class="pv-brand">Praanavaidya · Careers</span>
+      <h1>Application Form</h1>
+      <p>Fill in your details below. Fields marked <span class="pv-req">*</span> are required.</p>
+    </div>
+
+    <form id="pvApplicationForm" class="pv-card" action="javascript:void(0);" method="post" enctype="multipart/form-data" novalidate>
+
+      <div class="pv-hp" aria-hidden="true">
+        <label>Don't fill this <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+      </div>
+
+      <fieldset>
+        <legend>Basic Information</legend>
+
+        <div class="pv-grid">
+
+          <div class="pv-field pv-full">
+            <label for="pv_full_name">Full Name <span class="pv-req">*</span></label>
+            <input type="text" id="pv_full_name" name="full_name" placeholder="Your full name"
+                   pattern="[A-Za-z\s.'-]{2,60}" maxlength="60" required>
+            <span class="pv-error" id="err_full_name"></span>
+          </div>
+
+          <div class="pv-field">
+            <label for="pv_mobile">Mobile Number <span class="pv-req">*</span></label>
+            <input type="tel" id="pv_mobile" name="mobile" inputmode="numeric"
+                   placeholder="10-digit mobile number" pattern="[6-9][0-9]{9}" maxlength="10" required>
+            <span class="pv-error" id="err_mobile"></span>
+          </div>
+
+          <div class="pv-field">
+            <label for="pv_email">Email ID <span class="pv-req">*</span></label>
+            <input type="email" id="pv_email" name="email" placeholder="you@example.com" required>
+            <span class="pv-error" id="err_email"></span>
+          </div>
+
+          <div class="pv-field">
+            <label for="pv_current_city">Current City <span class="pv-req">*</span></label>
+            <input type="text" id="pv_current_city" name="current_city" placeholder="City you live in"
+                   pattern="[A-Za-z\s.'-]{2,50}" maxlength="50" required>
+            <span class="pv-error" id="err_current_city"></span>
+          </div>
+
+          <div class="pv-field">
+            <label for="pv_preferred_location">Preferred Job Location <span class="pv-req">*</span></label>
+            <select id="pv_preferred_location" name="preferred_location" required>
+              <option value="">Select a location</option>
+              <option>Mangalore</option>
+              <option>Hubballi</option>
+              <option>Bangalore</option>
+              <option>Mumbai</option>
+              <option>Delhi</option>
+              <option>Lucknow</option>
+            </select>
+            <span class="pv-error" id="err_preferred_location"></span>
+          </div>
+
+          <div class="pv-field pv-full">
+            <label for="pv_applying_for">Applying For (Job Role) <span class="pv-req">*</span></label>
+            <select id="pv_applying_for" name="applying_for" required>
+              <option value="">Select a role</option>
+              <option>Ayurveda Consultant</option>
+              <option>Panchakarma Therapist</option>
+              <option>Front Office &amp; Telesales Executive</option>
+              <option>Sales Head</option>
+              <option>Telesales Executive</option>
+              <option>Office Boy</option>
+              <option>Marketing Manager</option>
+              <option>Nurses</option>
+              <option>HR Executive</option>
+            </select>
+            <span class="pv-error" id="err_applying_for"></span>
+          </div>
+
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Professional Details</legend>
+
+        <div class="pv-grid">
+
+          <div class="pv-field">
+            <label for="pv_total_experience">Total Experience <span class="pv-req">*</span></label>
+            <input type="text" id="pv_total_experience" name="total_experience" placeholder="e.g. 4 years"
+                   pattern="^(?=.*[0-9]).{1,30}$" maxlength="30" required>
+            <span class="pv-error" id="err_total_experience"></span>
+          </div>
+
+          <div class="pv-field">
+            <label for="pv_relevant_experience">Relevant Experience <span class="pv-req">*</span></label>
+            <input type="text" id="pv_relevant_experience" name="relevant_experience" placeholder="e.g. 2 years"
+                   pattern="^(?=.*[0-9]).{1,30}$" maxlength="30" required>
+            <span class="pv-error" id="err_relevant_experience"></span>
+          </div>
+
+          <div class="pv-field">
+            <label for="pv_current_company">Current Company <span class="pv-req">*</span></label>
+            <input type="text" id="pv_current_company" name="current_company" placeholder="Company name" maxlength="80" required>
+            <span class="pv-error" id="err_current_company"></span>
+          </div>
+
+          <div class="pv-field">
+            <label for="pv_current_designation">Current Designation <span class="pv-req">*</span></label>
+            <input type="text" id="pv_current_designation" name="current_designation" placeholder="Your job title" maxlength="80" required>
+            <span class="pv-error" id="err_current_designation"></span>
+          </div>
+
+          <div class="pv-field">
+            <label for="pv_current_salary">Current Salary <span class="pv-req">*</span></label>
+            <input type="text" id="pv_current_salary" name="current_salary" placeholder="e.g. 4.5 LPA"
+                   pattern="^(?=.*[0-9]).{1,20}$" maxlength="20" required>
+            <span class="pv-error" id="err_current_salary"></span>
+          </div>
+
+          <div class="pv-field">
+            <label for="pv_expected_salary">Expected Salary <span class="pv-req">*</span></label>
+            <input type="text" id="pv_expected_salary" name="expected_salary" placeholder="e.g. 6 LPA"
+                   pattern="^(?=.*[0-9]).{1,20}$" maxlength="20" required>
+            <span class="pv-error" id="err_expected_salary"></span>
+          </div>
+
+          <div class="pv-field">
+            <label for="pv_languages">Languages Known <span class="pv-req">*</span></label>
+            <input type="text" id="pv_languages" name="languages" placeholder="e.g. Kannada, Hindi, English" maxlength="100" required>
+            <span class="pv-error" id="err_languages"></span>
+          </div>
+
+          <div class="pv-field">
+            <label for="pv_qualification">Educational Qualification <span class="pv-req">*</span></label>
+            <input type="text" id="pv_qualification" name="qualification" placeholder="Highest qualification" maxlength="80" required>
+            <span class="pv-error" id="err_qualification"></span>
+          </div>
+
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Additional Details</legend>
+
+        <div class="pv-grid">
+
+          <div class="pv-field">
+            <label for="pv_resume">Upload Resume  <span class="pv-hint">(PDF / DOC / DOCX / JPEG)</span></label>
+            <input type="file" id="pv_resume" name="resume" accept=".pdf,.doc,.docx,.jpg,.jpeg" required>
+            <span class="pv-error" id="err_resume"></span>
+          </div>
+
+          <div class="pv-field">
+            <label for="pv_photo">Photograph  <span class="pv-hint">(JPG / PNG)</span></label>
+            <input type="file" id="pv_photo" name="photo" accept=".jpg,.jpeg,.png" required>
+            <span class="pv-error" id="err_photo"></span>
+          </div>
+
+          <div class="pv-field">
+            <label>Willing to Relocate? </label>
+            <div class="pv-radio">
+              <label><input type="radio" name="relocate" value="Yes" required> Yes</label>
+              <label><input type="radio" name="relocate" value="No" required> No</label>
+            </div>
+            <span class="pv-error" id="err_relocate"></span>
+          </div>
+
+          <div class="pv-field">
+            <label>Preferred Interview Mode </label>
+            <div class="pv-radio">
+              <label><input type="radio" name="interview_mode" value="Online" required> Online</label>
+              <label><input type="radio" name="interview_mode" value="Offline" required> Offline</label>
+            </div>
+            <span class="pv-error" id="err_interview_mode"></span>
+          </div>
+
+          <div class="pv-field">
+            <label for="pv_interview_date">Available Date for Interview </label>
+            <input type="date" id="pv_interview_date" name="interview_date" required>
+            <span class="pv-error" id="err_interview_date"></span>
+          </div>
+
+        </div>
+      </fieldset>
+
+      <label class="pv-consent">
+        <input type="checkbox" name="consent" required>
+        <span>I confirm the information provided is accurate and consent to Praanavaidya storing it for recruitment purposes.</span>
+      </label>
+      <span class="pv-error" id="err_consent"></span>
+
+      <button type="submit" class="pv-submit">Submit Application</button>
+
+      <div id="pvFormStatus" class="pv-status" role="status"></div>
+
+      <p class="pv-footnote">Your details are kept confidential and used only for recruitment.</p>
+
+    </form>
+  </div>
+
+
+  <script is:inline>
+    (function () {
+      var WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbz5ox7nxDYPdTXKhvPwYzQ_KHizYsUJ0_4epYVCi_5PdxNXpjBTeNj2vBSGywlINOII/exec';
+
+      function initPvApplicationForm() {
+        var form = document.getElementById('pvApplicationForm');
+        var statusEl = document.getElementById('pvFormStatus');
+
+        if (!form) {
+          console.log('PV FORM NOT FOUND');
+          return;
+        }
+
+        console.log('PV FORM SCRIPT LOADED');
+
+        /* ───────────────────────── Validators ───────────────────────── */
+
+        var NAME_RE   = /^[A-Za-z\s.'-]{2,60}$/;
+        var CITY_RE   = /^[A-Za-z\s.'-]{2,50}$/;
+        var MOBILE_RE = /^[6-9][0-9]{9}$/;
+        var EMAIL_RE  = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+        var HAS_DIGIT_RE = /[0-9]/;
+
+        function setFieldError(fieldId, message) {
+          var input = document.getElementById(fieldId);
+          var err = document.getElementById('err_' + fieldId.replace('pv_', ''));
+          if (input) input.classList.toggle('pv-invalid', !!message);
+          if (err) {
+            err.textContent = message || '';
+            err.classList.toggle('show', !!message);
+          }
+        }
+
+        function setGroupError(name, message) {
+          var err = document.getElementById('err_' + name);
+          if (err) {
+            err.textContent = message || '';
+            err.classList.toggle('show', !!message);
+          }
+        }
+
+        function val(id) {
+          var el = document.getElementById(id);
+          return el ? String(el.value || '').trim() : '';
+        }
+
+        function validateAll() {
+          var ok = true;
+
+          // Full Name
+          var fullName = val('pv_full_name');
+          if (!fullName) { setFieldError('pv_full_name', 'Full name is required.'); ok = false; }
+          else if (!NAME_RE.test(fullName)) { setFieldError('pv_full_name', 'Only letters and spaces are allowed.'); ok = false; }
+          else setFieldError('pv_full_name', '');
+
+          // Mobile
+          var mobile = val('pv_mobile');
+          if (!mobile) { setFieldError('pv_mobile', 'Mobile number is required.'); ok = false; }
+          else if (!MOBILE_RE.test(mobile)) { setFieldError('pv_mobile', 'Enter a valid 10-digit mobile number.'); ok = false; }
+          else setFieldError('pv_mobile', '');
+
+          // Email
+          var email = val('pv_email');
+          if (!email) { setFieldError('pv_email', 'Email is required.'); ok = false; }
+          else if (!EMAIL_RE.test(email)) { setFieldError('pv_email', 'Enter a valid email address.'); ok = false; }
+          else setFieldError('pv_email', '');
+
+          // Current City
+          var city = val('pv_current_city');
+          if (!city) { setFieldError('pv_current_city', 'Current city is required.'); ok = false; }
+          else if (!CITY_RE.test(city)) { setFieldError('pv_current_city', 'Enter a valid city name.'); ok = false; }
+          else setFieldError('pv_current_city', '');
+
+          // Preferred Location
+          var loc = val('pv_preferred_location');
+          if (!loc) { setFieldError('pv_preferred_location', 'Please select a location.'); ok = false; }
+          else setFieldError('pv_preferred_location', '');
+
+          // Applying For
+          var role = val('pv_applying_for');
+          if (!role) { setFieldError('pv_applying_for', 'Please select a role.'); ok = false; }
+          else setFieldError('pv_applying_for', '');
+
+          // Total Experience
+          var totalExp = val('pv_total_experience');
+          if (!totalExp) { setFieldError('pv_total_experience', 'Total experience is required.'); ok = false; }
+          else if (!HAS_DIGIT_RE.test(totalExp)) { setFieldError('pv_total_experience', 'Include a number, e.g. "4 years".'); ok = false; }
+          else setFieldError('pv_total_experience', '');
+
+          // Relevant Experience
+          var relExp = val('pv_relevant_experience');
+          if (!relExp) { setFieldError('pv_relevant_experience', 'Relevant experience is required.'); ok = false; }
+          else if (!HAS_DIGIT_RE.test(relExp)) { setFieldError('pv_relevant_experience', 'Include a number, e.g. "2 years".'); ok = false; }
+          else setFieldError('pv_relevant_experience', '');
+
+          // Current Company
+          var company = val('pv_current_company');
+          if (!company) { setFieldError('pv_current_company', 'Current company is required.'); ok = false; }
+          else setFieldError('pv_current_company', '');
+
+          // Current Designation
+          var designation = val('pv_current_designation');
+          if (!designation) { setFieldError('pv_current_designation', 'Current designation is required.'); ok = false; }
+          else setFieldError('pv_current_designation', '');
+
+          // Current Salary
+          var curSalary = val('pv_current_salary');
+          if (!curSalary) { setFieldError('pv_current_salary', 'Current salary is required.'); ok = false; }
+          else if (!HAS_DIGIT_RE.test(curSalary)) { setFieldError('pv_current_salary', 'Include a number, e.g. "4.5 LPA".'); ok = false; }
+          else setFieldError('pv_current_salary', '');
+
+          // Expected Salary
+          var expSalary = val('pv_expected_salary');
+          if (!expSalary) { setFieldError('pv_expected_salary', 'Expected salary is required.'); ok = false; }
+          else if (!HAS_DIGIT_RE.test(expSalary)) { setFieldError('pv_expected_salary', 'Include a number, e.g. "6 LPA".'); ok = false; }
+          else setFieldError('pv_expected_salary', '');
+
+          // Languages
+          var languages = val('pv_languages');
+          if (!languages) { setFieldError('pv_languages', 'Languages known is required.'); ok = false; }
+          else setFieldError('pv_languages', '');
+
+          // Qualification
+          var qualification = val('pv_qualification');
+          if (!qualification) { setFieldError('pv_qualification', 'Educational qualification is required.'); ok = false; }
+          else setFieldError('pv_qualification', '');
+
+          // Relocate (radio group)
+          if (!getRadioValue('relocate')) { setGroupError('relocate', 'Please select an option.'); ok = false; }
+          else setGroupError('relocate', '');
+
+          // Interview mode (radio group)
+          if (!getRadioValue('interview_mode')) { setGroupError('interview_mode', 'Please select an option.'); ok = false; }
+          else setGroupError('interview_mode', '');
+
+          // Interview Date — must not be in the past
+          var interviewDate = val('pv_interview_date');
+          if (!interviewDate) {
+            setFieldError('pv_interview_date', 'Please select a date.');
+            ok = false;
+          } else {
+            var chosen = new Date(interviewDate + 'T00:00:00');
+            var today = new Date();
+            today.setHours(0, 0, 0, 0);
+            if (chosen < today) {
+              setFieldError('pv_interview_date', 'Date cannot be in the past.');
+              ok = false;
+            } else {
+              setFieldError('pv_interview_date', '');
+            }
+          }
+
+          // Consent
+          var consent = form.elements['consent'] && form.elements['consent'].checked;
+          if (!consent) { setGroupError('consent', 'You must confirm and consent to proceed.'); ok = false; }
+          else setGroupError('consent', '');
+
+          return ok;
+        }
+
+        // live validation as the user types/selects
+        ['pv_full_name', 'pv_mobile', 'pv_email', 'pv_current_city', 'pv_preferred_location',
+         'pv_applying_for', 'pv_total_experience', 'pv_relevant_experience', 'pv_current_company',
+         'pv_current_designation', 'pv_current_salary', 'pv_expected_salary', 'pv_languages',
+         'pv_qualification', 'pv_interview_date'].forEach(function (id) {
+          var el = document.getElementById(id);
+          if (!el) return;
+          var evt = el.tagName === 'SELECT' ? 'change' : 'input';
+          el.addEventListener(evt, validateAll);
+        });
+
+        // mobile: block non-digit keystrokes, cap at 10 chars
+        document.getElementById('pv_mobile').addEventListener('input', function (e) {
+          e.target.value = e.target.value.replace(/\D/g, '').slice(0, 10);
+        });
+
+        function setStatus(message, type) {
+          if (!statusEl) return;
+
+          statusEl.textContent = message || '';
+          statusEl.className = 'pv-status';
+
+          if (type) {
+            statusEl.classList.add(type);
+          }
+        }
+
+        function getValue(name) {
+          var field = form.elements[name];
+          return field ? String(field.value || '').trim() : '';
+        }
+
+        function getRadioValue(name) {
+          var checked = form.querySelector('input[name="' + name + '"]:checked');
+          return checked ? checked.value : '';
+        }
+
+        function validateFile(file, fieldName, allowedExtensions, errId) {
+          if (!file) {
+            setFieldError2(errId, fieldName + ' is required.');
+            throw new Error(fieldName + ' is required.');
+          }
+
+          var maxSizeMB = 10;
+          var maxSizeBytes = maxSizeMB * 1024 * 1024;
+
+          if (file.size > maxSizeBytes) {
+            setFieldError2(errId, fieldName + ' should not exceed ' + maxSizeMB + ' MB.');
+            throw new Error(fieldName + ' should not exceed ' + maxSizeMB + ' MB.');
+          }
+
+          var fileName = String(file.name || '').toLowerCase();
+
+          var allowed = allowedExtensions.some(function (ext) {
+            return fileName.endsWith(ext);
+          });
+
+          if (!allowed) {
+            setFieldError2(errId, 'Invalid file type for ' + fieldName + '.');
+            throw new Error('Invalid file type for ' + fieldName + '.');
+          }
+
+          setFieldError2(errId, '');
+        }
+
+        function setFieldError2(errId, message) {
+          var err = document.getElementById(errId);
+          if (err) {
+            err.textContent = message || '';
+            err.classList.toggle('show', !!message);
+          }
+        }
+
+        function fileToBase64(file) {
+          return new Promise(function (resolve, reject) {
+            if (!file) {
+              resolve(null);
+              return;
+            }
+
+            var reader = new FileReader();
+
+            reader.onload = function () {
+              var result = String(reader.result || '');
+              var base64 = result.split(',')[1];
+
+              resolve({
+                name: file.name,
+                type: file.type || 'application/octet-stream',
+                data: base64
+              });
+            };
+
+            reader.onerror = function () {
+              reject(new Error('Unable to read file: ' + file.name));
+            };
+
+            reader.readAsDataURL(file);
+          });
+        }
+
+        form.addEventListener('submit', async function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+
+          console.log('PV FORM SUBMIT TRIGGERED');
+
+          setStatus('', '');
+
+          if (!WEB_APP_URL || WEB_APP_URL.indexOf('/exec') === -1) {
+            alert('Apps Script /exec URL is missing or incorrect.');
+            return false;
+          }
+
+          var hp = form.querySelector('input[name="website"]');
+
+          if (hp && hp.value.trim() !== '') {
+            return false;
+          }
+
+          // custom validation (runs before native checkValidity)
+          var customOk = validateAll();
+
+          if (!customOk) {
+            setStatus('Please fix the highlighted fields.', 'err');
+            var firstInvalid = form.querySelector('.pv-invalid');
+            if (firstInvalid) firstInvalid.focus();
+            return false;
+          }
+
+          if (!form.checkValidity()) {
+            form.reportValidity();
+            return false;
+          }
+
+          var submitBtn = form.querySelector('.pv-submit');
+          var originalText = submitBtn ? submitBtn.textContent : 'Submit Application';
+
+          try {
+            if (submitBtn) {
+              submitBtn.disabled = true;
+              submitBtn.textContent = 'Submitting...';
+            }
+
+            setStatus('Submitting your application...', '');
+
+            var resumeInput = document.getElementById('pv_resume');
+            var photoInput = document.getElementById('pv_photo');
+
+            var resumeFile = resumeInput && resumeInput.files ? resumeInput.files[0] : null;
+            var photoFile = photoInput && photoInput.files ? photoInput.files[0] : null;
+
+            validateFile(resumeFile, 'Resume', ['.pdf', '.doc', '.docx', '.jpg', '.jpeg'], 'err_resume');
+            validateFile(photoFile, 'Photograph', ['.jpg', '.jpeg', '.png'], 'err_photo');
+
+            var payload = {
+              website: getValue('website'),
+
+              full_name: getValue('full_name'),
+              mobile: getValue('mobile'),
+              email: getValue('email'),
+              current_city: getValue('current_city'),
+              preferred_location: getValue('preferred_location'),
+              applying_for: getValue('applying_for'),
+
+              total_experience: getValue('total_experience'),
+              relevant_experience: getValue('relevant_experience'),
+              current_company: getValue('current_company'),
+              current_designation: getValue('current_designation'),
+              current_salary: getValue('current_salary'),
+              expected_salary: getValue('expected_salary'),
+              languages: getValue('languages'),
+              qualification: getValue('qualification'),
+
+              relocate: getRadioValue('relocate'),
+              interview_mode: getRadioValue('interview_mode'),
+              interview_date: getValue('interview_date'),
+
+              consent: form.elements['consent'].checked ? 'Yes' : '',
+
+              resume: await fileToBase64(resumeFile),
+              photo: await fileToBase64(photoFile)
+            };
+
+            var params = new URLSearchParams();
+            params.append('payload', JSON.stringify(payload));
+
+            console.log('Sending to Apps Script:', WEB_APP_URL);
+
+            await fetch(WEB_APP_URL, {
+              method: 'POST',
+              mode: 'no-cors',
+              body: params
+            });
+
+            console.log('Apps Script request sent');
+
+            setStatus('Application submitted successfully.', 'ok');
+            alert('Application submitted successfully.');
+
+            form.reset();
+            document.querySelectorAll('.pv-error').forEach(function (el) { el.classList.remove('show'); });
+            document.querySelectorAll('.pv-invalid').forEach(function (el) { el.classList.remove('pv-invalid'); });
+
+          } catch (error) {
+            console.error(error);
+
+            setStatus(error.message || 'Something went wrong. Please try again.', 'err');
+            alert(error.message || 'Something went wrong. Please try again.');
+
+          } finally {
+            if (submitBtn) {
+              submitBtn.disabled = false;
+              submitBtn.textContent = originalText;
+            }
+          }
+
+          return false;
+        });
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initPvApplicationForm);
+      } else {
+        initPvApplicationForm();
+      }
+    })();
+  </script>
+
+<p class="wp-block-paragraph"></p>
+		</div>
+
+	</article>
+
+			</div>
+
+<!-- .ct-container -->
+</BaseLayout>

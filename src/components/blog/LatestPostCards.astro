@@ -1,0 +1,15 @@
+---
+// The newest `count` posts as cards (used on Home, About and under every blog post).
+import PostCard from './PostCard.astro';
+import { getPosts } from '@/lib/posts';
+
+interface Props {
+  count?: number;
+  alt?: string;
+  decoding?: 'async' | 'sync' | 'auto';
+}
+
+const { count = 3, alt, decoding } = Astro.props;
+const posts = (await getPosts()).slice(0, count);
+---
+{posts.map((post) => <PostCard post={post} alt={alt} decoding={decoding} />)}

@@ -1,0 +1,11 @@
+/* Treatment cards hover/animation. Applies only on pages with data-styles~="treatment-cards" (see BaseLayout "styles" prop) */
+:where([data-styles~="treatment-cards"]) .treatment-card-hover {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+:where([data-styles~="treatment-cards"]) .treatment-card-hover:hover {
+            transform: translateY(-8px);
+        }
+@keyframes pulse {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(90, 214, 255, 0.7); }
+            50% { box-shadow: 0 0 0 15px rgba(90, 214, 255, 0); }
+        }

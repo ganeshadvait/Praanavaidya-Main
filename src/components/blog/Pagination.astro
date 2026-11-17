@@ -1,0 +1,45 @@
+---
+// Port of WordPress paginate_links() (end_size 1, mid_size 2) with the theme's markup.
+import { pageUrl } from '@/lib/posts';
+
+interface Props {
+  /** URL of page 1, with trailing slash, e.g. "/blogs/" */
+  base: string;
+  current: number;
+  total: number;
+}
+
+const { base, current, total } = Astro.props;
+const endSize = 1;
+const midSize = 2;
+const linkClass = 'px-4 py-2 rounded-full border border-gray-300 text-gray-700 hover:bg-[#0BA5D8] hover:text-white transition';
+
+type Item = { kind: 'link'; n: number; label: string } | { kind: 'current'; n: number } | { kind: 'dots' };
+const items: Item[] = [];
+if (current > 1) items.push({ kind: 'link', n: current - 1, label: '←' });
+let dots = false;
+for (let n = 1; n <= total; n++) {
+  if (n === current) {
+    items.push({ kind: 'current', n });
+    dots = true;
+  } else if (n <= endSize || (n >= current - midSize && n <= current + midSize) || n > total - endSize) {
+    items.push({ kind: 'link', n, label: String(n) });
+    dots = true;
+  } else if (dots) {
+    items.push({ kind: 'dots' });
+    dots = false;
+  }
+}
+if (current < total) items.push({ kind: 'link', n: current + 1, label: '→' });
+---
+<nav class="flex items-center gap-2 text-sm font-medium">
+  {items.map((item) =>
+    item.kind === 'current' ? (
+      <span class="px-4 py-2 rounded-full bg-[#0BA5D8] text-white">{item.n}</span>
+    ) : item.kind === 'dots' ? (
+      <span class="page-numbers dots">&hellip;</span>
+    ) : (
+      <a class={linkClass} href={pageUrl(base, item.n)}>{item.label}</a>
+    )
+  )}
+</nav>

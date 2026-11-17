@@ -1,0 +1,92 @@
+/* Doctors carousel (home, about, treatments, doctors). Applies only on pages with data-styles~="doctor-carousel" (see BaseLayout "styles" prop) */
+:where([data-styles~="doctor-carousel"]) .doctor-carousel {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    overflow-x: auto;
+}
+:where([data-styles~="doctor-carousel"]) .doctor-carousel > div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+}
+:where([data-styles~="doctor-carousel"]) .doctor-carousel::-webkit-scrollbar {
+    display: none;
+}
+:where([data-styles~="doctor-carousel"]) .doctor-grid-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 32px;
+    text-align: center;
+    transition: all .3s ease;
+    min-width: 300px;
+}
+:where([data-styles~="doctor-carousel"]) .doctor-grid-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0,0,0,.12);
+}
+:where([data-styles~="doctor-carousel"]) .doctor-img {
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: top;
+    margin: 0 auto 20px;
+    background: #EAF6FF;
+    display: block;
+}
+:where([data-styles~="doctor-carousel"]) .doctor-tags span {
+    background: #E0F2FE;
+    color: #0284C7;
+    padding: 8px 18px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+}
+:where([data-styles~="doctor-carousel"]) .btn-primary {
+    background: linear-gradient(180deg,#5AD6FF,#0595C4);
+    color: #fff;
+    padding: 14px;
+    border-radius: 999px;
+    display: block;
+    font-weight: 600;
+    margin-top: 20px;
+}
+:where([data-styles~="doctor-carousel"]) .btn-outline {
+    border: 2px solid #0595C4;
+    color: #0595C4;
+    padding: 14px;
+    border-radius: 999px;
+    display: block;
+    font-weight: 600;
+    margin-top: 14px;
+}
+:where([data-styles~="doctor-carousel"]) .doctor-arrows button {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1;
+}
+@media (max-width: 640px) {
+:where([data-styles~="doctor-carousel"]) .doctor-carousel {
+        display: flex;
+        margin: auto;
+    }
+:where([data-styles~="doctor-carousel"]) .doctor-carousel > div {
+        min-width: 95%;
+    }
+}
+@media (min-width: 641px) and (max-width: 1023px) {
+:where([data-styles~="doctor-carousel"]) .doctor-grid-card {
+        min-width: 0;
+    }
+}
+@media (min-width: 1024px) {
+:where([data-styles~="doctor-carousel"]) .doctor-carousel {
+        display: flex;
+        gap: 20px;
+    }
+:where([data-styles~="doctor-carousel"]) .doctor-carousel > div {
+        min-width: 300px;
+    }
+}

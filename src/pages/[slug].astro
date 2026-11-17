@@ -1,0 +1,104 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import LatestArticles from '@/components/blog/LatestArticles.astro';
+import { getPosts } from '@/lib/posts';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return posts.map((entry) => ({ params: { slug: entry.id }, props: { post: entry.data } }));
+}
+
+const { post } = Astro.props;
+---
+<BaseLayout styles={['post-content', 'post-cta-bar']} seo={post.seo} bodyClass={post.bodyClass}>
+<main class="site-main bg-white">
+        <section class="w-full  mx-auto">
+        <section class="bg-[#0595C4] w-full  rounded-b-[50px]">
+                <!-- Hero Section -->
+              
+    <section class="max-w-[1360px] mx-auto min-h-[500px] flex items-center overflow-hidden mb-16">
+        <div class="flex flex-col md:flex-row items-center w-full">
+
+            <div class="w-full md:w-1/2 py-20 px-6 text-white">
+                                    <span class="inline-flex bg-white/20 px-4 py-2 rounded-full text-sm mb-5"><Fragment set:html={post.heroLabel} /></span>
+                
+                <h1 class="text-4xl md:text-5xl font-bold mb-5 text-white"><Fragment set:html={post.title} /></h1>
+
+                <p class="text-lg mb-8 opacity-90"><Fragment set:html={post.heroExcerpt} /></p>
+
+                                    <div class="flex gap-4 flex-wrap">
+                        <a href="#content" class="bg-white text-cyan-500 px-8 py-4 rounded-full font-semibold">
+                            Read Article
+                        </a>
+                        <a href="#"
+                           class="open-modal border-2 border-white px-8 py-4 rounded-full font-semibold">
+                            Book Appointment
+                        </a>
+                    </div>
+                            </div>
+
+            <div class="w-full md:w-1/2 aspect-video md:aspect-auto md:h-[450px] overflow-hidden rounded-2xl">{post.heroImage && <img {...post.heroImage} />}</div>
+
+        </div>
+    </section>
+
+          </section>
+
+        <!-- Post Content Section -->
+        <article id={post.articleId} class={post.articleClass}>
+            <div class="max-w-7xl mx-auto px-6 mb-20">
+                <div class="grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-12 lg:gap-16">
+                    
+                    <!-- Sidebar -->
+                    
+    <aside class="lg:sticky lg:top-24 h-fit">
+        <div class="space-y-6">
+
+            <!-- Post Meta -->
+            <div class="bg-white p-6 rounded-2xl shadow-lg">
+                <div class="space-y-4">
+
+                    <div class="pb-4 border-b border-gray-200">
+                        <span class="text-xs text-gray-500 uppercase block mb-1">Author</span>
+                        <span class="text-sm font-semibold text-gray-900"><Fragment set:html={post.authorName} /></span>
+                    </div>
+
+                    <div>
+                        <span class="text-xs text-gray-500 uppercase block mb-1">Read Time</span>
+                        <span class="text-sm font-semibold text-gray-900">{post.readTime}</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <a href="#"
+               class="open-modal flex items-center justify-center gap-2 w-full
+                      bg-gradient-to-b from-[#5AD6FF] to-[#0595C4]
+                      text-white px-6 py-3.5 rounded-full font-semibold
+                      shadow-lg shadow-cyan-500/30
+                      transition-all hover:scale-[1.03]">
+                Get Consultation Now <i class="fas fa-arrow-right"></i>
+            </a>
+
+        </div>
+    </aside>
+
+    <div class="bg-white p-8 md:p-12 rounded-2xl shadow-lg" id="content">
+
+        <div class="prose prose-lg max-w-none"><Fragment set:html={post.content} /></div>
+
+    </div>
+
+                    </div>
+            </div>
+        </article>
+
+        <!-- Related Posts Section -->
+<LatestArticles />
+</section>
+
+    </main>
+
+
+<!-- .ct-container -->
+</BaseLayout>

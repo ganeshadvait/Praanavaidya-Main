@@ -1,0 +1,131 @@
+---
+// /blogs/ and /blogs/page/<n>/
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PostCard from '@/components/blog/PostCard.astro';
+import Pagination from '@/components/blog/Pagination.astro';
+import BookAppointment from '@/components/blog/BookAppointment.astro';
+import { chunk, formatDate, getPosts, pageMeta, postUrl, type Post } from '@/lib/posts';
+import blogPages from '@/data/blogs-pages.json';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  const pages = chunk(posts);
+  return pages.map((items, i) => ({
+    params: { page: i === 0 ? undefined : `page/${i + 1}` },
+    props: { items, current: i + 1, total: pages.length, latest: posts.slice(0, 3) },
+  }));
+}
+
+interface Props {
+  items: Post[];
+  current: number;
+  total: number;
+  latest: Post[];
+}
+
+const { items, current, total, latest } = Astro.props;
+const base = '/blogs/';
+const meta = pageMeta(blogPages, current, base);
+const featured = latest[0];
+---
+<BaseLayout seo={meta.seo} bodyClass={meta.bodyClass}>
+  <section class="relative bg-gradient-to-br from-[#0BA5D8] to-[#0891C0] overflow-hidden">
+    <div class="max-w-[1360px] mx-auto px-4 sm:px-6 lg:px-4 py-16 md:py-20">
+
+      <!-- Main Heading -->
+      <div class="text-center mb-12 max-w-4xl mx-auto">
+        <h1 class="text-4xl md:text-5xl lg:text-5xl font-bold text-white leading-tight mb-6">
+          Insights that improve patient care
+        </h1>
+        <p class="text-white/90 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto">
+          Explore patient-focused design, clinical innovation, and real stories improving everyday care.
+        </p>
+      </div>
+
+      <!-- Featured Post and Latest Articles Grid -->
+      <div class="grid md:grid-cols-2 gap-8 lg:gap-12 items-start mt-16">
+
+        <!-- Left: Featured Post Card -->
+        {featured && (
+          <div class=" rounded-3xl overflow-hidden  group  transition-all duration-500 hover:-translate-y-1">
+            {featured.data.card.image && (
+              <div class="relative overflow-hidden h-[450px] rounded-2xl">
+                <img
+                  src={featured.data.card.image}
+                  alt={featured.data.card.alt}
+                  class="w-full h-full transition-transform duration-700 group-hover:scale-110"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              </div>
+            )}
+
+            <div class="p-1 pt-3">
+              <!-- Author and Date -->
+              <div class="flex items-center gap-2 text-gray-500 text-sm mb-4 justify-between">
+                <span class="text-white">by <Fragment set:html={featured.data.authorName} /></span>
+                <span class="text-white">{formatDate(featured.data.date)}</span>
+              </div>
+
+              <!-- Title -->
+              <h2 class="text-2xl font-bold text-gray-900 mb-4 leading-tight  transition-colors text-white font-bold">
+                <a href={postUrl(featured)} class="font-bold"><Fragment set:html={featured.data.title} /></a>
+              </h2>
+            </div>
+          </div>
+        )}
+
+        <!-- Right: Latest Articles Sidebar -->
+        <div class="space-y-4">
+          <h3 class="text-white text-2xl font-bold mb-6 ">Latest Article</h3>
+
+          {latest.map((post) => (
+            <div class=" rounded-2xl p-5   transition-all duration-300 group/item">
+              <!-- Date -->
+              <div class="text-white/70 text-xs font-medium uppercase tracking-wider mb-2">
+                {formatDate(post.data.date)}
+              </div>
+
+              <!-- Title -->
+              <h4 class="text-white text-lg font-semibold mb-3 leading-snug group-hover/item:text-cyan-100 transition-colors">
+                <a href={postUrl(post)}><Fragment set:html={post.data.title} /></a>
+              </h4>
+
+              <!-- Read More Link -->
+              <a href={postUrl(post)} class="inline-flex items-center text-white/90 text-sm font-medium hover:text-white transition-colors group/link">
+                <span class="relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-white after:transition-all after:duration-300 group-hover/link:after:w-full">
+                  Read More
+                </span>
+                <svg class="w-4 h-4 ml-2 transform transition-transform duration-300 group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m0 0l-2-2m2 2l-2 2"/>
+                </svg>
+              </a>
+            </div>
+          ))}
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Decorative Background Elements -->
+    <div class="absolute top-0 right-0 w-96 h-96 bg-cyan-400/20 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 w-96 h-96 bg-cyan-600/20 rounded-full blur-3xl"></div>
+  </section>
+
+  <section class="py-16 px-4 bg-gray-50">
+    <div class="max-w-[1360px] mx-auto px-4 py-20">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {items.map((post) => <PostCard post={post} />)}
+      </div>
+
+      <!-- Pagination -->
+      {total > 1 && (
+        <div class="mt-16 flex justify-center">
+          <Pagination base={base} current={current} total={total} />
+        </div>
+      )}
+    </div>
+  </section>
+
+  <BookAppointment />
+</BaseLayout>

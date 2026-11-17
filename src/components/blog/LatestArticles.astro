@@ -1,0 +1,37 @@
+---
+// "Latest Articles" block shown under every blog post.
+import LatestPostCards from './LatestPostCards.astro';
+---
+            
+    <!-- Blog & Articles Section -->
+    <section class="py-16 px-4 bg-[#FFF7F1]">
+        <div class="max-w-7xl mx-auto">
+            <!-- Section Header -->
+            <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-12 gap-6">
+                <div class="max-w-2xl">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                        Latest Articles                    </h2>
+                    <p class="text-gray-600 text-base leading-relaxed">
+                        Insights, guides, and healthcare updates.                    </p>
+                </div>
+                
+                <!-- View All Button -->
+                <a 
+                    href="/blog" 
+                    class="inline-flex items-center justify-center px-8 py-3 shadow-lg shadow-cyan-500/30
+       bg-gradient-to-b from-[#5AD6FF] to-[#0595C4]
+       transition-all duration-300 hover:scale-[1.03] text-white font-semibold rounded-full  whitespace-nowrap self-start md:self-auto"
+                >
+                    View All Blogs                </a>
+            </div>
+            
+            <!-- Blog Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    
+    <LatestPostCards count={3} alt="Blog post image" />
+
+                </div>
+        </div>
+    </section>
+    
+        

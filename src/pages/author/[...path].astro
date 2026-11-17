@@ -1,0 +1,31 @@
+---
+// /author/<slug>/ and /author/<slug>/page/<n>/
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ArchiveListing from '@/components/blog/ArchiveListing.astro';
+import { allAuthors, chunk, getPosts, pageMeta, type Author, type Post } from '@/lib/posts';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return allAuthors.flatMap((author) => {
+    const pages = chunk(posts.filter((p) => p.data.author === author.slug));
+    return pages.map((items, i) => ({
+      params: { path: i === 0 ? author.slug : `${author.slug}/page/${i + 1}` },
+      props: { author, items, current: i + 1, total: pages.length },
+    }));
+  });
+}
+
+interface Props {
+  author: Author;
+  items: Post[];
+  current: number;
+  total: number;
+}
+
+const { author, items, current, total } = Astro.props;
+const base = `/author/${author.slug}/`;
+const meta = pageMeta(author.pages, current, base);
+---
+<BaseLayout seo={meta.seo} bodyClass={meta.bodyClass}>
+  <ArchiveListing label="Author" heading={author.heading} posts={items} base={base} current={current} total={total} />
+</BaseLayout>

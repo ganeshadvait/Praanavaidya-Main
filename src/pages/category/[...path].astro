@@ -1,0 +1,39 @@
+---
+// /category/<path>/ and /category/<path>/page/<n>/
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ArchiveListing from '@/components/blog/ArchiveListing.astro';
+import { allCategories, chunk, getPosts, inCategory, pageMeta, type Category, type Post } from '@/lib/posts';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return allCategories.flatMap((category) => {
+    const pages = chunk(posts.filter((p) => inCategory(p, category.path)));
+    return pages.map((items, i) => ({
+      params: { path: i === 0 ? category.path : `${category.path}/page/${i + 1}` },
+      props: { category, items, current: i + 1, total: pages.length },
+    }));
+  });
+}
+
+interface Props {
+  category: Category;
+  items: Post[];
+  current: number;
+  total: number;
+}
+
+const { category, items, current, total } = Astro.props;
+const base = `/category/${category.path}/`;
+const meta = pageMeta(category.pages, current, base);
+---
+<BaseLayout seo={meta.seo} bodyClass={meta.bodyClass}>
+  <ArchiveListing
+    label="Category"
+    heading={category.name}
+    description={category.description}
+    posts={items}
+    base={base}
+    current={current}
+    total={total}
+  />
+</BaseLayout>

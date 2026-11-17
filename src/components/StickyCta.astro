@@ -1,0 +1,252 @@
+---
+// Floating "Our Locations / Contact Us" sticky CTA.
+---
+<div class="sticky-cta" id="stickyCta">
+    <!-- Initial Buttons -->
+    <div class="cta-initial-buttons">
+      <button class="cta-btn" id="locationsToggle" type="button">
+        Our Locations
+      </button>
+      <button class="cta-btn" id="contactToggle" type="button">
+        Contact Us
+      </button>
+    </div>
+    
+    <!-- Expanded Content - Locations -->
+    <div class="expanded-content" id="locationsContent">
+      <div class="expanded-header">
+        <span class="expanded-title">Choose Your Location</span>
+        <button class="close-btn" id="closeLocations" type="button">×</button>
+      </div>
+      <div class="locations-grid" id="locationsGrid">
+        <a href="https://maps.app.goo.gl/9aogSEqiEDBjSeVK7" target="_blank" rel="noopener" class="location-btn">Jayanagar</a>
+		<a href="https://maps.app.goo.gl/3qDeMucneJiyW6pJ6" target="_blank" rel="noopener" class="location-btn">Indiranagar</a>
+        <a href="https://maps.app.goo.gl/Y2V4W84xrxFaoy4i7" target="_blank" rel="noopener" class="location-btn">Rajajinagar</a>
+        <a href=" https://maps.app.goo.gl/wMuEvTCyNGn3PBsz5" target="_blank" rel="noopener" class="location-btn">Yelahanka</a>
+		<a href="https://maps.app.goo.gl/9KVaxGz7L6wk5vxTA" target="_blank" rel="noopener" class="location-btn">Mumbai</a>
+        <a href="https://maps.app.goo.gl/JbwWdkFbs4g6i3eB7" target="_blank" rel="noopener" class="location-btn">Mangalore</a>
+		<a href="https://maps.app.goo.gl/p2uveXTr5x26nKjM8" target="_blank" rel="noopener" class="location-btn">Hubballi</a>
+		<a href="https://maps.app.goo.gl/PzmWLqwNysJ3ahhAA" target="_blank" rel="noopener" class="location-btn">Delhi</a>
+		<a href="https://maps.app.goo.gl/QV7G6afw5bQYBPtv7" target="_blank" rel="noopener" class="location-btn">Lucknow</a>
+      </div>
+    </div>
+    
+    <!-- Expanded Content - Contact -->
+    <div class="expanded-content" id="contactContent">
+      <div class="expanded-header">
+        <span class="expanded-title">Get in Touch</span>
+        <button class="close-btn" id="closeContact" type="button">×</button>
+      </div>
+      <div class="contact-options">
+        <a href="https://wa.me/+919611773811" target="_blank" rel="noopener" class="contact-btn whatsapp" id="whatsappBtn">
+          <span></span> WhatsApp
+        </a>
+        <a href="tel:08065903131" class="contact-btn call" id="callBtn">
+          <span></span> Call Now
+        </a>
+      </div>
+    </div>
+  </div>
+  
+<script is:inline>
+(function () {
+  "use strict";
+
+  document.addEventListener("DOMContentLoaded", function () {
+
+    /* ===============================
+       CONFIG (ARRAY BASED – SAFE)
+    =============================== */
+    const config = {
+      // Pages where CTA should open Google Maps directly
+      getDirectionPages: [
+        "/mangalore/",
+        "best-ayurvedic-body-pains-treatment-mangalore",
+        "best-ayurvedic-diabetes-reversal-treatment-mangalore",
+        "best-ayurvedic-skin-care-treatment-mangalore",
+      ],
+
+      // Pages where only limited locations should show
+      limitedLocationPages: [
+        "/bangalore/",
+		"/best-ayurvedic-skin-care-treatment-bangalore/",
+		"/best-ayurvedic-treatment-for-weight-loss/",
+		"/best-ayurvedic-body-pains-treatment-bangalore/",
+		 "/best-ayurvedic-diabetes-reversal-treatment/",
+		 "/best-piles-and-fistula-ayurvedic-treatment/",
+      ],
+
+      // Default pages (explicit)
+      defaultLocationPages: [
+        "/",
+      ],
+
+      // Locations allowed on limited pages
+      limitedLocations: [
+        "Chamrajpet",
+        "Rajajinagar",
+        "Yelahanka"
+      ],
+
+      phoneDefault: "08065903131",
+      phoneMangalore: "08065903136",
+      whatsappDefault: "+919611773811",
+      whatsappMangalore: "+919611773811",
+
+      mangaloreMap: "https://maps.app.goo.gl/JbwWdkFbs4g6i3eB7"
+    };
+
+    /* ===============================
+       PAGE DETECTION (ROBUST)
+    =============================== */
+    const path = window.location.pathname.toLowerCase();
+
+    const isGetDirectionPage = config.getDirectionPages.some(slug =>
+      path === slug || path.startsWith(slug) || path.includes(slug)
+    );
+
+    const isLimitedLocationPage = config.limitedLocationPages.some(slug =>
+      path === slug || path.startsWith(slug)
+    );
+
+    const isDefaultPage = config.defaultLocationPages.includes(path);
+
+    console.log("📍 CTA Page Mode:", {
+      path,
+      isGetDirectionPage,
+      isLimitedLocationPage,
+      isDefaultPage
+    });
+
+    /* ===============================
+       ELEMENTS
+    =============================== */
+    const el = {
+      container: document.getElementById("stickyCta"),
+      locationsToggle: document.getElementById("locationsToggle"),
+      contactToggle: document.getElementById("contactToggle"),
+      locationsContent: document.getElementById("locationsContent"),
+      contactContent: document.getElementById("contactContent"),
+      closeLocations: document.getElementById("closeLocations"),
+      closeContact: document.getElementById("closeContact"),
+      locationsGrid: document.getElementById("locationsGrid"),
+      whatsappBtn: document.getElementById("whatsappBtn"),
+      callBtn: document.getElementById("callBtn"),
+    };
+
+    if (!el.container || !el.locationsToggle || !el.contactToggle) {
+      console.warn("❌ Sticky CTA elements missing");
+      return;
+    }
+
+    /* ===============================
+       BUTTON TEXT
+    =============================== */
+    el.locationsToggle.textContent = isGetDirectionPage
+      ? "Get Directions"
+      : "Our Locations";
+
+    /* ===============================
+       HELPERS
+    =============================== */
+    function resetCTA() {
+      el.container.classList.remove("expanded");
+      el.locationsContent.style.display = "none";
+      el.contactContent.style.display = "none";
+    }
+
+    function openLocations() {
+      el.container.classList.add("expanded");
+      el.locationsContent.style.display = "block";
+      el.contactContent.style.display = "none";
+    }
+
+    function openContact() {
+      el.container.classList.add("expanded");
+      el.contactContent.style.display = "block";
+      el.locationsContent.style.display = "none";
+    }
+
+    /* ===============================
+       FILTER LIMITED LOCATIONS
+    =============================== */
+    if (isLimitedLocationPage && el.locationsGrid) {
+      el.locationsGrid.querySelectorAll(".location-btn").forEach(btn => {
+        const name = btn.textContent.trim();
+        if (!config.limitedLocations.includes(name)) {
+          btn.style.display = "none";
+        }
+      });
+      console.log("🏙️ Limited locations applied");
+    }
+
+    /* ===============================
+       CONTACT LINKS
+    =============================== */
+    if (el.whatsappBtn) {
+      el.whatsappBtn.href =
+        "https://wa.me/" +
+        (isGetDirectionPage ? config.whatsappMangalore : config.whatsappDefault);
+    }
+
+    if (el.callBtn) {
+      el.callBtn.href =
+        "tel:" +
+        (isGetDirectionPage ? config.phoneMangalore : config.phoneDefault);
+    }
+
+    /* ===============================
+       LOCATIONS BUTTON CLICK
+       (NO EARLY EXIT BUGS)
+    =============================== */
+    el.locationsToggle.addEventListener("click", function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+
+      if (isGetDirectionPage) {
+        window.open(config.mangaloreMap, "_blank");
+        return;
+      }
+
+      // Default + Limited → open panel
+      openLocations();
+    });
+
+    /* ===============================
+       CONTACT BUTTON CLICK
+    =============================== */
+    el.contactToggle.addEventListener("click", function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      openContact();
+    });
+
+    /* ===============================
+       CLOSE BUTTONS
+    =============================== */
+    el.closeLocations.addEventListener("click", function (e) {
+      e.preventDefault();
+      resetCTA();
+    });
+
+    el.closeContact.addEventListener("click", function (e) {
+      e.preventDefault();
+      resetCTA();
+    });
+
+    /* ===============================
+       OUTSIDE CLICK CLOSE
+    =============================== */
+    document.addEventListener("click", function (e) {
+      if (
+        el.container.classList.contains("expanded") &&
+        !el.container.contains(e.target)
+      ) {
+        resetCTA();
+      }
+    });
+
+  });
+})();
+</script>
+  

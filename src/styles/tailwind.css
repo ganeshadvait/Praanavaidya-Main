@@ -1,0 +1,41 @@
+/*
+ * The only stylesheet entry for the whole site, compiled by Tailwind (v3).
+ *
+ * Order matters (it mirrors the cascade of the original WordPress site):
+ *   1. theme/  - base element styles, WordPress block styles, Blocksy layout rules
+ *   2. Tailwind preflight, components and utilities
+ *   3. site/   - global component styles that override utilities
+ *   4. pages/  - page-specific styles, scoped with :where([data-styles~="name"]) so they
+ *                only apply on pages that list them in <BaseLayout styles={[...]}>
+ */
+@import './theme/base.css';
+@import './theme/wordpress.css';
+@import './theme/blocksy.css';
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'tailwindcss/variants'; /* keep md:/lg:/hover: variants here, before site/page styles */
+
+@import './site/sticky-cta.css';
+@import './site/theme-overrides.css';
+
+@import './pages/no-scrollbar.css';
+@import './pages/slides.css';
+@import './pages/video-testimonials.css';
+@import './pages/home-slides.css';
+@import './pages/doctor-carousel.css';
+@import './pages/doctor-talks-track.css';
+@import './pages/blog-cards-mobile.css';
+@import './pages/job-application-form.css';
+@import './pages/treatment-cards.css';
+@import './pages/privacy-policy.css';
+@import './pages/post-content.css';
+@import './pages/post-cta-bar.css';
+@import './pages/doctors-hero.css';
+@import './pages/careers.css';
+@import './pages/job-detail.css';
+@import './pages/archive.css';
+
+@import './site/footer.css';
+@import './site/hiring-popup.css';

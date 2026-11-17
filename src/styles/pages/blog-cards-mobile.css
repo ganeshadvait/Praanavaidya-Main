@@ -1,0 +1,46 @@
+/* Blog cards: swipeable on touch devices. Applies only on pages with data-styles~="blog-cards-mobile" (see BaseLayout "styles" prop) */
+@media (pointer: coarse) {
+:where([data-styles~="blog-cards-mobile"]) #pv_blog_1 .pv-blog-cards {
+                        display: flex !important;
+                        overflow-x: auto;
+                        scroll-snap-type: x mandatory;
+                        -webkit-overflow-scrolling: touch;
+                        gap: 16px;
+                        padding-bottom: 10px;
+                    }
+:where([data-styles~="blog-cards-mobile"]) #pv_blog_1 .pv-blog-cards > * {
+                        flex: 0 0 85%;
+                        scroll-snap-align: start;
+                    }
+:where([data-styles~="blog-cards-mobile"]) #pv_blog_1 .pv-blog-cards::-webkit-scrollbar {
+                        display: none;
+                    }
+:where([data-styles~="blog-cards-mobile"]) #pv_blog_1 .pv-blog-cards {
+                        scrollbar-width: none;
+                    }
+:where([data-styles~="blog-cards-mobile"]) #pv_blog_1 .pv-blog-dots {
+                        display: flex;
+                        justify-content: center;
+                        gap: 10px;
+                        margin-top: 14px;
+                    }
+:where([data-styles~="blog-cards-mobile"]) #pv_blog_1 .pv-blog-dot {
+                        width: 8px;
+                        height: 8px;
+                        border-radius: 999px;
+                        background: #cbd5e1; 
+                        border: 0;
+                        padding: 0;
+                        cursor: pointer;
+                    }
+:where([data-styles~="blog-cards-mobile"]) #pv_blog_1 .pv-blog-dot.is-active {
+                        background: #111827; 
+                        width: 18px;
+                        transition: width 0.2s ease;
+                    }
+}
+@media (pointer: fine) {
+:where([data-styles~="blog-cards-mobile"]) #pv_blog_1 .pv-blog-dots {
+                        display: none;
+                    }
+}

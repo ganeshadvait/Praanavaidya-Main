@@ -1,0 +1,50 @@
+---
+// Category / author archive: hero + 3-column post grid + pagination.
+import PostCard from './PostCard.astro';
+import Pagination from './Pagination.astro';
+import type { Post } from '@/lib/posts';
+
+interface Props {
+  /** Badge above the heading, e.g. "Category" or "Author" */
+  label: string;
+  heading: string;
+  description?: string | null;
+  posts: Post[];
+  base: string;
+  current: number;
+  total: number;
+}
+
+const { label, heading, description, posts, base, current, total } = Astro.props;
+---
+<section class="relative bg-gradient-to-br from-[#0BA5D8] to-[#0891C0] overflow-hidden">
+  <div class="max-w-[1360px] mx-auto px-4 sm:px-6 lg:px-4 py-16 md:py-20 text-center text-white">
+    <span class="inline-block text-sm font-medium tracking-wider px-6 py-3 rounded-full border border-white/80 mb-6">
+      {label}
+    </span>
+
+    <h1 class="text-4xl md:text-5xl font-bold mb-4 text-white"><Fragment set:html={heading} /></h1>
+
+    {description && (
+      <p class="text-white/90 text-lg max-w-2xl mx-auto"><Fragment set:html={description} /></p>
+    )}
+  </div>
+
+  <!-- Decorative blobs -->
+  <div class="absolute top-0 right-0 w-96 h-96 bg-cyan-400/20 rounded-full blur-3xl"></div>
+  <div class="absolute bottom-0 left-0 w-96 h-96 bg-cyan-600/20 rounded-full blur-3xl"></div>
+</section>
+
+<section class="py-16 px-4 bg-gray-50">
+  <div class="max-w-[1360px] mx-auto px-4 py-20">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {posts.map((post) => <PostCard post={post} />)}
+    </div>
+
+    {total > 1 && (
+      <div class="mt-16 flex justify-center">
+        <Pagination base={base} current={current} total={total} />
+      </div>
+    )}
+  </div>
+</section>

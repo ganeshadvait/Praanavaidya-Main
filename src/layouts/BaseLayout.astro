@@ -1,0 +1,59 @@
+---
+import HeadScripts from '@/components/head/HeadScripts.astro';
+import StickyCta from '@/components/StickyCta.astro';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+import type { Seo } from '@/lib/seo';
+import '@/styles/tailwind.css';
+
+interface Props {
+  seo: Seo;
+  bodyClass?: string;
+  /**
+   * Page-specific style sets from src/styles/pages/ (e.g. ['careers']).
+   * They are scoped with :where([data-styles~="name"]) and only apply when listed here.
+   */
+  styles?: string[];
+  showHiringPopup?: boolean;
+}
+
+const { seo, bodyClass = '', styles = [], showHiringPopup = false } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<!-- Google Tag Manager -->
+<script is:inline>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TNRHSLB7');</script>
+<!-- End Google Tag Manager -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/avif" href="/images/2026/05/pv-fevicon-img.png?v=8">
+<link rel="shortcut icon" href="/images/2026/05/pv-fevicon-img.png?v=8">
+<link rel="apple-touch-icon" href="/images/2026/05/pv-fevicon-img.png?v=8">
+{seo.robots && <meta name="robots" content={seo.robots} />}
+<title>{seo.title}</title>
+{seo.meta.map(([attr, key, content]) =>
+  attr === 'property' ? <meta property={key} content={content} /> : <meta name={key} content={content} />
+)}
+{seo.links.map(([rel, href]) => <link rel={rel} href={href} />)}
+{seo.jsonLd && <script is:inline type="application/ld+json" class="yoast-schema-graph" set:html={seo.jsonLd}></script>}
+<link rel="dns-prefetch" href="//www.googletagmanager.com" />
+<HeadScripts />
+<slot name="head" />
+</head>
+<body class={bodyClass} data-styles={styles.length ? styles.join(' ') : undefined}>
+<StickyCta />
+<a class="skip-link screen-reader-text" href="#main">Skip to content</a><!-- Google Tag Manager (noscript) -->
+<noscript><iframe class="[display:none] [visibility:hidden]" src="https://www.googletagmanager.com/ns.html?id=GTM-TNRHSLB7"
+height="0" width="0"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->	
+
+<Header />
+<slot />
+<Footer showHiringPopup={showHiringPopup} />
+</body>
+</html>

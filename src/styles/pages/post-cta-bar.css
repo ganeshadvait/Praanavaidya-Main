@@ -1,0 +1,4 @@
+/* Blog posts: CTA bar inside post content. Applies only on pages with data-styles~="post-cta-bar" (see BaseLayout "styles" prop) */
+@media (max-width: 600px) {
+:where([data-styles~="post-cta-bar"]) .cta-bar .cta-sep { display:none; }
+}

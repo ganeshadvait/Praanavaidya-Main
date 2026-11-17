@@ -1,0 +1,28 @@
+/* Homepage slides. Applies only on pages with data-styles~="home-slides" (see BaseLayout "styles" prop) */
+:where([data-styles~="home-slides"]) .pv-slide {
+  min-width: 100%;
+  display: grid;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+@media (min-width: 769px) {
+:where([data-styles~="home-slides"]) .pv-slide {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+  }
+}
+@media (max-width: 768px) {
+:where([data-styles~="home-slides"]) .pv-slide {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+  }
+}
+:where([data-styles~="home-slides"]) .pv-therapy-icon {
+    background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+}
+:where([data-styles~="home-slides"]) .pv-therapy-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}

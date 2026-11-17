@@ -1,0 +1,2246 @@
+{
+  "1": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/praanavaidya.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blogs\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "10": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-10 page-paged-10 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "11": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-11 page-paged-11 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "12": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-12 page-paged-12 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "13": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-13 page-paged-13 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "14": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-14 page-paged-14 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "15": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-15 page-paged-15 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "16": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-16 page-paged-16 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "17": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-17 page-paged-17 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "18": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-18 page-paged-18 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "19": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-19 page-paged-19 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "2": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-2 page-paged-2 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "20": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-20 page-paged-20 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "21": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-21 page-paged-21 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "22": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-22 page-paged-22 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "23": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-23 page-paged-23 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "24": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-24 page-paged-24 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "25": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-25 page-paged-25 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "26": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-26 page-paged-26 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "27": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-27 page-paged-27 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "28": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-28 page-paged-28 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "29": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-29 page-paged-29 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "3": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-3 page-paged-3 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "30": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-30 page-paged-30 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "31": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-31 page-paged-31 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "32": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-32 page-paged-32 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "33": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-33 page-paged-33 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "34": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-34 page-paged-34 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "4": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-4 page-paged-4 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "5": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-5 page-paged-5 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "6": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-6 page-paged-6 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "7": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-7 page-paged-7 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "8": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-8 page-paged-8 wp-theme-blocksy wp-child-theme-blocksy-child"
+  },
+  "9": {
+    "seo": {
+      "title": "Ayurveda Health & Wellness Blogs - Praanavaidya",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta": [
+        [
+          "name",
+          "description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:locale",
+          "en_US"
+        ],
+        [
+          "property",
+          "og:type",
+          "article"
+        ],
+        [
+          "property",
+          "og:title",
+          "Ayurveda Health & Wellness Blogs - Praanavaidya"
+        ],
+        [
+          "property",
+          "og:description",
+          "Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing."
+        ],
+        [
+          "property",
+          "og:url",
+          "https://praanavaidya.com/blogs/"
+        ],
+        [
+          "property",
+          "og:site_name",
+          "Praanavaidya"
+        ],
+        [
+          "property",
+          "article:publisher",
+          "https://www.facebook.com/people/Praanavaidya/100086202962051/"
+        ],
+        [
+          "property",
+          "article:modified_time",
+          "2026-08-26T09:39:03+00:00"
+        ],
+        [
+          "name",
+          "twitter:card",
+          "summary_large_image"
+        ]
+      ],
+      "links": [
+        [
+          "canonical",
+          "https://praanavaidya.com/blogs/"
+        ]
+      ],
+      "jsonLd": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/blogs\\/\",\"name\":\"Ayurveda Health & Wellness Blogs - Praanavaidya\",\"isPartOf\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\"},\"datePublished\":\"2025-12-08T14:30:09+00:00\",\"dateModified\":\"2026-08-26T09:39:03+00:00\",\"description\":\"Explore Praanavaidya Ayurvedic Hospital blogs covering Ayurveda, health, wellness, treatments, lifestyle and practical tips for holistic wellbeing.\",\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/praanavaidya.com\\/blogs\\/\"]}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#website\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"name\":\"Praanavaidya Ayurvedic Hospitals\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/praanavaidya.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#organization\",\"name\":\"PraanavaidyaAyurvedic Hospitals\",\"url\":\"https:\\/\\/praanavaidya.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"contentUrl\":\"https:\\/\\/praanavaidya.com\\/images\\/2026\\/03\\/Logo-Pranavadhya.webp\",\"width\":1020,\"height\":403,\"caption\":\"PraanavaidyaAyurvedic Hospitals\"},\"image\":{\"@id\":\"https:\\/\\/praanavaidya.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/people\\/Praanavaidya\\/100086202962051\\/\"]}]}"
+    },
+    "bodyClass": "paged wp-singular page-template page-template-template-blog page-template-template-blog-php page page-id-174 wp-embed-responsive paged-9 page-paged-9 wp-theme-blocksy wp-child-theme-blocksy-child"
+  }
+}

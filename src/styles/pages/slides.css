@@ -1,0 +1,19 @@
+/* Slides shared by home and about. Applies only on pages with data-styles~="slides" (see BaseLayout "styles" prop) */
+:where([data-styles~="slides"]) .pv-slide {
+  min-width: 100%;
+  display: grid;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+@media (min-width: 769px) {
+:where([data-styles~="slides"]) .pv-slide {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) {
+:where([data-styles~="slides"]) .pv-slide {
+    grid-template-columns: 1fr;
+  }
+}
+:where([data-styles~="slides"]) #pv-carousel { scroll-snap-type: x mandatory; }
+:where([data-styles~="slides"]) .pv-slide { scroll-snap-align: start; }
