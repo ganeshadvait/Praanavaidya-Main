@@ -1,5 +1,0 @@
-/* Privacy policy heading. Applies only on pages with data-styles~="privacy-policy" (see BaseLayout "styles" prop) */
-:where([data-styles~="privacy-policy"]) .privacy.heading {
-  font-size: 32px !important;
-  font-weight: 700 !important;
-}

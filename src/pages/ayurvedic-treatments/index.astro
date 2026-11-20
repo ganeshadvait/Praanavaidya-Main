@@ -63,9 +63,9 @@ const page = {
   "bodyClass": "archive post-type-archive post-type-archive-treatment wp-embed-responsive wp-theme-blocksy wp-child-theme-blocksy-child"
 };
 ---
-<BaseLayout styles={['treatment-cards']} seo={seo} bodyClass={page.bodyClass}>
+<BaseLayout seo={seo} bodyClass={page.bodyClass}>
 <!-- HERO SECTION -->
-<div class="mb-12">
+<div class="mb-12 max-[768px]:!mb-[25px]">
         
     <section class="relative bg-[#0595C4] text-white text-center px-4 py-24 rounded-b-3xl overflow-hidden">
 
@@ -80,7 +80,7 @@ const page = {
         </h1>
 
         <!-- Description -->
-        <p class="max-w-2xl mx-auto text-lg text-white/90 mb-8">
+        <p class="max-w-2xl mx-auto text-lg text-white/90 mb-8 max-[768px]:!mb-[18px]">
             From routine checkups to specialized treatments, we combine modern technology with a human touch to keep your loved ones healthy.        </p>
 
         <!-- CTA Button -->
@@ -108,7 +108,7 @@ const page = {
         </h2>
 
         <!-- Paragraph -->
-        <p class="max-w-2xl mx-auto text-gray-600 text-lg mb-12">
+        <p class="max-w-2xl mx-auto text-gray-600 text-lg mb-12 max-[768px]:!mb-[25px]">
             We provide personalized medical support, expert guidance, and a wide range of
             healthcare services to help you stay healthy, recover faster, and live better.
         </p>
@@ -117,7 +117,7 @@ const page = {
         <div class="mx-auto">
             
             <!-- Treatments Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 max-[768px]:!mb-[25px]">
                                     <!-- Wrap the entire card content in a clickable <a> tag -->
                     <a href="/ayurvedic-treatments/skin-diseases/" class="[transition:all_0.4s_cubic-bezier(0.4,0,0.2,1)] hover:-translate-y-2 bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border border-slate-100 cursor-pointer block">
                         <!-- Title -->

@@ -9,18 +9,6 @@
  * Design tokens (colours, fonts, animations) are in tailwind.config.mjs.
  */
 
-/* LEGACY-TEMP START */
-@import './legacy/base-components.css';
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-@import 'tailwindcss/variants';
-@import './pages/job-application-form.css';
-@import './pages/careers.css';
-@import './pages/job-detail.css';
-
-/* LEGACY-TEMP END */
-
 @font-face {
   font-family: 'DMSans';
   src: url('/fonts/dmsans/DMSans-Regular.ttf') format('truetype');
@@ -45,6 +33,11 @@
   font-weight: 700;
   font-display: swap;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @layer base {
   html {
     @apply scroll-smooth;
@@ -191,6 +184,9 @@
     background-repeat: no-repeat, repeat;
     background-size: 8px auto, 100%;
     background-position: right 10px top 50%, 0 0;
+  }
+  textarea {
+    @apply block;
   }
   select option {
     color: initial;

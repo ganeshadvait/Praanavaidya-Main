@@ -30,10 +30,10 @@ const featured = latest[0];
 ---
 <BaseLayout seo={meta.seo} bodyClass={meta.bodyClass}>
   <section class="relative bg-gradient-to-br from-[#0BA5D8] to-[#0891C0] overflow-hidden">
-    <div class="max-w-[1360px] mx-auto px-4 sm:px-6 lg:px-4 py-16 md:py-20">
+    <div class="max-w-[1360px] mx-auto px-4 sm:px-6 lg:px-4 py-16 max-[768px]:!py-[30px] md:py-20">
 
       <!-- Main Heading -->
-      <div class="text-center mb-12 max-w-4xl mx-auto">
+      <div class="text-center mb-12 max-[768px]:!mb-[25px] max-w-4xl mx-auto">
         <h1 class="text-4xl md:text-5xl lg:text-5xl font-bold text-white leading-tight mb-6">
           Insights that improve patient care
         </h1>
@@ -43,7 +43,7 @@ const featured = latest[0];
       </div>
 
       <!-- Featured Post and Latest Articles Grid -->
-      <div class="grid md:grid-cols-2 gap-8 lg:gap-12 items-start mt-16">
+      <div class="grid md:grid-cols-2 gap-8 lg:gap-12 items-start mt-16 max-[768px]:!mt-[30px]">
 
         <!-- Left: Featured Post Card -->
         {featured && (
@@ -112,7 +112,7 @@ const featured = latest[0];
     <div class="absolute bottom-0 left-0 w-96 h-96 bg-cyan-600/20 rounded-full blur-3xl"></div>
   </section>
 
-  <section class="py-16 px-4 bg-gray-50">
+  <section class="py-16 max-[768px]:!py-[30px] px-4 bg-gray-50">
     <div class="max-w-[1360px] mx-auto px-4 py-20">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {items.map((post) => <PostCard post={post} />)}
@@ -120,7 +120,7 @@ const featured = latest[0];
 
       <!-- Pagination -->
       {total > 1 && (
-        <div class="mt-16 flex justify-center">
+        <div class="mt-16 max-[768px]:!mt-[30px] flex justify-center">
           <Pagination base={base} current={current} total={total} />
         </div>
       )}

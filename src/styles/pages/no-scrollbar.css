@@ -1,3 +1,0 @@
-/* Hide scrollbars on horizontal scrollers. Applies only on pages with data-styles~="no-scrollbar" (see BaseLayout "styles" prop) */
-:where([data-styles~="no-scrollbar"]) .no-scrollbar::-webkit-scrollbar { display: none; }
-:where([data-styles~="no-scrollbar"]) .no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }

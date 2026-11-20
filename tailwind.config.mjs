@@ -8,6 +8,8 @@ export default {
     './public/assets/**/*.js',
   ],
   theme: {
+    // the old theme centred .container (margin: 0 auto)
+    container: { center: true },
     extend: {
       fontFamily: {
         // DMSans is self-hosted (see @font-face in src/styles/tailwind.css)

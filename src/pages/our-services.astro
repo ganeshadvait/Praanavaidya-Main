@@ -64,7 +64,7 @@ const page = {
   "bodyClass": "wp-singular page-template-default page page-id-9880 wp-embed-responsive wp-theme-blocksy wp-child-theme-blocksy-child"
 };
 ---
-<BaseLayout styles={['treatment-cards']} seo={seo} bodyClass={page.bodyClass}>
+<BaseLayout seo={seo} bodyClass={page.bodyClass}>
 	<div>
 
 	<article
@@ -82,7 +82,7 @@ const page = {
         </h2>
 
         <!-- Paragraph -->
-        <p class="max-w-2xl mx-auto text-gray-600 text-lg mb-12">
+        <p class="max-w-2xl mx-auto text-gray-600 text-lg mb-12 max-[768px]:!mb-[25px]">
             We provide personalized medical support, expert guidance, and a wide range of
             healthcare services to help you stay healthy, recover faster, and live better.
         </p>       
@@ -94,7 +94,7 @@ const page = {
         <div class="mx-auto">
             
             <!-- Treatments Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 max-[768px]:!mb-[25px]">
                                     <!-- Wrap the entire card content in a clickable <a> tag -->
                     <a href="/ayurvedic-treatments/skin-diseases/" class="[transition:all_0.4s_cubic-bezier(0.4,0,0.2,1)] hover:-translate-y-2 bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl border border-slate-100 cursor-pointer block">
                         <!-- Title -->
@@ -309,7 +309,7 @@ const page = {
         </div>
     </div>
 
-    <section class="w-full mx-auto py-10 sm:py-20 px-6">
+    <section class="w-full mx-auto py-10 max-[768px]:!py-[24px] sm:py-20 px-6">
         <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap:8 sm:gap-20">
 
             <!-- Left Content -->
@@ -318,7 +318,7 @@ const page = {
                 <h2 class="text-[28px] sm:text-4xl font-bold mb-4 text-gray-900">
                     Get in touch                </h2>
 
-                <p class="text-gray-700 text-lg mb-10">
+                <p class="text-gray-700 text-lg mb-10 max-[768px]:!mb-[22px]">
                     Get in touch with us for consultations, treatments, and wellness guidance.                </p>
 
                 <!-- Row 1 -->

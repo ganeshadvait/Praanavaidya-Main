@@ -1,9 +1,0 @@
-/* Doctor pages: "doctor talks" video track. Applies only on pages with data-styles~="doctor-talks-track" (see BaseLayout "styles" prop) */
-:where([data-styles~="doctor-talks-track"]) #pvTalkTrack {
-    display: flex;
-    gap: 24px;
-    will-change: transform;
-}
-:where([data-styles~="doctor-talks-track"]) #pvTalkTrack.pv-animating {
-    transition: transform 0.48s cubic-bezier(0.4, 0, 0.2, 1);
-}

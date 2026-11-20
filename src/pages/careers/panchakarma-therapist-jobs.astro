@@ -79,20 +79,20 @@ const page = {
   "bodyClass": "wp-singular job-template-default single single-job postid-10980 wp-embed-responsive wp-theme-blocksy wp-child-theme-blocksy-child"
 };
 ---
-<BaseLayout styles={['job-detail']} seo={seo} bodyClass={page.bodyClass}>
-	<section class="single-job-page">
-		<div class="container">
+<BaseLayout seo={seo} bodyClass={page.bodyClass}>
+	<section class="bg-[#f8f9fb] py-[70px] max-[768px]:!py-[35px]">
+		<div class="container max-w-[1040px] px-5 py-[2.5rem] max-[768px]:!my-0">
 
-			<a href="/careers/" class="job-back-link">← Back to Careers</a>
+			<a href="/careers/" class="mb-5 inline-block text-[.9rem] text-[#5d6b66] no-underline hover:text-[#0AAEE4]">← Back to Careers</a>
 
-			<header class="job-header">
-				<h1 class="job-title">Panchakarma Therapist</h1>
-									<p class="job-subtitle">All Locations</p>
+			<header class="mb-[2rem] border-b border-solid border-[#e3e6e4] pb-6">
+				<h1 class="mb-[.4rem] mt-0 text-[clamp(1.7rem,4vw,2.5rem)] leading-[1.15] text-[#1f2a2e]">Panchakarma Therapist</h1>
+									<p class="m-0 text-[1rem] font-semibold text-[#0284C7]">All Locations</p>
 							</header>
 
-			<div class="job-layout">
+			<div class="grid grid-cols-[1fr_320px] items-start gap-10 max-[820px]:grid-cols-[1fr] max-[820px]:gap-8">
 
-				<article class="job-content">
+				<article class="my-[30px] rounded-[14px] bg-white p-[35px] text-[1.02rem] leading-[1.75] text-[#1f2a2e] max-[600px]:p-6 [&_h2]:mt-[1.8rem] [&_h2]:text-[#1f2a2e] [&_h3]:mt-[1.8rem] [&_h3]:text-[#1f2a2e] [&_ol]:pl-5 [&_ul]:pl-5 [&_:is(ul,ol)_li]:my-[.4rem]">
 					
 <p class="wp-block-paragraph"><strong>Job Description</strong> <strong>:</strong></p>
 
@@ -123,10 +123,10 @@ const page = {
 <p class="wp-block-paragraph"></p>
 				</article>
 
-				<aside class="job-sidebar">
-					<div class="job-card">
-						<h2 class="job-card-title">Job details</h2>
-						<ul class="job-details">
+				<aside class="sticky top-6 max-[820px]:static">
+					<div class="rounded-[14px] border border-solid border-[#e3e6e4] bg-[#fbfcfb] p-6 shadow-[0_1px_3px_rgba(31,42,46,0.04)]">
+						<h2 class="mb-4 mt-0 text-[1.1rem] text-[#1f2a2e]">Job details</h2>
+						<ul class="mb-6 mt-0 list-none p-0 [&_li]:flex [&_li]:justify-between [&_li]:gap-4 [&_li]:[border-bottom:1px_solid_#e3e6e4] [&_li]:py-[.7rem] [&_li:last-child]:[border-bottom:0] [&_.label]:text-[.85rem] [&_.label]:text-[#5d6b66] [&_.value]:text-right [&_.value]:text-[.9rem] [&_.value]:font-semibold [&_.value]:text-[#1f2a2e]">
 															<li><span class="label">Role</span><span class="value">Panchakarma Therapist</span></li>
 																								<li>
 										<span class="label">Location</span>
@@ -137,7 +137,7 @@ const page = {
 									<span class="value">Full Time / On Call</span>
 								</li>
 													</ul>
-						<a href="/job-application/" class="apply-btn">Apply Now</a>
+						<a href="/job-application/" class="block w-full rounded-[9px] bg-[#0AAEE4] px-[1.4rem] py-[.8rem] text-center text-[1rem] font-semibold text-white no-underline [transition:filter_.15s_ease] hover:brightness-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1f2a2e] motion-reduce:transition-none">Apply Now</a>
 					</div>
 				</aside>
 

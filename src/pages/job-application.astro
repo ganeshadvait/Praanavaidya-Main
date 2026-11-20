@@ -69,7 +69,7 @@ const page = {
   "bodyClass": "wp-singular page-template-default page page-id-10946 wp-embed-responsive wp-theme-blocksy wp-child-theme-blocksy-child"
 };
 ---
-<BaseLayout styles={['job-application-form']} seo={seo} bodyClass={page.bodyClass}>
+<BaseLayout seo={seo} bodyClass={page.bodyClass}>
 	<div>
 
 	<article
@@ -78,54 +78,54 @@ const page = {
 
 		<div class="page-content">
 				
-  <div class="pv-careers">
+  <div class="relative z-[1] !float-none clear-both !mx-auto !my-0 !block !w-full !max-w-[880px] box-border !px-5 !py-[2.5rem] leading-normal text-[#1f2a2e] max-[768px]:!px-4 max-[768px]:!py-[2rem] max-[380px]:!px-3 max-[380px]:!py-[1.5rem] [&_fieldset]:m-0 [&_fieldset]:mb-[2rem] [&_fieldset]:min-w-0 [&_fieldset]:border-0 [&_fieldset]:p-0 max-[768px]:[&_fieldset]:mb-[1.6rem] [&_fieldset:last-of-type]:mb-5 [&_legend]:mb-[1.1rem] [&_legend]:flex [&_legend]:w-full [&_legend]:items-center [&_legend]:gap-[.6rem] [&_legend]:p-0 [&_legend]:text-[1.05rem] [&_legend]:font-bold [&_legend]:text-[#1f2a2e] max-[600px]:[&_legend]:text-[1rem] [&_legend]:after:h-px [&_legend]:after:flex-1 [&_legend]:after:bg-[#e3e6e4] [&_legend]:after:content-[''] [&_label]:text-[.85rem] [&_label]:font-semibold [&_label]:text-[#1f2a2e] [&_:is(input,select,textarea)]:w-full [&_:is(input,select,textarea)]:max-w-full [&_:is(input,select,textarea)]:rounded-[9px] [&_:is(input,select,textarea)]:[background:#fff] [&_:is(input,select,textarea)]:px-[.75rem] [&_:is(input,select,textarea)]:py-[.7rem] [&_:is(input,select,textarea)]:text-[16px] [&_:is(input,select,textarea)]:text-[#1f2a2e] [&_:is(input,select,textarea)]:[border:1px_solid_#e3e6e4] [&_:is(input,select,textarea)]:[transition:border-color_.15s,box-shadow_.15s] [&_:is(input,select,textarea):focus]:border-brand [&_:is(input,select,textarea):focus]:shadow-[0_0_0_3px_rgba(5,149,196,0.15)] [&_:is(input,select,textarea):focus]:[outline:none] [&_input[type=file]]:cursor-pointer [&_input[type=file]]:[background:#f4f7f5] [&_input[type=file]]:p-[.55rem] [&_:is(input,select).pv-invalid]:border-[#c0392b] [&_:is(input,select).pv-invalid]:shadow-[0_0_0_3px_rgba(192,57,43,0.12)] motion-reduce:[&_*]:!transition-none">
 
-    <div class="pv-head">
-      <span class="pv-brand">Praanavaidya · Careers</span>
+    <div class="mb-[2rem] text-center max-[380px]:mb-[1.5rem] [&_h1]:mb-[.4rem] [&_h1]:mt-0 [&_h1]:text-[clamp(1.5rem,5vw,2.2rem)] [&_h1]:leading-[1.2] [&_p]:m-0 [&_p]:text-[clamp(.88rem,2.5vw,.98rem)] [&_p]:text-[#5d6b66]">
+      <span class="mb-2 inline-block text-[.8rem] font-bold uppercase tracking-[.12em] text-brand">Praanavaidya · Careers</span>
       <h1>Application Form</h1>
-      <p>Fill in your details below. Fields marked <span class="pv-req">*</span> are required.</p>
+      <p>Fill in your details below. Fields marked <span class="text-[#c0392b]">*</span> are required.</p>
     </div>
 
-    <form id="pvApplicationForm" class="pv-card" action="javascript:void(0);" method="post" enctype="multipart/form-data" novalidate>
+    <form id="pvApplicationForm" class="w-full rounded-xl border border-solid border-[#e3e6e4] bg-white p-7 shadow-[0_1px_4px_rgba(31,42,46,0.05)] max-[768px]:p-6 max-[600px]:p-[1.15rem] max-[380px]:p-4" action="javascript:void(0);" method="post" enctype="multipart/form-data" novalidate>
 
-      <div class="pv-hp" aria-hidden="true">
+      <div class="absolute -left-[9999px] h-px w-px overflow-hidden" aria-hidden="true">
         <label>Don't fill this <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
       </div>
 
       <fieldset>
         <legend>Basic Information</legend>
 
-        <div class="pv-grid">
+        <div class="grid grid-cols-[repeat(2,1fr)] gap-x-5 gap-y-[1.1rem] max-[600px]:grid-cols-[1fr] max-[600px]:gap-4">
 
-          <div class="pv-field pv-full">
-            <label for="pv_full_name">Full Name <span class="pv-req">*</span></label>
+          <div class="flex min-w-0 flex-col gap-[.4rem] col-span-full">
+            <label for="pv_full_name">Full Name <span class="text-[#c0392b]">*</span></label>
             <input type="text" id="pv_full_name" name="full_name" placeholder="Your full name"
                    pattern="[A-Za-z\s.'-]{2,60}" maxlength="60" required>
-            <span class="pv-error" id="err_full_name"></span>
+            <span class="pv-error -mt-[.15rem] hidden text-[.78rem] font-semibold text-[#c0392b] [&.show]:block" id="err_full_name"></span>
           </div>
 
-          <div class="pv-field">
-            <label for="pv_mobile">Mobile Number <span class="pv-req">*</span></label>
+          <div class="flex min-w-0 flex-col gap-[.4rem]">
+            <label for="pv_mobile">Mobile Number <span class="text-[#c0392b]">*</span></label>
             <input type="tel" id="pv_mobile" name="mobile" inputmode="numeric"
                    placeholder="10-digit mobile number" pattern="[6-9][0-9]{9}" maxlength="10" required>
-            <span class="pv-error" id="err_mobile"></span>
+            <span class="pv-error -mt-[.15rem] hidden text-[.78rem] font-semibold text-[#c0392b] [&.show]:block" id="err_mobile"></span>
           </div>
 
-          <div class="pv-field">
-            <label for="pv_email">Email ID <span class="pv-req">*</span></label>
+          <div class="flex min-w-0 flex-col gap-[.4rem]">
+            <label for="pv_email">Email ID <span class="text-[#c0392b]">*</span></label>
             <input type="email" id="pv_email" name="email" placeholder="you@example.com" required>
-            <span class="pv-error" id="err_email"></span>
+            <span class="pv-error -mt-[.15rem] hidden text-[.78rem] font-semibold text-[#c0392b] [&.show]:block" id="err_email"></span>
           </div>
 
-          <div class="pv-field">
-            <label for="pv_current_city">Current City <span class="pv-req">*</span></label>
+          <div class="flex min-w-0 flex-col gap-[.4rem]">
+            <label for="pv_current_city">Current City <span class="text-[#c0392b]">*</span></label>
             <input type="text" id="pv_current_city" name="current_city" placeholder="City you live in"
                    pattern="[A-Za-z\s.'-]{2,50}" maxlength="50" required>
-            <span class="pv-error" id="err_current_city"></span>
+            <span class="pv-error -mt-[.15rem] hidden text-[.78rem] font-semibold text-[#c0392b] [&.show]:block" id="err_current_city"></span>
           </div>
 
-          <div class="pv-field">
-            <label for="pv_preferred_location">Preferred Job Location <span class="pv-req">*</span></label>
+          <div class="flex min-w-0 flex-col gap-[.4rem]">
+            <label for="pv_preferred_location">Preferred Job Location <span class="text-[#c0392b]">*</span></label>
             <select id="pv_preferred_location" name="preferred_location" required>
               <option value="">Select a location</option>
               <option>Mangalore</option>
@@ -135,11 +135,11 @@ const page = {
               <option>Delhi</option>
               <option>Lucknow</option>
             </select>
-            <span class="pv-error" id="err_preferred_location"></span>
+            <span class="pv-error -mt-[.15rem] hidden text-[.78rem] font-semibold text-[#c0392b] [&.show]:block" id="err_preferred_location"></span>
           </div>
 
-          <div class="pv-field pv-full">
-            <label for="pv_applying_for">Applying For (Job Role) <span class="pv-req">*</span></label>
+          <div class="flex min-w-0 flex-col gap-[.4rem] col-span-full">
+            <label for="pv_applying_for">Applying For (Job Role) <span class="text-[#c0392b]">*</span></label>
             <select id="pv_applying_for" name="applying_for" required>
               <option value="">Select a role</option>
               <option>Ayurveda Consultant</option>
@@ -152,7 +152,7 @@ const page = {
               <option>Nurses</option>
               <option>HR Executive</option>
             </select>
-            <span class="pv-error" id="err_applying_for"></span>
+            <span class="pv-error -mt-[.15rem] hidden text-[.78rem] font-semibold text-[#c0392b] [&.show]:block" id="err_applying_for"></span>
           </div>
 
         </div>
@@ -161,58 +161,58 @@ const page = {
       <fieldset>
         <legend>Professional Details</legend>
 
-        <div class="pv-grid">
+        <div class="grid grid-cols-[repeat(2,1fr)] gap-x-5 gap-y-[1.1rem] max-[600px]:grid-cols-[1fr] max-[600px]:gap-4">
 
-          <div class="pv-field">
-            <label for="pv_total_experience">Total Experience <span class="pv-req">*</span></label>
+          <div class="flex min-w-0 flex-col gap-[.4rem]">
+            <label for="pv_total_experience">Total Experience <span class="text-[#c0392b]">*</span></label>
             <input type="text" id="pv_total_experience" name="total_experience" placeholder="e.g. 4 years"
                    pattern="^(?=.*[0-9]).{1,30}$" maxlength="30" required>
-            <span class="pv-error" id="err_total_experience"></span>
+            <span class="pv-error -mt-[.15rem] hidden text-[.78rem] font-semibold text-[#c0392b] [&.show]:block" id="err_total_experience"></span>
           </div>
 
-          <div class="pv-field">
-            <label for="pv_relevant_experience">Relevant Experience <span class="pv-req">*</span></label>
+          <div class="flex min-w-0 flex-col gap-[.4rem]">
+            <label for="pv_relevant_experience">Relevant Experience <span class="text-[#c0392b]">*</span></label>
             <input type="text" id="pv_relevant_experience" name="relevant_experience" placeholder="e.g. 2 years"
                    pattern="^(?=.*[0-9]).{1,30}$" maxlength="30" required>
-            <span class="pv-error" id="err_relevant_experience"></span>
+            <span class="pv-error -mt-[.15rem] hidden text-[.78rem] font-semibold text-[#c0392b] [&.show]:block" id="err_relevant_experience"></span>
           </div>
 
-          <div class="pv-field">
-            <label for="pv_current_company">Current Company <span class="pv-req">*</span></label>
+          <div class="flex min-w-0 flex-col gap-[.4rem]">
+            <label for="pv_current_company">Current Company <span class="text-[#c0392b]">*</span></label>
             <input type="text" id="pv_current_company" name="current_company" placeholder="Company name" maxlength="80" required>
-            <span class="pv-error" id="err_current_company"></span>
+            <span class="pv-error -mt-[.15rem] hidden text-[.78rem] font-semibold text-[#c0392b] [&.show]:block" id="err_current_company"></span>
           </div>
 
-          <div class="pv-field">
-            <label for="pv_current_designation">Current Designation <span class="pv-req">*</span></label>
+          <div class="flex min-w-0 flex-col gap-[.4rem]">
+            <label for="pv_current_designation">Current Designation <span class="text-[#c0392b]">*</span></label>
             <input type="text" id="pv_current_designation" name="current_designation" placeholder="Your job title" maxlength="80" required>
-            <span class="pv-error" id="err_current_designation"></span>
+            <span class="pv-error -mt-[.15rem] hidden text-[.78rem] font-semibold text-[#c0392b] [&.show]:block" id="err_current_designation"></span>
           </div>
 
-          <div class="pv-field">
-            <label for="pv_current_salary">Current Salary <span class="pv-req">*</span></label>
+          <div class="flex min-w-0 flex-col gap-[.4rem]">
+            <label for="pv_current_salary">Current Salary <span class="text-[#c0392b]">*</span></label>
             <input type="text" id="pv_current_salary" name="current_salary" placeholder="e.g. 4.5 LPA"
                    pattern="^(?=.*[0-9]).{1,20}$" maxlength="20" required>
-            <span class="pv-error" id="err_current_salary"></span>
+            <span class="pv-error -mt-[.15rem] hidden text-[.78rem] font-semibold text-[#c0392b] [&.show]:block" id="err_current_salary"></span>
           </div>
 
-          <div class="pv-field">
-            <label for="pv_expected_salary">Expected Salary <span class="pv-req">*</span></label>
+          <div class="flex min-w-0 flex-col gap-[.4rem]">
+            <label for="pv_expected_salary">Expected Salary <span class="text-[#c0392b]">*</span></label>
             <input type="text" id="pv_expected_salary" name="expected_salary" placeholder="e.g. 6 LPA"
                    pattern="^(?=.*[0-9]).{1,20}$" maxlength="20" required>
-            <span class="pv-error" id="err_expected_salary"></span>
+            <span class="pv-error -mt-[.15rem] hidden text-[.78rem] font-semibold text-[#c0392b] [&.show]:block" id="err_expected_salary"></span>
           </div>
 
-          <div class="pv-field">
-            <label for="pv_languages">Languages Known <span class="pv-req">*</span></label>
+          <div class="flex min-w-0 flex-col gap-[.4rem]">
+            <label for="pv_languages">Languages Known <span class="text-[#c0392b]">*</span></label>
             <input type="text" id="pv_languages" name="languages" placeholder="e.g. Kannada, Hindi, English" maxlength="100" required>
-            <span class="pv-error" id="err_languages"></span>
+            <span class="pv-error -mt-[.15rem] hidden text-[.78rem] font-semibold text-[#c0392b] [&.show]:block" id="err_languages"></span>
           </div>
 
-          <div class="pv-field">
-            <label for="pv_qualification">Educational Qualification <span class="pv-req">*</span></label>
+          <div class="flex min-w-0 flex-col gap-[.4rem]">
+            <label for="pv_qualification">Educational Qualification <span class="text-[#c0392b]">*</span></label>
             <input type="text" id="pv_qualification" name="qualification" placeholder="Highest qualification" maxlength="80" required>
-            <span class="pv-error" id="err_qualification"></span>
+            <span class="pv-error -mt-[.15rem] hidden text-[.78rem] font-semibold text-[#c0392b] [&.show]:block" id="err_qualification"></span>
           </div>
 
         </div>
@@ -221,58 +221,58 @@ const page = {
       <fieldset>
         <legend>Additional Details</legend>
 
-        <div class="pv-grid">
+        <div class="grid grid-cols-[repeat(2,1fr)] gap-x-5 gap-y-[1.1rem] max-[600px]:grid-cols-[1fr] max-[600px]:gap-4">
 
-          <div class="pv-field">
-            <label for="pv_resume">Upload Resume  <span class="pv-hint">(PDF / DOC / DOCX / JPEG)</span></label>
+          <div class="flex min-w-0 flex-col gap-[.4rem]">
+            <label for="pv_resume">Upload Resume  <span class="text-[.78rem] font-normal text-[#5d6b66]">(PDF / DOC / DOCX / JPEG)</span></label>
             <input type="file" id="pv_resume" name="resume" accept=".pdf,.doc,.docx,.jpg,.jpeg" required>
-            <span class="pv-error" id="err_resume"></span>
+            <span class="pv-error -mt-[.15rem] hidden text-[.78rem] font-semibold text-[#c0392b] [&.show]:block" id="err_resume"></span>
           </div>
 
-          <div class="pv-field">
-            <label for="pv_photo">Photograph  <span class="pv-hint">(JPG / PNG)</span></label>
+          <div class="flex min-w-0 flex-col gap-[.4rem]">
+            <label for="pv_photo">Photograph  <span class="text-[.78rem] font-normal text-[#5d6b66]">(JPG / PNG)</span></label>
             <input type="file" id="pv_photo" name="photo" accept=".jpg,.jpeg,.png" required>
-            <span class="pv-error" id="err_photo"></span>
+            <span class="pv-error -mt-[.15rem] hidden text-[.78rem] font-semibold text-[#c0392b] [&.show]:block" id="err_photo"></span>
           </div>
 
-          <div class="pv-field">
+          <div class="flex min-w-0 flex-col gap-[.4rem]">
             <label>Willing to Relocate? </label>
-            <div class="pv-radio">
+            <div class="flex flex-wrap gap-5 pt-[.2rem] max-[380px]:gap-4 [&_input]:!w-auto [&_label]:flex [&_label]:cursor-pointer [&_label]:items-center [&_label]:gap-[.4rem] [&_label]:!font-normal">
               <label><input type="radio" name="relocate" value="Yes" required> Yes</label>
               <label><input type="radio" name="relocate" value="No" required> No</label>
             </div>
-            <span class="pv-error" id="err_relocate"></span>
+            <span class="pv-error -mt-[.15rem] hidden text-[.78rem] font-semibold text-[#c0392b] [&.show]:block" id="err_relocate"></span>
           </div>
 
-          <div class="pv-field">
+          <div class="flex min-w-0 flex-col gap-[.4rem]">
             <label>Preferred Interview Mode </label>
-            <div class="pv-radio">
+            <div class="flex flex-wrap gap-5 pt-[.2rem] max-[380px]:gap-4 [&_input]:!w-auto [&_label]:flex [&_label]:cursor-pointer [&_label]:items-center [&_label]:gap-[.4rem] [&_label]:!font-normal">
               <label><input type="radio" name="interview_mode" value="Online" required> Online</label>
               <label><input type="radio" name="interview_mode" value="Offline" required> Offline</label>
             </div>
-            <span class="pv-error" id="err_interview_mode"></span>
+            <span class="pv-error -mt-[.15rem] hidden text-[.78rem] font-semibold text-[#c0392b] [&.show]:block" id="err_interview_mode"></span>
           </div>
 
-          <div class="pv-field">
+          <div class="flex min-w-0 flex-col gap-[.4rem]">
             <label for="pv_interview_date">Available Date for Interview </label>
             <input type="date" id="pv_interview_date" name="interview_date" required>
-            <span class="pv-error" id="err_interview_date"></span>
+            <span class="pv-error -mt-[.15rem] hidden text-[.78rem] font-semibold text-[#c0392b] [&.show]:block" id="err_interview_date"></span>
           </div>
 
         </div>
       </fieldset>
 
-      <label class="pv-consent">
+      <label class="mx-0 mb-0 mt-5 flex items-start gap-[.6rem] text-[.85rem] text-[#5d6b66] [&_input]:!w-auto [&_input]:mt-[.2rem] [&_input]:flex-[0_0_auto]">
         <input type="checkbox" name="consent" required>
         <span>I confirm the information provided is accurate and consent to Praanavaidya storing it for recruitment purposes.</span>
       </label>
-      <span class="pv-error" id="err_consent"></span>
+      <span class="pv-error -mt-[.15rem] hidden text-[.78rem] font-semibold text-[#c0392b] [&.show]:block" id="err_consent"></span>
 
-      <button type="submit" class="pv-submit">Submit Application</button>
+      <button type="submit" class="pv-submit mt-5 w-full cursor-pointer rounded-[10px] border-0 bg-brand px-6 py-[.95rem] text-[1.02rem] font-bold text-white [transition:background_.15s,transform_.05s] hover:bg-[#047fa7] active:translate-y-px disabled:cursor-not-allowed disabled:opacity-[.65] focus-visible:[outline:3px_solid_#1f2a2e] focus-visible:outline-offset-2">Submit Application</button>
 
-      <div id="pvFormStatus" class="pv-status" role="status"></div>
+      <div id="pvFormStatus" class="pv-status mt-4 min-h-[1.2em] text-center text-[.9rem] font-semibold [&.ok]:text-[#188038] [&.err]:text-[#c0392b]" role="status"></div>
 
-      <p class="pv-footnote">Your details are kept confidential and used only for recruitment.</p>
+      <p class="mt-5 text-center text-[.8rem] text-[#5d6b66]">Your details are kept confidential and used only for recruitment.</p>
 
     </form>
   </div>

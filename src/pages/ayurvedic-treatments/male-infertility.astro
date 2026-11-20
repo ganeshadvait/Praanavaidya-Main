@@ -79,10 +79,10 @@ const page = {
   "bodyClass": "wp-singular treatment-template-default single single-treatment postid-123 wp-embed-responsive wp-theme-blocksy wp-child-theme-blocksy-child"
 };
 ---
-<BaseLayout styles={['doctor-carousel', 'blog-cards-mobile']} seo={seo} bodyClass={page.bodyClass}>
+<BaseLayout seo={seo} bodyClass={page.bodyClass}>
 <section class="treatment-hero">
        <section class="relative pb-10 bg-[#FFF7F1]">
-        <div class="bg-[#0595C4] py-16 md:py-24 rounded-b-[40px] text-center px-4 flex flex-col md:flex-row items-center justify-between">
+        <div class="bg-[#0595C4] py-16 max-[768px]:!py-[30px] md:py-24 rounded-b-[40px] text-center px-4 flex flex-col md:flex-row items-center justify-between">
             
             <!-- Content Block -->
             <div class="md:w-1/2 text-center md:text-left pl-0 md:pl-20">
@@ -104,7 +104,7 @@ const page = {
                         Ayurveda treats male infertility by strengthening reproductive tissues, improving sperm quality, correcting digestion, balancing hormones, and restoring vitality naturally.                    </p>
                                 
 				<!-- CTA Button -->
-                <div class="hero-cta-wrapper mt-8 flex justify-center md:justify-start">
+                <div class="hero-cta-wrapper mt-8 max-[768px]:!mt-[18px] flex justify-center md:justify-start">
                     <a href="#"
                        class="hero-cta-smart inline-flex items-center gap-2.5 bg-white !text-[#0595C4] hover:!text-[#0595C4] focus:!text-[#0595C4] font-semibold text-[16px] md:text-[20px] px-8 py-3.5 rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:-translate-y-1 cursor-pointer">
                         Book appointment                    </a>
@@ -113,7 +113,7 @@ const page = {
             </div>
             
             <!-- Image Block -->
-            <div class="md:w-1/2 mt-8 md:mt-0 px-4 flex justify-center pr-0 md:pr-20">
+            <div class="md:w-1/2 mt-8 max-[768px]:!mt-[18px] md:mt-0 px-4 flex justify-center pr-0 md:pr-20">
                                     <div class="rounded-3xl overflow-hidden border-[6px] border-white shadow-xl w-full md:w-[80%]">
                         <img width="1024" height="529" src="/images/2026/01/Male-infertility-care-1024x529.avif" class="w-full h-auto object-cover wp-post-image" alt="Male infertility care" decoding="async" fetchpriority="high" srcset="/images/2026/01/Male-infertility-care-1024x529.avif 1024w, /images/2026/01/Male-infertility-care-300x155.avif 300w, /images/2026/01/Male-infertility-care-768x396.avif 768w, /images/2026/01/Male-infertility-care.avif 1050w" sizes="(max-width: 1024px) 100vw, 1024px" />                    </div>
                             </div>
@@ -123,7 +123,7 @@ const page = {
     </section>
 <section class="my-4">
     
-    <section class="bg-[#FFF7F1] py-10">
+    <section class="bg-[#FFF7F1] py-10 max-[768px]:!py-[24px]">
         <div class="max-w-[1360px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-4">
 
                         <!-- LEFT IMAGE -->
@@ -180,7 +180,7 @@ const page = {
                                             </ul>
 
                    <!-- CTA Button -->
-                <div class="mt-8 flex justify-start ">
+                <div class="mt-8 max-[768px]:!mt-[18px] flex justify-start ">
                     <a href="#"
                        class="hero-cta-smart inline-flex items-center bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] !text-white hover:!text-white focus:!text-white active:!text-white visited:!text-white font-semibold text-[14px] md:text-[16px] px-8 py-3.5 rounded-full shadow-md hover:opacity-90 transition-all duration-300 transform hover:-translate-y-1 cursor-pointer [-webkit-tap-highlight-color:transparent]">
                         Get Consultation Now                    </a>
@@ -193,7 +193,7 @@ const page = {
     </section>
 <section class="my-4">
         
-    <section class=" py-10 px-5">
+    <section class=" py-10 max-[768px]:!py-[24px] px-5">
         <div class="max-w-[1360px] mx-auto">
             
                             <h2 class="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-6">
@@ -320,17 +320,17 @@ const page = {
     </section>
 
 <section>    
-    <section class=" py-10 px-5">
+    <section class=" py-10 max-[768px]:!py-[24px] px-5">
         <div class="max-w-[1360px] mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 items-start">
                 
                 <!-- Left Side: Our Philosophy -->
                 <div class="lg:pr-8">
-                    <h2 class="text-4xl font-bold leading-tight mb-8">
+                    <h2 class="text-4xl font-bold leading-tight mb-8 max-[768px]:!mb-[18px]">
                         Our Philosophy                    </h2>
                     <p class="text-base lg:text-lg text-gray-600 leading-relaxed">
                         At Praanavaidya, male infertility treatment is a physician guided Ayurvedic restoration program focused on improving reproductive potential rather than temporary enhancement.                    </p>
-                    <p class="text-base lg:text-lg text-gray-600 leading-relaxed mt-8">
+                    <p class="text-base lg:text-lg text-gray-600 leading-relaxed mt-8 max-[768px]:!mt-[18px]">
                         Each patient undergoes a detailed assessment including semen analysis, hormonal status, digestion, metabolism, lifestyle, stress levels, sexual health, and general vitality before treatment planning.                    </p>
 					    <a href="http://book-appointment-btn"
        class="open-modal inline-flex items-center justify-center bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] text-white font-semibold px-7 py-3 rounded-full shadow-md hover:opacity-90 transition mt-6">
@@ -339,8 +339,8 @@ const page = {
                 </div>
 
                 <!-- Right Side: Who Is This Program For -->
-                <div class="px-4 lg:pl-10 bg-[#fff] rounded-2xl py-8 ">
-                    <h2 class="text-2xl lg:text-3xl font-bold text-gray-900 mb-8 leading-tight">
+                <div class="px-4 lg:pl-10 bg-[#fff] rounded-2xl py-8 max-[768px]:!py-[20px] ">
+                    <h2 class="text-2xl lg:text-3xl font-bold text-gray-900 mb-8 max-[768px]:!mb-[18px] leading-tight">
     Who Is This Program For?</h2>
                     <ul class="space-y-6">
                                                     <li class="flex items-start gap-4">
@@ -413,10 +413,10 @@ const page = {
     </section>
 <section class="my-4">
     
-    <section class="bg-[#0595C4] px-5 py-16 md:py-20 my-10 md:my-16">
+    <section class="bg-[#0595C4] px-5 py-16 max-[768px]:!py-[30px] md:py-20 my-10 md:my-16">
         <div class="max-w-7xl mx-auto">
 
-                            <h2 class="text-white text-2xl md:text-5xl font-bold text-center mb-12 md:mb-16 leading-tight">
+                            <h2 class="text-white text-2xl md:text-5xl font-bold text-center mb-12 max-[768px]:!mb-[25px] md:mb-16 leading-tight">
                     What Makes Praanavaidya Different                </h2>
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -489,7 +489,7 @@ Consistency and long-term support throughout care            </p>
     </section>
 
 <section class="my-4">
-<section class="w-full max-w-[1000px] mx-auto px-4 py-10 bg-[#FFF7F1]">
+<section class="w-full max-w-[1000px] mx-auto px-4 py-10 max-[768px]:!py-[24px] bg-[#FFF7F1]">
 
     <!-- Title -->
     <h2 class="text-[26px] sm:text-[32px] lg:text-[48px] font-semibold leading-[1.3] text-black text-center mb-4">
@@ -652,7 +652,7 @@ if (document.readyState === 'loading') {
 
 </section>
 <section class="my-4">
-<div class="w-[98%] bg-[#028EC7] rounded-3xl py-20 px-6 text-center text-white relative overflow-hidden mx-auto mt-10">
+<div class="w-[98%] bg-[#028EC7] rounded-3xl py-20 px-6 text-center text-white relative overflow-hidden mx-auto mt-10 max-[768px]:!mt-[22px]">
 
     <!-- Icon -->
 <!--     <div class="w-[60px] h-[60px] bg-white rounded-full flex items-center justify-center mx-auto text-4xl mb-6">
@@ -668,7 +668,7 @@ if (document.readyState === 'loading') {
         Let Ayurveda at Praanavaidya nurture your body, calm your mind, and uplift your spirit.    </p>
 
     <!-- CTA Group -->
-    <div class="mt-8 flex flex-col md:flex-row items-center justify-center gap-6">
+    <div class="mt-8 max-[768px]:!mt-[18px] flex flex-col md:flex-row items-center justify-center gap-6">
         
         <!-- Main Button -->
         <a href="#" 
@@ -685,7 +685,7 @@ if (document.readyState === 'loading') {
 </div>
 
 </section>
-<div class="mt-10 max-w-7xl mx-auto text-center">
+<div class="mt-10 max-[768px]:!mt-[22px] max-w-7xl mx-auto text-center">
 
         <!-- Title -->
         <h2 class="text-[48px] lg:text-[48px] font-semibold text-[#1A1A1A] leading-[1.2]">
@@ -782,7 +782,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <div class="doctor-carousel-wrapper relative">
 
     <!-- CAROUSEL / GRID -->
-    <div class="doctor-carousel snap-x snap-mandatory scrollbar-hide [-webkit-overflow-scrolling:touch] max-[640px]:m-auto lg:gap-5 [&>div]:shrink-0 [&>div]:snap-start max-[640px]:[&>div]:min-w-[95%] lg:[&>div]:min-w-[300px] flex gap-10 px-4 py-10 max-w-[1360px] mx-auto overflow-x-auto">
+    <div class="doctor-carousel snap-x snap-mandatory scrollbar-hide [-webkit-overflow-scrolling:touch] max-[640px]:m-auto lg:gap-5 [&>div]:shrink-0 [&>div]:snap-start max-[640px]:[&>div]:min-w-[95%] lg:[&>div]:min-w-[300px] flex gap-10 px-4 py-10 max-[768px]:!py-[24px] max-w-[1360px] mx-auto overflow-x-auto">
 
         <div class="doctor-grid-card min-w-[300px] rounded-[20px] bg-white p-8 text-center [transition:all_0.3s_ease] hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] min-[641px]:max-[1023px]:min-w-0 flex-shrink-0 w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
 
@@ -988,12 +988,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </section>
 
-<section class="treatment-content container">
+<section class="treatment-content container max-[768px]:!my-0">
     <div class="treatment-body">
             </div>
 </section>
 <section class="my-4">
-            <section id="pv_blog_1" class="py-16 px-4">
+            <section id="pv_blog_1" class="py-16 max-[768px]:!py-[30px] px-4">
             <div class="flex justify-between gap-[30px] max-[768px]:flex-col max-[768px]:px-[15px] max-[768px]:!mb-[25px] max-w-[1340px] mx-auto mb-6 flex items-end">
                 <div class="flex-1">
                     <h2 class="m-0 mb-[15px] text-[48px] font-bold leading-[1.2] text-[#111] max-[1024px]:text-[40px] max-[768px]:text-[32px] max-[480px]:text-[28px]">Explore our blog</h2>

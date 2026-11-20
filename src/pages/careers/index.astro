@@ -59,63 +59,63 @@ const page = {
   "bodyClass": "archive post-type-archive post-type-archive-job wp-embed-responsive wp-theme-blocksy wp-child-theme-blocksy-child"
 };
 ---
-<BaseLayout styles={['careers']} seo={seo} bodyClass={page.bodyClass}>
+<BaseLayout seo={seo} bodyClass={page.bodyClass}>
 
-<div class="careers-page">
+<div class="careers-page mt-0 bg-[#f8f9fb] pb-[70px] pt-0 max-[768px]:!py-[35px] [&_a]:text-inherit [&_a]:no-underline [&_ul]:m-0 [&_ul]:list-none [&_ul]:p-0 [&_img]:block [&_img]:max-w-full [&_section]:px-0 [&_section]:py-[68px] [&_section.cp-hero]:mt-0 [&_section.cp-hero]:pb-0 [&_section.cp-hero]:pt-16">
 
   <!-- ══════════════ HERO ══════════════ -->
-  <section class="cp-hero">
-    <div class="cpw">
-      <div class="cp-hero-grid">
+  <section class="cp-hero relative mt-0 overflow-hidden bg-brand pb-0 pt-16 text-white [&_h1]:max-w-[560px] [&_h1]:text-[46px] [&_h1]:font-semibold [&_h1]:leading-[1.1] [&_h1]:text-white max-[980px]:[&_h1]:text-[34px] [&_h1_em]:not-italic [&_h1_em]:text-white">
+    <div class="mx-auto max-w-[1180px] px-8 max-[600px]:px-[18px]">
+      <div class="relative z-[2] grid grid-cols-[1.15fr_.85fr] items-start gap-12 max-[980px]:grid-cols-[1fr]">
 
         <div>
-          <div class="cp-pill">
-            <span class="dot"></span>
+          <div class="mb-[22px] inline-flex items-center gap-2 rounded-[30px] border border-solid border-white/40 bg-white/15 px-4 py-2 text-[13px] font-medium text-white">
+            <span class="dot h-[7px] w-[7px] shrink-0 rounded-full bg-white"></span>
             Currently Hiring &mdash; Multiple Positions Open
           </div>
           <h1>Heal the Future, <em>with Us</em></h1>
-          <p class="lead">
+          <p class="lead mt-[18px] max-w-[480px] text-[16px] text-white/90">
             Join Praanavaidya &mdash; an NABH-accredited network of Ayurvedic hospitals
             bringing authentic, structured Ayurveda to the modern patient. Build your
             career across our centres in Bangalore, Hubballi, Mangalore, Mumbai, Delhi
             and Lucknow.
           </p>
-          <div class="cp-hero-actions">
-            <a href="#cp-positions" class="cp-btn cp-btn-white">View Open Positions ↓</a>
+          <div class="mt-[30px] flex flex-wrap gap-[14px] [.cp-cta-band_&]:mt-[26px] [.cp-cta-band_&]:justify-center">
+            <a href="#cp-positions" class="inline-flex items-center gap-1.5 rounded-[30px] border-none px-[22px] py-3 text-[14px] font-semibold cursor-pointer [font-family:inherit] no-underline [transition:none] !bg-white !text-black hover:!bg-white hover:!text-black">View Open Positions ↓</a>
           </div>
         </div>
 
-        <div class="cp-side-cards">
-          <div class="cp-scard">
-            <div class="ico"><img src="/images/2026/07/icon_3_transparent_black_outline.avif" alt="App-Based Panchakarma"></div>
+        <div class="grid grid-cols-[1fr_1fr] gap-4">
+          <div class="rounded-2xl border border-solid border-white/[.18] bg-white/[.08] p-[22px] [&_h4]:text-[14.5px] [&_h4]:font-semibold [&_h4]:text-white">
+            <div class="mb-4 flex h-12 w-12 items-center justify-center [&_img]:h-full [&_img]:w-full [&_img]:object-contain"><img src="/images/2026/07/icon_3_transparent_black_outline.avif" alt="App-Based Panchakarma"></div>
             <h4>App-Based Panchakarma</h4>
           </div>
-          <div class="cp-scard">
-            <div class="ico"><img src="/images/2026/07/icon_2_transparent_black_outline.avif" alt="Career Growth"></div>
+          <div class="rounded-2xl border border-solid border-white/[.18] bg-white/[.08] p-[22px] [&_h4]:text-[14.5px] [&_h4]:font-semibold [&_h4]:text-white">
+            <div class="mb-4 flex h-12 w-12 items-center justify-center [&_img]:h-full [&_img]:w-full [&_img]:object-contain"><img src="/images/2026/07/icon_2_transparent_black_outline.avif" alt="Career Growth"></div>
             <h4>Career Growth</h4>
           </div>
-          <div class="cp-scard">
-            <div class="ico"><img src="/images/2026/07/icon_4_transparent_black_outline.avif" alt="Doctor Mentorship"></div>
+          <div class="rounded-2xl border border-solid border-white/[.18] bg-white/[.08] p-[22px] [&_h4]:text-[14.5px] [&_h4]:font-semibold [&_h4]:text-white">
+            <div class="mb-4 flex h-12 w-12 items-center justify-center [&_img]:h-full [&_img]:w-full [&_img]:object-contain"><img src="/images/2026/07/icon_4_transparent_black_outline.avif" alt="Doctor Mentorship"></div>
             <h4>Doctor Mentorship</h4>
           </div>
-          <div class="cp-scard">
-            <div class="ico"><img src="/images/2026/02/nabhshodow.avif" alt="nabh logo"></div>
+          <div class="rounded-2xl border border-solid border-white/[.18] bg-white/[.08] p-[22px] [&_h4]:text-[14.5px] [&_h4]:font-semibold [&_h4]:text-white">
+            <div class="mb-4 flex h-12 w-12 items-center justify-center [&_img]:h-full [&_img]:w-full [&_img]:object-contain"><img src="/images/2026/02/nabhshodow.avif" alt="nabh logo"></div>
             <h4>NABH Accredited</h4>
           </div>
         </div>
 
       </div>
 
-      <div class="cp-stats">
-        <div><div class="num">50+</div><div class="lbl">Doctors in Service</div></div>
-        <div><div class="num">10k+</div><div class="lbl">Patients Served</div></div>
+      <div class="relative z-[2] mt-[44px] grid grid-cols-[repeat(4,1fr)] gap-6 border-t border-solid border-white/25 pb-9 pt-7 max-[980px]:grid-cols-[repeat(2,1fr)] max-[600px]:grid-cols-[1fr_1fr]">
+        <div><div class="text-[30px] font-bold text-white">50+</div><div class="mt-1 text-[13px] text-white/80">Doctors in Service</div></div>
+        <div><div class="text-[30px] font-bold text-white">10k+</div><div class="mt-1 text-[13px] text-white/80">Patients Served</div></div>
         <div>
-          <div class="num">6</div>
-          <div class="lbl">Locations Hiring</div>
+          <div class="text-[30px] font-bold text-white">6</div>
+          <div class="mt-1 text-[13px] text-white/80">Locations Hiring</div>
         </div>
         <div>
-          <div class="num">4</div>
-          <div class="lbl">Open Roles</div>
+          <div class="text-[30px] font-bold text-white">4</div>
+          <div class="mt-1 text-[13px] text-white/80">Open Roles</div>
         </div>
       </div>
 
@@ -123,27 +123,27 @@ const page = {
   </section>
 
   <!-- ══════════════ JOB LISTINGS ══════════════ -->
-  <section class="cp-jobs-section" id="cp-positions">
-    <div class="cpw">
+  <section class="bg-[#F6F8F7]" id="cp-positions">
+    <div class="mx-auto max-w-[1180px] px-8 max-[600px]:px-[18px]">
 
-      <div class="sec-head">
-        <div class="eyebrow">Open Positions</div>
+      <div class="[&_h2]:text-[32px] [&_h2]:text-[#0B3A52] [&_p]:mt-[10px] [&_p]:max-w-[600px] [&_p]:text-[15px] [&_p]:text-[#5C7079]">
+        <div class="mb-[10px] text-[12.5px] font-bold uppercase tracking-[.1em] text-[#129C8E]">Open Positions</div>
         <h2>Current Openings</h2>
 <!--         <p>Find your perfect role across our centres in India.</p> -->
       </div>
 
-<!--       <div class="cp-filters">
-        <div class="cp-tabs">
-          <div class="cp-tab active" data-filter="all">All Roles</div>
-                      <div class="cp-tab" data-filter="clinical">
+<!--       <div class="mx-0 mb-7 mt-[32px] flex flex-wrap items-center justify-between gap-4 max-[600px]:flex-col max-[600px]:items-stretch">
+        <div class="flex flex-wrap gap-[10px]">
+          <div class="cp-tab cursor-pointer rounded-[30px] border border-solid border-[#E1E7E6] bg-white px-[18px] py-[11px] text-[13.5px] font-semibold text-[#0B3A52] [transition:background_.15s,color_.15s] hover:border-[#0B3A52] hover:bg-[#0B3A52] hover:text-white [&.active]:border-[#0B3A52] [&.active]:bg-[#0B3A52] [&.active]:text-white active" data-filter="all">All Roles</div>
+                      <div class="cp-tab cursor-pointer rounded-[30px] border border-solid border-[#E1E7E6] bg-white px-[18px] py-[11px] text-[13.5px] font-semibold text-[#0B3A52] [transition:background_.15s,color_.15s] hover:border-[#0B3A52] hover:bg-[#0B3A52] hover:text-white [&.active]:border-[#0B3A52] [&.active]:bg-[#0B3A52] [&.active]:text-white" data-filter="clinical">
               Clinical            </div>
-                      <div class="cp-tab" data-filter="sales">
+                      <div class="cp-tab cursor-pointer rounded-[30px] border border-solid border-[#E1E7E6] bg-white px-[18px] py-[11px] text-[13.5px] font-semibold text-[#0B3A52] [transition:background_.15s,color_.15s] hover:border-[#0B3A52] hover:bg-[#0B3A52] hover:text-white [&.active]:border-[#0B3A52] [&.active]:bg-[#0B3A52] [&.active]:text-white" data-filter="sales">
               Sales &amp; Marketing            </div>
-                      <div class="cp-tab" data-filter="ops">
+                      <div class="cp-tab cursor-pointer rounded-[30px] border border-solid border-[#E1E7E6] bg-white px-[18px] py-[11px] text-[13.5px] font-semibold text-[#0B3A52] [transition:background_.15s,color_.15s] hover:border-[#0B3A52] hover:bg-[#0B3A52] hover:text-white [&.active]:border-[#0B3A52] [&.active]:bg-[#0B3A52] [&.active]:text-white" data-filter="ops">
               Operations            </div>
                   </div>
-        <div class="cp-filter-right">
-          <select class="cp-loc-select" id="cpLocFilter">
+        <div class="flex flex-wrap gap-[10px]">
+          <select class="rounded-[30px] border border-solid border-[#E1E7E6] bg-white px-4 py-[10px] text-[13.5px] [font-family:inherit] text-[#0B3A52]" id="cpLocFilter">
             <option value="all">All Locations</option>
                           <option value="bangalore">
                 Bangalore              </option>
@@ -162,118 +162,118 @@ const page = {
       </div> -->
 
       <!-- ══ JOB CARDS GRID ══ -->
-      <div class="cp-jobs-grid mt-4" id="cpJobList">
+      <div class="cp-jobs-grid mb-5 grid grid-cols-[repeat(auto-fill,minmax(340px,1fr))] gap-5 max-[980px]:grid-cols-[repeat(2,1fr)] max-[600px]:grid-cols-[1fr] mt-4" id="cpJobList">
 
-            <div class="cp-job-card"
+            <div class="cp-job-card flex flex-col gap-3 rounded-2xl border border-solid border-[#E1E7E6] bg-white p-6 [transition:box-shadow_.18s] hover:shadow-[0_4px_18px_rgba(11,58,82,0.10)] [&_h3]:m-0 [&_h3]:text-[18px] [&_h3]:font-semibold [&_h3]:text-[#0B3A52]"
                  data-cat="clinical"
                  data-loc=""
                  data-text="panchakarma therapist all locations clinical">
 
-<!--               <span class="cp-job-cat clinical">
+<!--               <span class="inline-block w-fit rounded-[30px] bg-[#E1F5EE] px-3 py-[5px] text-[11.5px] font-bold uppercase tracking-[.04em] text-[#0C7568] clinical">
                 Clinical              </span> -->
 
               <h3>Panchakarma Therapist</h3>
 
-              <div class="cp-job-meta">
+              <div class="mt-1 flex flex-wrap gap-2 [&_span]:inline-flex [&_span]:items-center [&_span]:gap-1 [&_span]:rounded-[20px] [&_span]:bg-[#F6F8F7] [&_span]:px-3 [&_span]:py-1 [&_span]:text-[12.5px] [&_span]:text-[#5C7079]">
                                   <span>All Locations</span>
                                 					<span>Full Time / On Call</span>
 				<!--                  -->
               </div>
 
-              <p class="cp-job-desc">Job Description : We are seeking skilled Panchakarma therapists passionate about traditional Ayurvedic healing therapies and patient wellness Key Responsibilities</p>
+              <p class="m-0 flex-1 text-[13.5px] text-[#5C7079]">Job Description : We are seeking skilled Panchakarma therapists passionate about traditional Ayurvedic healing therapies and patient wellness Key Responsibilities</p>
 
-              <div class="cp-card-btns">
-                <a href="/careers/panchakarma-therapist-jobs/" class="job-btn">
+              <div class="mt-1 flex flex-wrap gap-[10px]">
+                <a href="/careers/panchakarma-therapist-jobs/" class="inline-flex items-center whitespace-nowrap rounded-[30px] border-[1.5px] border-solid border-black !bg-white px-5 py-[11px] text-[13.5px] font-semibold !text-black cursor-pointer [font-family:inherit] no-underline [transition:none] hover:!bg-white hover:!text-black">
                   View Details
                 </a>
-                <a class="cp-apply-btn" href="/job-application/">
+                <a class="inline-flex items-center whitespace-nowrap rounded-[30px] border-[1.5px] border-solid border-black !bg-white px-5 py-[11px] text-[13.5px] font-semibold !text-black cursor-pointer [font-family:inherit] no-underline [transition:none] hover:!bg-white hover:!text-black" href="/job-application/">
   Apply Now
 </a>
               </div>
 
             </div>
 
-            <div class="cp-job-card"
+            <div class="cp-job-card flex flex-col gap-3 rounded-2xl border border-solid border-[#E1E7E6] bg-white p-6 [transition:box-shadow_.18s] hover:shadow-[0_4px_18px_rgba(11,58,82,0.10)] [&_h3]:m-0 [&_h3]:text-[18px] [&_h3]:font-semibold [&_h3]:text-[#0B3A52]"
                  data-cat="clinical"
                  data-loc=""
                  data-text="telesales executive all locations clinical">
 
-<!--               <span class="cp-job-cat clinical">
+<!--               <span class="inline-block w-fit rounded-[30px] bg-[#E1F5EE] px-3 py-[5px] text-[11.5px] font-bold uppercase tracking-[.04em] text-[#0C7568] clinical">
                 Clinical              </span> -->
 
               <h3>Telesales Executive</h3>
 
-              <div class="cp-job-meta">
+              <div class="mt-1 flex flex-wrap gap-2 [&_span]:inline-flex [&_span]:items-center [&_span]:gap-1 [&_span]:rounded-[20px] [&_span]:bg-[#F6F8F7] [&_span]:px-3 [&_span]:py-1 [&_span]:text-[12.5px] [&_span]:text-[#5C7079]">
                                   <span>All Locations</span>
                                 					<span>Full Time / Work From Home</span>
 				<!--                  -->
               </div>
 
-              <p class="cp-job-desc">Job Description : We are hiring enthusiastic telesales executives with excellent communication skills to guide patients through consultations, wellness programs, and treatment services.hiring enthusiastic telesales executivewellness programs, and treatment services Key Responsibilities :</p>
+              <p class="m-0 flex-1 text-[13.5px] text-[#5C7079]">Job Description : We are hiring enthusiastic telesales executives with excellent communication skills to guide patients through consultations, wellness programs, and treatment services.hiring enthusiastic telesales executivewellness programs, and treatment services Key Responsibilities :</p>
 
-              <div class="cp-card-btns">
-                <a href="/careers/telesales-executive-jobs/" class="job-btn">
+              <div class="mt-1 flex flex-wrap gap-[10px]">
+                <a href="/careers/telesales-executive-jobs/" class="inline-flex items-center whitespace-nowrap rounded-[30px] border-[1.5px] border-solid border-black !bg-white px-5 py-[11px] text-[13.5px] font-semibold !text-black cursor-pointer [font-family:inherit] no-underline [transition:none] hover:!bg-white hover:!text-black">
                   View Details
                 </a>
-                <a class="cp-apply-btn" href="/job-application/">
+                <a class="inline-flex items-center whitespace-nowrap rounded-[30px] border-[1.5px] border-solid border-black !bg-white px-5 py-[11px] text-[13.5px] font-semibold !text-black cursor-pointer [font-family:inherit] no-underline [transition:none] hover:!bg-white hover:!text-black" href="/job-application/">
   Apply Now
 </a>
               </div>
 
             </div>
 
-            <div class="cp-job-card"
+            <div class="cp-job-card flex flex-col gap-3 rounded-2xl border border-solid border-[#E1E7E6] bg-white p-6 [transition:box-shadow_.18s] hover:shadow-[0_4px_18px_rgba(11,58,82,0.10)] [&_h3]:m-0 [&_h3]:text-[18px] [&_h3]:font-semibold [&_h3]:text-[#0B3A52]"
                  data-cat="clinical"
                  data-loc=""
                  data-text="front office &amp; telesales executive all locations clinical">
 
-<!--               <span class="cp-job-cat clinical">
+<!--               <span class="inline-block w-fit rounded-[30px] bg-[#E1F5EE] px-3 py-[5px] text-[11.5px] font-bold uppercase tracking-[.04em] text-[#0C7568] clinical">
                 Clinical              </span> -->
 
               <h3>Front Office &amp; Telesales Executive</h3>
 
-              <div class="cp-job-meta">
+              <div class="mt-1 flex flex-wrap gap-2 [&_span]:inline-flex [&_span]:items-center [&_span]:gap-1 [&_span]:rounded-[20px] [&_span]:bg-[#F6F8F7] [&_span]:px-3 [&_span]:py-1 [&_span]:text-[12.5px] [&_span]:text-[#5C7079]">
                                   <span>All Locations</span>
                                 					<span>Full Time</span>
 				<!--                  -->
               </div>
 
-              <p class="cp-job-desc">Job Description : We are looking for organized and patient-friendly professionals to manage front desk responsibilities while supporting telesales and patient coordination activities. Key Responsibilities :</p>
+              <p class="m-0 flex-1 text-[13.5px] text-[#5C7079]">Job Description : We are looking for organized and patient-friendly professionals to manage front desk responsibilities while supporting telesales and patient coordination activities. Key Responsibilities :</p>
 
-              <div class="cp-card-btns">
-                <a href="/careers/promote-clinic-services-and-wellness-packages-through-phone-calls/" class="job-btn">
+              <div class="mt-1 flex flex-wrap gap-[10px]">
+                <a href="/careers/promote-clinic-services-and-wellness-packages-through-phone-calls/" class="inline-flex items-center whitespace-nowrap rounded-[30px] border-[1.5px] border-solid border-black !bg-white px-5 py-[11px] text-[13.5px] font-semibold !text-black cursor-pointer [font-family:inherit] no-underline [transition:none] hover:!bg-white hover:!text-black">
                   View Details
                 </a>
-                <a class="cp-apply-btn" href="/job-application/">
+                <a class="inline-flex items-center whitespace-nowrap rounded-[30px] border-[1.5px] border-solid border-black !bg-white px-5 py-[11px] text-[13.5px] font-semibold !text-black cursor-pointer [font-family:inherit] no-underline [transition:none] hover:!bg-white hover:!text-black" href="/job-application/">
   Apply Now
 </a>
               </div>
 
             </div>
 
-            <div class="cp-job-card"
+            <div class="cp-job-card flex flex-col gap-3 rounded-2xl border border-solid border-[#E1E7E6] bg-white p-6 [transition:box-shadow_.18s] hover:shadow-[0_4px_18px_rgba(11,58,82,0.10)] [&_h3]:m-0 [&_h3]:text-[18px] [&_h3]:font-semibold [&_h3]:text-[#0B3A52]"
                  data-cat="clinical"
                  data-loc=""
                  data-text="nurses all locations clinical">
 
-<!--               <span class="cp-job-cat clinical">
+<!--               <span class="inline-block w-fit rounded-[30px] bg-[#E1F5EE] px-3 py-[5px] text-[11.5px] font-bold uppercase tracking-[.04em] text-[#0C7568] clinical">
                 Clinical              </span> -->
 
               <h3>Nurses</h3>
 
-              <div class="cp-job-meta">
+              <div class="mt-1 flex flex-wrap gap-2 [&_span]:inline-flex [&_span]:items-center [&_span]:gap-1 [&_span]:rounded-[20px] [&_span]:bg-[#F6F8F7] [&_span]:px-3 [&_span]:py-1 [&_span]:text-[12.5px] [&_span]:text-[#5C7079]">
                                   <span>All Locations</span>
                                 					<span>Full Time</span>
 				<!--                  -->
               </div>
 
-              <p class="cp-job-desc">Job Description : We are seeking compassionate nursing professionals to support patient care, therapy assistance, and smooth clinical operations across our call records. Key Responsibilities :</p>
+              <p class="m-0 flex-1 text-[13.5px] text-[#5C7079]">Job Description : We are seeking compassionate nursing professionals to support patient care, therapy assistance, and smooth clinical operations across our call records. Key Responsibilities :</p>
 
-              <div class="cp-card-btns">
-                <a href="/careers/nurse-jobs/" class="job-btn">
+              <div class="mt-1 flex flex-wrap gap-[10px]">
+                <a href="/careers/nurse-jobs/" class="inline-flex items-center whitespace-nowrap rounded-[30px] border-[1.5px] border-solid border-black !bg-white px-5 py-[11px] text-[13.5px] font-semibold !text-black cursor-pointer [font-family:inherit] no-underline [transition:none] hover:!bg-white hover:!text-black">
                   View Details
                 </a>
-                <a class="cp-apply-btn" href="/job-application/">
+                <a class="inline-flex items-center whitespace-nowrap rounded-[30px] border-[1.5px] border-solid border-black !bg-white px-5 py-[11px] text-[13.5px] font-semibold !text-black cursor-pointer [font-family:inherit] no-underline [transition:none] hover:!bg-white hover:!text-black" href="/job-application/">
   Apply Now
 </a>
               </div>
@@ -282,7 +282,7 @@ const page = {
 
       </div><!-- /.cp-jobs-grid -->
 
-      <div class="cp-no-results" id="cpNoResults">
+      <div class="hidden p-[30px] text-center text-[#5C7079]" id="cpNoResults">
         No matching positions. Try a different filter or search term.
       </div>
 
@@ -291,12 +291,12 @@ const page = {
 
   <!-- ══════════════ LOCATIONS ══════════════ -->
   
-<section class="bg-[#FFF7F1] w-full max-w-[1360px] py-16 px-4 md:px-0 sm:px-6 lg:px-10 mb-0 mx-auto">
+<section class="bg-[#FFF7F1] w-full max-w-[1360px] py-16 max-[768px]:!py-[30px] px-4 md:px-0 sm:px-6 lg:px-10 mb-0 mx-auto">
 
     <div class=" mx-auto">
 
         <!-- Header -->
-<div class="text-center mb-12">
+<div class="text-center mb-12 max-[768px]:!mb-[25px]">
         <h2 class="text-[26px] sm:text-[32px] lg:text-[48px] font-semibold text-[#1A1A1A] leading-[1.3]">
         Our Locations
     </h2> 
@@ -1683,7 +1683,7 @@ const page = {
         </div>
 
         <!-- CTA Button -->
-        <div class="text-center mt-12">
+        <div class="text-center mt-12 max-[768px]:!mt-[25px]">
             
     <a href="#"
        
@@ -1776,53 +1776,53 @@ document.addEventListener('DOMContentLoaded', function() {
 
   <!-- ══════════════ FAQ ══════════════ -->
   <section id="cp-faq">
-    <div class="cpw">
-      <div class="sec-head">
-        <div class="eyebrow">FAQ</div>
+    <div class="mx-auto max-w-[1180px] px-8 max-[600px]:px-[18px]">
+      <div class="[&_h2]:text-[32px] [&_h2]:text-[#0B3A52] [&_p]:mt-[10px] [&_p]:max-w-[600px] [&_p]:text-[15px] [&_p]:text-[#5C7079]">
+        <div class="mb-[10px] text-[12.5px] font-bold uppercase tracking-[.1em] text-[#129C8E]">FAQ</div>
         <h2>Frequently Asked Questions</h2>
       </div>
-      <div class="cp-faq">
-                  <div class="cp-faq-item open">
-            <div class="cp-faq-q">
-              What qualifications do I need to apply as a doctor?              <span class="x">×</span>
+      <div class="cp-faq max-w-[780px]">
+                  <div class="cp-faq-item group/faq border-b border-solid border-[#E1E7E6] py-[22px] open">
+            <div class="cp-faq-q flex cursor-pointer items-center justify-between text-[16px] font-semibold text-[#0B3A52]">
+              What qualifications do I need to apply as a doctor?              <span class="x flex h-[26px] w-[26px] shrink-0 items-center justify-center rounded-full border border-solid border-[#E1E7E6] text-[14px] text-[#0B3A52] [transition:transform_.2s] group-[.open]/faq:rotate-45">×</span>
             </div>
-            <div class="cp-faq-a">A BAMS degree is the baseline for our Ayurveda Consultant roles. Specialist positions need an MD or MS in the relevant discipline. We also value real clinical hours and a patient-first attitude.</div>
+            <div class="mt-[14px] max-h-0 overflow-hidden text-[14px] text-[#5C7079] [transition:max-height_.25s_ease] group-[.open]/faq:max-h-[300px]">A BAMS degree is the baseline for our Ayurveda Consultant roles. Specialist positions need an MD or MS in the relevant discipline. We also value real clinical hours and a patient-first attitude.</div>
           </div>
-                  <div class="cp-faq-item">
-            <div class="cp-faq-q">
-              Do you offer internship programs for BAMS students?              <span class="x">+</span>
+                  <div class="cp-faq-item group/faq border-b border-solid border-[#E1E7E6] py-[22px]">
+            <div class="cp-faq-q flex cursor-pointer items-center justify-between text-[16px] font-semibold text-[#0B3A52]">
+              Do you offer internship programs for BAMS students?              <span class="x flex h-[26px] w-[26px] shrink-0 items-center justify-center rounded-full border border-solid border-[#E1E7E6] text-[14px] text-[#0B3A52] [transition:transform_.2s] group-[.open]/faq:rotate-45">+</span>
             </div>
-            <div class="cp-faq-a">Yes — reach out through the application form with &quot;Internship&quot; mentioned in your message and our HR team will route you to the right centre.</div>
+            <div class="mt-[14px] max-h-0 overflow-hidden text-[14px] text-[#5C7079] [transition:max-height_.25s_ease] group-[.open]/faq:max-h-[300px]">Yes — reach out through the application form with &quot;Internship&quot; mentioned in your message and our HR team will route you to the right centre.</div>
           </div>
-                  <div class="cp-faq-item">
-            <div class="cp-faq-q">
-              What is the selection process like?              <span class="x">+</span>
+                  <div class="cp-faq-item group/faq border-b border-solid border-[#E1E7E6] py-[22px]">
+            <div class="cp-faq-q flex cursor-pointer items-center justify-between text-[16px] font-semibold text-[#0B3A52]">
+              What is the selection process like?              <span class="x flex h-[26px] w-[26px] shrink-0 items-center justify-center rounded-full border border-solid border-[#E1E7E6] text-[14px] text-[#0B3A52] [transition:transform_.2s] group-[.open]/faq:rotate-45">+</span>
             </div>
-            <div class="cp-faq-a">Application review, a short role-specific discussion, and a final conversation with the centre lead. Most candidates hear back within two weeks.</div>
+            <div class="mt-[14px] max-h-0 overflow-hidden text-[14px] text-[#5C7079] [transition:max-height_.25s_ease] group-[.open]/faq:max-h-[300px]">Application review, a short role-specific discussion, and a final conversation with the centre lead. Most candidates hear back within two weeks.</div>
           </div>
-                  <div class="cp-faq-item">
-            <div class="cp-faq-q">
-              Can I work at any branch or is it fixed?              <span class="x">+</span>
+                  <div class="cp-faq-item group/faq border-b border-solid border-[#E1E7E6] py-[22px]">
+            <div class="cp-faq-q flex cursor-pointer items-center justify-between text-[16px] font-semibold text-[#0B3A52]">
+              Can I work at any branch or is it fixed?              <span class="x flex h-[26px] w-[26px] shrink-0 items-center justify-center rounded-full border border-solid border-[#E1E7E6] text-[14px] text-[#0B3A52] [transition:transform_.2s] group-[.open]/faq:rotate-45">+</span>
             </div>
-            <div class="cp-faq-a">Roles are usually tied to one centre, but we support transfers between our Bangalore, Hubballi, Mangalore, Mumbai, Delhi and Lucknow locations as openings allow.</div>
+            <div class="mt-[14px] max-h-0 overflow-hidden text-[14px] text-[#5C7079] [transition:max-height_.25s_ease] group-[.open]/faq:max-h-[300px]">Roles are usually tied to one centre, but we support transfers between our Bangalore, Hubballi, Mangalore, Mumbai, Delhi and Lucknow locations as openings allow.</div>
           </div>
-                  <div class="cp-faq-item">
-            <div class="cp-faq-q">
-              What benefits and perks do you offer?              <span class="x">+</span>
+                  <div class="cp-faq-item group/faq border-b border-solid border-[#E1E7E6] py-[22px]">
+            <div class="cp-faq-q flex cursor-pointer items-center justify-between text-[16px] font-semibold text-[#0B3A52]">
+              What benefits and perks do you offer?              <span class="x flex h-[26px] w-[26px] shrink-0 items-center justify-center rounded-full border border-solid border-[#E1E7E6] text-[14px] text-[#0B3A52] [transition:transform_.2s] group-[.open]/faq:rotate-45">+</span>
             </div>
-            <div class="cp-faq-a">Health coverage, structured mentorship from senior doctors, paid training, and a clear path from junior to senior roles.</div>
+            <div class="mt-[14px] max-h-0 overflow-hidden text-[14px] text-[#5C7079] [transition:max-height_.25s_ease] group-[.open]/faq:max-h-[300px]">Health coverage, structured mentorship from senior doctors, paid training, and a clear path from junior to senior roles.</div>
           </div>
               </div>
     </div>
   </section>
 
   <!-- ══════════════ CTA BAND ══════════════ -->
-<!--   <section class="cp-cta-band">
-    <div class="cpw">
+<!--   <section class="cp-cta-band bg-brand py-[60px] text-center text-white [&_h2]:text-[28px] [&_h2]:text-white [&_p]:mt-[10px] [&_p]:text-[15px] [&_p]:text-white/85">
+    <div class="mx-auto max-w-[1180px] px-8 max-[600px]:px-[18px]">
       <h2>Ready to bring authentic Ayurveda forward with us?</h2>
       <p>Send your resume and our team will reach out within two weeks.</p>
-      <div class="cp-hero-actions">
-        <a href="#cp-positions" class="cp-btn cp-btn-white">View Open Positions ↓</a>
+      <div class="mt-[30px] flex flex-wrap gap-[14px] [.cp-cta-band_&]:mt-[26px] [.cp-cta-band_&]:justify-center">
+        <a href="#cp-positions" class="inline-flex items-center gap-1.5 rounded-[30px] border-none px-[22px] py-3 text-[14px] font-semibold cursor-pointer [font-family:inherit] no-underline [transition:none] !bg-white !text-black hover:!bg-white hover:!text-black">View Open Positions ↓</a>
       </div>
     </div>
   </section> -->

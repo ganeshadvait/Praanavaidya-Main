@@ -53,10 +53,10 @@ const page = {
   "bodyClass": "archive post-type-archive post-type-archive-doctor wp-embed-responsive wp-theme-blocksy wp-child-theme-blocksy-child"
 };
 ---
-<BaseLayout styles={['doctors-hero']} seo={seo} bodyClass={page.bodyClass}>
+<BaseLayout seo={seo} bodyClass={page.bodyClass}>
 <section>    
     
-    <section class="relative overflow-hidden rounded-bl-[28px] rounded-br-[28px] w-full pt-20 pb-24 mb-10">
+    <section class="relative overflow-hidden rounded-bl-[28px] rounded-br-[28px] w-full pt-20 pb-24 mb-10 max-[768px]:!mb-[22px]">
 
         <!-- Background Video -->
         <video
@@ -109,7 +109,7 @@ const page = {
     
     </section>
 <section>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-10 px-4 max-w-[1360px] mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-10 max-[768px]:!py-[24px] px-4 max-w-[1360px] mx-auto">
 
                 <div class="bg-gray-50 rounded-xl p-8 text-center transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
 
