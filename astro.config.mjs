@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import sitemap from './src/integrations/sitemap.mjs';
 import redirects from './src/data/redirects.json' with { type: 'json' };
 
 export default defineConfig({
@@ -12,4 +13,6 @@ export default defineConfig({
   },
   // Old WordPress URLs (e.g. /treatment/piles/, /doctors/dr-divya/) -> current pages
   redirects,
+  // sitemap_index.xml + per-type sitemaps, regenerated on every build
+  integrations: [sitemap()],
 });
