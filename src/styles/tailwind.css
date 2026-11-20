@@ -1,41 +1,317 @@
 /*
- * The only stylesheet entry for the whole site, compiled by Tailwind (v3).
- *
- * Order matters (it mirrors the cascade of the original WordPress site):
- *   1. theme/  - base element styles, WordPress block styles, Blocksy layout rules
- *   2. Tailwind preflight, components and utilities
- *   3. site/   - global component styles that override utilities
- *   4. pages/  - page-specific styles, scoped with :where([data-styles~="name"]) so they
- *                only apply on pages that list them in <BaseLayout styles={[...]}>
+ * The only stylesheet for the whole site. All page and component styling lives in Tailwind
+ * utility classes in the markup; this file only holds what markup classes cannot express:
+ *   - the self-hosted DMSans font faces
+ *   - @layer base:       element defaults (forms, tables, links, headings)
+ *   - @layer components: styles for HTML we don't author class-by-class: the WordPress
+ *                        post bodies in src/content/posts/*.json and the page-content wrapper.
+ *                        These sit *below* utilities, so utility classes on an element still win.
+ * Design tokens (colours, fonts, animations) are in tailwind.config.mjs.
  */
-@import './theme/base.css';
-@import './theme/wordpress.css';
-@import './theme/blocksy.css';
 
+/* LEGACY-TEMP START */
+@import './legacy/base-components.css';
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-@import 'tailwindcss/variants'; /* keep md:/lg:/hover: variants here, before site/page styles */
-
-@import './site/sticky-cta.css';
-@import './site/theme-overrides.css';
-
-@import './pages/no-scrollbar.css';
-@import './pages/slides.css';
-@import './pages/video-testimonials.css';
-@import './pages/home-slides.css';
-@import './pages/doctor-carousel.css';
-@import './pages/doctor-talks-track.css';
-@import './pages/blog-cards-mobile.css';
+@import 'tailwindcss/variants';
 @import './pages/job-application-form.css';
-@import './pages/treatment-cards.css';
-@import './pages/privacy-policy.css';
-@import './pages/post-content.css';
-@import './pages/post-cta-bar.css';
-@import './pages/doctors-hero.css';
 @import './pages/careers.css';
 @import './pages/job-detail.css';
-@import './pages/archive.css';
 
-@import './site/footer.css';
-@import './site/hiring-popup.css';
+/* LEGACY-TEMP END */
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('/fonts/dmsans/DMSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DMSans';
+  src: url('/fonts/dmsans/DMSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DMSans';
+  src: url('/fonts/dmsans/DMSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DMSans';
+  src: url('/fonts/dmsans/DMSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply overflow-x-hidden break-words bg-cream text-palette-3 antialiased;
+  }
+  body ::selection {
+    @apply bg-palette-1 text-white;
+  }
+
+  /* no focus rings except keyboard focus on links and buttons */
+  *,
+  ::before,
+  ::after {
+    outline: none;
+  }
+  a:focus-visible,
+  button:focus-visible {
+    @apply outline outline-2 outline-offset-2 outline-palette-1;
+  }
+
+  a {
+    @apply font-medium;
+    transition: all 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  }
+  a:hover {
+    @apply text-palette-4;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply leading-normal text-palette-4;
+  }
+  h6 {
+    line-height: 1.65;
+  }
+
+  /* text-level elements never draw a border unless a border-style utility is added */
+  body, p, h1, h2, h3, h4, h5, h6, em, ol, ul, li, tr, th, td, dl, ins, form,
+  label, table, figure, button, legend, caption, fieldset, blockquote {
+    border: none;
+  }
+
+  /* trailing lists/labels never add bottom space */
+  ul:last-child,
+  ol:last-child,
+  ul li:last-child,
+  ol li:last-child,
+  label:last-child {
+    margin-bottom: 0;
+  }
+
+  /* mobile: every section gets the same compact vertical rhythm */
+  @media (max-width: 768px) {
+    section {
+      padding-top: 30px !important;
+      padding-bottom: 30px !important;
+    }
+  }
+
+  img:is([sizes='auto' i], [sizes^='auto,' i]) {
+    contain-intrinsic-size: 3000px 1500px;
+  }
+  iframe,
+  embed,
+  object {
+    @apply max-w-full;
+  }
+  mark,
+  ins {
+    @apply bg-transparent text-inherit no-underline;
+  }
+  hr {
+    @apply border-none bg-palette-5;
+  }
+  blockquote {
+    @apply ps-[1.5em];
+    border-inline-start: 4px solid theme('colors.palette.1');
+  }
+  blockquote p:last-child {
+    margin-bottom: 0;
+  }
+
+  table {
+    @apply w-full max-w-full border border-solid;
+  }
+  th,
+  td {
+    @apply border border-solid border-palette-5 px-[1em] py-[0.7em];
+  }
+  th {
+    @apply font-semibold;
+  }
+
+  /* form fields */
+  label {
+    @apply mb-[0.5em] cursor-pointer font-system text-[15px] font-normal not-italic;
+    line-height: inherit;
+  }
+  input:is([type='url'], [type='tel'], [type='text'], [type='time'], [type='date'], [type='datetime'],
+    [type='datetime-local'], [type='email'], [type='number'], [type='search'], [type='password']) {
+    @apply px-[15px] py-0 text-[16px] text-palette-3 no-underline;
+    /* these beat utility classes on the field, as the old theme did */
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-transform: inherit;
+  }
+  select,
+  textarea,
+  input:is([type='url'], [type='tel'], [type='text'], [type='time'], [type='date'], [type='datetime'],
+    [type='datetime-local'], [type='email'], [type='number'], [type='search'], [type='password']) {
+    @apply h-[50px] w-full appearance-none rounded-[180px] border-2 border-solid border-palette-5 bg-transparent;
+    outline: 2px solid transparent;
+    outline-offset: -2px;
+    transition: 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    transition-property: color, outline, border-color, background-color;
+  }
+  select:focus,
+  textarea:focus,
+  input:is([type='url'], [type='tel'], [type='text'], [type='time'], [type='date'], [type='datetime'],
+    [type='datetime-local'], [type='email'], [type='number'], [type='search'], [type='password']):focus {
+    @apply border-palette-1 text-palette-3;
+    outline-color: theme('colors.palette.1');
+  }
+  input:is([type='url'], [type='tel'], [type='text'], [type='time'], [type='date'], [type='datetime'],
+    [type='datetime-local'], [type='email'], [type='number'], [type='search'], [type='password'])::placeholder {
+    @apply text-inherit opacity-70;
+  }
+  input[type='date'] {
+    @apply min-h-[50px];
+  }
+  form textarea {
+    @apply h-[170px];
+  }
+  select {
+    background-image: url("data:image/svg+xml,%3Csvg width='21' height='13' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M18.5.379L20.621 2.5 10.5 12.621.379 2.5 2.5.379l8 8z' fill='%234F5D6D' fill-rule='nonzero'/%3E%3C/svg%3E");
+    background-repeat: no-repeat, repeat;
+    background-size: 8px auto, 100%;
+    background-position: right 10px top 50%, 0 0;
+  }
+  select option {
+    color: initial;
+  }
+  fieldset {
+    @apply border border-dashed border-palette-5;
+  }
+  legend {
+    @apply -ml-[15px] text-[14px] font-semibold;
+  }
+
+  [type='submit'] {
+    @apply relative inline-flex min-h-[40px] cursor-pointer select-none appearance-none items-center justify-center rounded-[3px] border-none px-5 py-[5px] text-center font-system text-[15px] font-medium not-italic text-white bg-palette-1;
+    transition: 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    transition-property: color, background-color, border-color, opacity, transform;
+    text-transform: inherit;
+  }
+  button[type='submit'] {
+    @apply font-sans;
+  }
+  [type='submit']:hover {
+    @apply bg-palette-2 text-white;
+  }
+  @media (hover: hover) and (prefers-reduced-motion: no-preference) {
+    [type='submit']:hover {
+      transform: none;
+    }
+  }
+  [type='submit']:disabled {
+    @apply cursor-not-allowed opacity-50;
+  }
+}
+
+@layer components {
+  /*
+   * Page-content wrapper (was WordPress' .entry-content.is-layout-constrained).
+   * Top-level sections are centred and capped at 90vw unless they set their own width.
+   */
+  .page-content::after {
+    @apply clear-both table content-[''];
+  }
+  .page-content > * {
+    @apply mb-[1.5em] mt-0 w-[min(100%,90vw)] max-[689.98px]:w-[min(100%,88vw)];
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: none !important;
+  }
+  .page-content > :where(h1, h2, h3, h4, h5, h6) {
+    @apply mt-[1.5em];
+  }
+  .page-content > :first-child {
+    margin-top: 0;
+  }
+  .page-content > :last-child {
+    margin-bottom: 0;
+  }
+  .page-content :where(h1, h2, h3, h4, h5, h6) {
+    margin-bottom: calc(0.3em + 10px);
+  }
+
+  /* WordPress block markup inside blog post bodies (src/content/posts/*.json) */
+  .is-layout-flow > * {
+    @apply mb-[1.5em] mt-0;
+  }
+  .is-layout-flow > :where(h1, h2, h3, h4, h5, h6) {
+    @apply mt-[1.5em];
+  }
+  .is-layout-flow > :first-child {
+    margin-top: 0;
+  }
+  .is-layout-flow > :last-child {
+    margin-bottom: 0;
+  }
+  .is-layout-flow :where(h1, h2, h3, h4, h5, h6) {
+    margin-bottom: calc(0.3em + 10px);
+  }
+
+  .aligncenter {
+    @apply clear-both mx-auto block text-center;
+  }
+  .wp-block-image img {
+    @apply box-border h-auto max-w-full align-bottom;
+  }
+  .wp-block-image.aligncenter {
+    @apply text-center;
+  }
+  .wp-block-image :is(.aligncenter, .alignleft, .alignright),
+  .wp-block-image:is(.aligncenter, .alignleft, .alignright) {
+    @apply table;
+  }
+  .wp-block-quote {
+    @apply box-border break-words font-system text-[16px] font-normal not-italic leading-[1.65] no-underline;
+  }
+  .wp-block-separator {
+    @apply h-0.5 max-w-[100px] border-none border-current text-palette-5;
+  }
+  .wp-block-table {
+    @apply overflow-x-auto;
+  }
+  .wp-block-table table {
+    @apply w-full border-collapse;
+  }
+  .wp-block-table thead {
+    @apply border-b-[3px] border-solid;
+  }
+  .wp-block-table :is(td, th) {
+    @apply border border-solid p-[0.5em];
+  }
+  .wp-block-table table:not(.has-border-color) :is(thead, tfoot, td, th) {
+    @apply border-palette-5;
+  }
+  .wp-block-table .has-fixed-layout {
+    @apply w-full table-fixed;
+  }
+  .wp-block-table .has-fixed-layout :is(td, th) {
+    word-break: break-word;
+  }
+  .has-palette-color-1-color {
+    @apply !text-palette-1;
+  }
+  .has-palette-color-2-color {
+    @apply !text-palette-2;
+  }
+}

@@ -48,10 +48,10 @@
 			  </li>
 		
           <li class="relative nav-item">
-            <button class="nav-toggle hover:text-[#0595C4] transition cursor-pointer flex items-center gap-1"
+            <button class="nav-toggle group hover:text-[#0595C4] transition cursor-pointer flex items-center gap-1"
                     data-menu="treatments" type="button">
               <a href="/ayurvedic-treatments/">Treatments</a>
-              <span class="nav-arrow text-sm transition-transform duration-300">
+              <span class="nav-arrow text-sm transition-transform duration-300 group-[.pv-active]:rotate-180">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
                   <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                 </svg>
@@ -60,10 +60,10 @@
           </li>
 
           <li class="relative nav-item">
-            <button class="nav-toggle hover:text-[#0595C4] transition cursor-pointer flex items-center gap-1"
+            <button class="nav-toggle group hover:text-[#0595C4] transition cursor-pointer flex items-center gap-1"
                     data-menu="doctors" type="button">
               <a href="/doctors/">Doctors</a>
-              <span class="nav-arrow text-sm transition-transform duration-300">
+              <span class="nav-arrow text-sm transition-transform duration-300 group-[.pv-active]:rotate-180">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
                   <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                 </svg>
@@ -72,10 +72,10 @@
           </li>
 
           <li class="relative nav-item">
-            <button class="nav-toggle hover:text-[#0595C4] transition cursor-pointer flex items-center gap-1"
+            <button class="nav-toggle group hover:text-[#0595C4] transition cursor-pointer flex items-center gap-1"
                     data-menu="resources" type="button">
               <span>Resources</span>
-              <span class="nav-arrow text-sm transition-transform duration-300">
+              <span class="nav-arrow text-sm transition-transform duration-300 group-[.pv-active]:rotate-180">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
                   <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                 </svg>
@@ -149,7 +149,7 @@
   </div>
 
   <!-- Treatments Mega Menu -->
-  <div id="menu-treatments" class="mega-menu hidden lg:block absolute left-0 right-0 top-full opacity-0 invisible transition-all duration-300 bg-white shadow-2xl">
+  <div id="menu-treatments" class="mega-menu pointer-events-none hidden lg:block absolute left-0 right-0 top-full opacity-0 invisible transition-all duration-300 bg-white shadow-2xl [&.pv-open]:pointer-events-auto [&.pv-open]:!visible [&.pv-open]:!opacity-100">
     <div class="max-w-[1360px] mx-auto px-4 py-10">
       <div class="grid grid-cols-4 gap-x-8 gap-y-4">
                   <div class="space-y-4">
@@ -211,7 +211,7 @@
   </div>
 
   <!-- Doctors Mega Menu (like Treatments) -->
-<div id="menu-doctors" class="mega-menu hidden lg:block absolute left-0 right-0 top-full opacity-0 invisible transition-all duration-300 bg-white shadow-2xl">
+<div id="menu-doctors" class="mega-menu pointer-events-none hidden lg:block absolute left-0 right-0 top-full opacity-0 invisible transition-all duration-300 bg-white shadow-2xl [&.pv-open]:pointer-events-auto [&.pv-open]:!visible [&.pv-open]:!opacity-100">
   <div class="max-w-[1360px] mx-auto px-4 py-10">
     <div class="grid grid-cols-4 gap-x-8 gap-y-4">
               <div class="space-y-4">
@@ -265,7 +265,7 @@
 </div>
 
   <!-- Resources Menu -->
-  <div id="menu-resources" class="dropdown-menu hidden lg:block fixed opacity-0 invisible transition-all duration-300 bg-white shadow-2xl rounded-lg mt-2 min-w-[180px] z-50">
+  <div id="menu-resources" class="dropdown-menu pointer-events-none [&.pv-open]:pointer-events-auto [&.pv-open]:!visible [&.pv-open]:!opacity-100 hidden lg:block fixed opacity-0 invisible transition-all duration-300 bg-white shadow-2xl rounded-lg mt-2 min-w-[180px] z-50">
     <div class="py-4 px-6">
       <div class="space-y-3">
                   <a href="/blogs/" class="block text-sm text-gray-700 hover:text-[#0595C4] transition">
@@ -282,17 +282,17 @@
 </header>
 
 <!-- Mobile Menu Drawer -->
-<div id="mobileMenu" class="lg:hidden fixed left-0 right-0 top-[80px] bg-white shadow-2xl z-40 overflow-hidden max-h-0 opacity-0 transition-all duration-300">
+<div id="mobileMenu" class="lg:hidden fixed left-0 right-0 top-[80px] bg-white shadow-2xl z-40 overflow-hidden max-h-0 opacity-0 transition-all duration-300 [&.pv-open]:max-h-[calc(100vh-80px)] [&.pv-open]:opacity-100">
   <div class="px-6 pt-14 pb-10 overflow-y-auto max-h-[calc(100vh-80px)]">
 
     <nav class="flex flex-col space-y-6 mb-6">
-      		  <a href="/" class="mobile-menu-item text-xl font-semibold text-gray-900 hover:text-[#0595C4]">
+      		  <a href="/" class="mobile-menu-item opacity-0 animate-fade-in-up [animation-delay:0.1s] text-xl font-semibold text-gray-900 hover:text-[#0595C4]">
 			Home		  </a>
-				  <a href="/about-us/" class="mobile-menu-item text-xl font-semibold text-gray-900 hover:text-[#0595C4]">
+				  <a href="/about-us/" class="mobile-menu-item opacity-0 animate-fade-in-up [animation-delay:0.15s] text-xl font-semibold text-gray-900 hover:text-[#0595C4]">
 			About		  </a>
 		
       <!-- Treatments (mobile) -->
-      <div class="mobile-menu-item">
+      <div class="mobile-menu-item opacity-0 animate-fade-in-up [animation-delay:0.2s]">
         <button class="mobile-nav-toggle text-xl font-semibold text-gray-900 hover:text-[#0595C4] flex items-center justify-between w-full"
                 data-mobile-menu="treatments" type="button">
           <span>Treatments</span>
@@ -303,7 +303,7 @@
           </span>
         </button>
 
-        <div id="mobile-menu-treatments" class="mobile-submenu overflow-hidden max-h-0 transition-all duration-300">
+        <div id="mobile-menu-treatments" class="mobile-submenu overflow-hidden max-h-0 transition-all duration-300 [&.pv-open]:max-h-[1400px]">
           <div class="mt-8 space-y-6">
             <div class="grid grid-cols-2 gap-x-4 gap-y-4">
               <a href="/treatment/skin-diseases/" class="text-xs text-gray-700 hover:text-[#0595C4]">Skin problems</a><a href="/treatment/joint-and-back-pain/" class="text-xs text-gray-700 hover:text-[#0595C4]">Joint &amp; Back Pain</a><a href="/treatment/thyroid-problems/" class="text-xs text-gray-700 hover:text-[#0595C4]">Thyroid Disorders</a><a href="/treatments/diabates/" class="text-xs text-gray-700 hover:text-[#0595C4]">Diabetes Reversal</a><a href="/treatment/pcod-and-pcos/" class="text-xs text-gray-700 hover:text-[#0595C4]">PMOS(PCOD/PCOS)</a><a href="/treatments/asthma-allergy/" class="text-xs text-gray-700 hover:text-[#0595C4]">Asthma, Allergy</a><a href="/ayurvedic-treatments/stroke-recovery/" class="text-xs text-gray-700 hover:text-[#0595C4]">Stroke Recovery</a><a href="/treatment/varicose-veins/" class="text-xs text-gray-700 hover:text-[#0595C4]">Varicose veins</a><a href="/treatment/hair-scalp-care-problems/" class="text-xs text-gray-700 hover:text-[#0595C4]">Hair &amp; Scalp problem</a><a href="/treatments/piles/" class="text-xs text-gray-700 hover:text-[#0595C4]">Piles</a><a href="/ayurvedic-treatment/anal-fissure/" class="text-xs text-gray-700 hover:text-[#0595C4]">Fissure</a><a href="/treatments/anal-fistula/" class="text-xs text-gray-700 hover:text-[#0595C4]">Fistula</a><a href="/treatment/male-infertility/" class="text-xs text-gray-700 hover:text-[#0595C4]">Male Infertility</a><a href="/ayurvedic-treatments/female-infertility/" class="text-xs text-gray-700 hover:text-[#0595C4]">Female Infertility</a><a href="/treatment/gastritis/" class="text-xs text-gray-700 hover:text-[#0595C4]">Gastritis</a><a href="/treatment/autoimmune-diseases/" class="text-xs text-gray-700 hover:text-[#0595C4]">Autoimmune Diseases</a><a href="/treatment/lipoma/" class="text-xs text-gray-700 hover:text-[#0595C4]">Lipomas</a><a href="/treatments/liver-kidney-issue/" class="text-xs text-gray-700 hover:text-[#0595C4]">Liver issue</a><a href="/treatment/kidney-stone/" class="text-xs text-gray-700 hover:text-[#0595C4]">Kidney Problems</a><a href="/ayurvedic-treatments/eye-treatment/" class="text-xs text-gray-700 hover:text-[#0595C4]">Eye Treatment</a><a href="/ayurvedic-treatments/weight-loss/" class="text-xs text-gray-700 hover:text-[#0595C4]">Weight Loss</a><a href="/ayurvedic-treatments/keloid-scars/" class="text-xs text-gray-700 hover:text-[#0595C4]">Keloid Scars</a><a href="/treatments/" class="text-sm text-[#0595C4] font-semibold hover:underline transition">Read More →</a>            </div>
@@ -312,7 +312,7 @@
       </div>
 
       <!-- Doctors (mobile) -->
-      <div class="mobile-menu-item">
+      <div class="mobile-menu-item opacity-0 animate-fade-in-up [animation-delay:0.25s]">
         <button class="mobile-nav-toggle text-xl font-semibold text-gray-900 hover:text-[#0595C4] flex items-center justify-between w-full"
                 data-mobile-menu="doctors" type="button">
           <span>Doctors</span>
@@ -323,7 +323,7 @@
           </span>
         </button>
 
-        <div id="mobile-menu-doctors" class="mobile-submenu overflow-hidden max-h-0 transition-all duration-300">
+        <div id="mobile-menu-doctors" class="mobile-submenu overflow-hidden max-h-0 transition-all duration-300 [&.pv-open]:max-h-[1400px]">
           <div class="mt-8 space-y-4">
             <h4 class="text-xs font-semibold text-gray-400 tracking-wider">Our Doctors</h4>
             <div class="flex flex-col gap-4">
@@ -333,7 +333,7 @@
       </div>
 
       <!-- Resources (mobile) -->
-      <div class="mobile-menu-item">
+      <div class="mobile-menu-item opacity-0 animate-fade-in-up [animation-delay:0.3s]">
         <button class="mobile-nav-toggle text-xl font-semibold text-gray-900 hover:text-[#0595C4] flex items-center justify-between w-full"
                 data-mobile-menu="resources" type="button">
           <span>Resources</span>
@@ -344,7 +344,7 @@
           </span>
         </button>
 
-        <div id="mobile-menu-resources" class="mobile-submenu overflow-hidden max-h-0 transition-all duration-300">
+        <div id="mobile-menu-resources" class="mobile-submenu overflow-hidden max-h-0 transition-all duration-300 [&.pv-open]:max-h-[1400px]">
           <div class="mt-8 space-y-4">
             <h4 class="text-xs font-semibold text-gray-400 tracking-wider">Resources</h4>
             <div class="flex flex-col gap-4">
@@ -360,12 +360,12 @@
           </div>
         </div>
       </div>
-				  <a href="/contact" class="mobile-menu-item text-xl font-semibold text-gray-900 hover:text-[#0595C4]">
+				  <a href="/contact" class="mobile-menu-item opacity-0 animate-fade-in-up [animation-delay:0.35s] text-xl font-semibold text-gray-900 hover:text-[#0595C4]">
 			Contact		  </a>
 		    </nav>
 
     <!-- Social Icons -->
-    <div class="mobile-menu-item flex gap-4 mb-6">
+    <div class="mobile-menu-item opacity-0 animate-fade-in-up [animation-delay:0.15s] flex gap-4 mb-6">
               <a href="https://www.youtube.com/@praanavaidya" class="w-8 h-8 flex items-center justify-center">
           <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" r="14.5" stroke="black"/><path fill-rule="evenodd" clip-rule="evenodd" d="M15 9.1123C14.1068 9.1123 13.065 9.1333 12.0495 9.1618L12.0082 9.1633C10.9747 9.19255 10.1407 9.2158 9.48375 9.32455C8.799 9.4378 8.2305 9.65455 7.776 10.1218C7.32 10.5906 7.12125 11.1703 7.0275 11.8641C6.9375 12.5316 6.9375 13.3776 6.9375 14.4291V15.5721C6.9375 16.6221 6.9375 17.4681 7.0275 18.1363C7.1205 18.8301 7.32 19.4098 7.776 19.8786C8.2305 20.3466 8.799 20.5626 9.48375 20.6758C10.1407 20.7846 10.9747 20.8078 12.0082 20.8371L12.0495 20.8386C13.0658 20.8671 14.1068 20.8881 15 20.8881C15.8932 20.8881 16.935 20.8671 17.9505 20.8386L17.9918 20.8371C19.0253 20.8078 19.8592 20.7846 20.5162 20.6758C21.201 20.5626 21.7695 20.3458 22.224 19.8786C22.68 19.4098 22.8795 18.8301 22.9725 18.1363C23.0625 17.4688 23.0625 16.6228 23.0625 15.5713V14.4283C23.0625 13.3776 23.0625 12.5316 22.9725 11.8641C22.8795 11.1703 22.68 10.5906 22.224 10.1218C21.7695 9.6538 21.201 9.4378 20.5162 9.32455C19.8592 9.2158 19.0252 9.19255 17.991 9.1633L17.9505 9.1618C16.9673 9.13196 15.9837 9.11546 15 9.1123ZM14.154 16.9881C14.0685 17.0369 13.9716 17.0625 13.8731 17.0621C13.7746 17.0618 13.6779 17.0356 13.5927 16.9862C13.5075 16.9367 13.4368 16.8658 13.3876 16.7804C13.3384 16.6951 13.3125 16.5983 13.3125 16.4998V13.4998C13.3125 13.4013 13.3384 13.3045 13.3876 13.2192C13.4368 13.1338 13.5075 13.0629 13.5927 13.0135C13.6779 12.964 13.7746 12.9378 13.8731 12.9375C13.9716 12.9372 14.0685 12.9627 14.154 13.0116L16.779 14.5116C16.865 14.5608 16.9365 14.6318 16.9863 14.7176C17.036 14.8033 17.0622 14.9007 17.0622 14.9998C17.0622 15.0989 17.036 15.1963 16.9863 15.282C16.9365 15.3678 16.865 15.4388 16.779 15.4881L14.154 16.9881Z" fill="black"/></svg>        </a>
               <a href="https://www.instagram.com/praanavaidya.hospitals/" class="w-8 h-8 flex items-center justify-center">
@@ -377,7 +377,7 @@
           </div>
 
     <!-- Mobile CTA -->
-    <a href="/" class="open-modal mobile-menu-item bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300 inline-flex items-center gap-2">
+    <a href="/" class="open-modal mobile-menu-item opacity-0 animate-fade-in-up [animation-delay:0.2s] bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300 inline-flex items-center gap-2">
       Get Consultation Now →    </a>
   </div>
 </div>

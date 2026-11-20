@@ -1,10 +1,10 @@
 ---
 // Homepage-only "we are hiring" popup (opens after 10s).
 ---
-<div id="image-popup-overlay">
-    <div id="image-popup-box">
-        <span id="popup-close">✕</span>
-        <img src="/images/2026/10/praanavaidya-hiring-banner.avif" alt="Popup Banner">
+<div id="image-popup-overlay" class="fixed left-0 top-0 z-[9999] hidden h-full w-full items-center justify-center bg-black/70 [&.visible]:flex [&.visible]:animate-fade-in [&.visible.hiding]:animate-fade-out">
+    <div id="image-popup-box" class="relative max-w-[400px] max-[768px]:max-w-[300px] [.visible_&]:animate-pop-in [.visible.hiding_&]:animate-pop-out">
+        <span id="popup-close" class="absolute -right-[10px] -top-[10px] cursor-pointer rounded-full bg-white px-[10px] py-[5px] text-[16px]">✕</span>
+        <img class="h-auto w-full rounded-[10px]" src="/images/2026/10/praanavaidya-hiring-banner.avif" alt="Popup Banner">
     </div>
 </div>
 <script is:inline>

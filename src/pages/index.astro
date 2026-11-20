@@ -71,21 +71,19 @@ const page = {
 };
 ---
 <BaseLayout styles={['no-scrollbar', 'slides', 'video-testimonials', 'home-slides', 'doctor-carousel', 'doctor-talks-track', 'blog-cards-mobile']} seo={seo} bodyClass={page.bodyClass} showHiringPopup>
-	<div
-		class="ct-container-full"
-				data-content="normal"		>
+	<div>
 
 	<article
 		id="post-7"
 		class="post-7 page type-page status-publish has-post-thumbnail hentry">
 
-		<div class="entry-content is-layout-constrained">
+		<div class="page-content">
 				
 <section id="hero" class="relative w-full overflow-hidden shadow-lg rounded-bl-3xl rounded-br-3xl">
 
     <!-- BACKGROUND VIDEO -->
     <video 
-    class="hero-video desktop-video absolute top-0 left-0 w-full h-full object-cover z-0"
+    class="hero-video max-[768px]:hidden absolute top-0 left-0 w-full h-full object-cover z-0"
     autoplay 
     muted 
     loop 
@@ -96,7 +94,7 @@ const page = {
 
 <!-- Mobile Video -->
 <video 
-    class="hero-video mobile-video absolute top-0 left-0 w-full h-full object-cover z-0"
+    class="hero-video hidden max-[768px]:block absolute top-0 left-0 w-full h-full object-cover z-0"
     autoplay 
     muted 
     loop 
@@ -344,7 +342,7 @@ const page = {
 
             <!-- Cards -->
             <div id="pvServicesCarousel"
-                 class="flex justify-center gap-6 overflow-x-auto scroll-smooth no-scrollbar py-6 ">
+                 class="flex justify-center gap-6 overflow-x-auto scroll-smooth no-scrollbar scrollbar-hide py-6">
 
                                 <div class="flex-none  w-[85vw] sm:w-[380px] lg:w-[360px] max-w-[360px]
             bg-white rounded-3xl overflow-hidden shadow-lg
@@ -528,9 +526,7 @@ const page = {
   <div id="pv-treatment-items" class="hidden">
           
       <a href="/treatment/skin-diseases/"
-         class="pv-treatment-item block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4
-                transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03]
-                group h-fit"
+         class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] group h-fit"
          aria-label="Skin Problems">
 
         <div class="relative z-10">
@@ -554,9 +550,7 @@ const page = {
       </a>
           
       <a href="/treatment/joint-and-back-pain/"
-         class="pv-treatment-item block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4
-                transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03]
-                group h-fit"
+         class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] group h-fit"
          aria-label="Joint &amp; Bone Issue">
 
         <div class="relative z-10">
@@ -580,9 +574,7 @@ const page = {
       </a>
           
       <a href="/treatment/piles/"
-         class="pv-treatment-item block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4
-                transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03]
-                group h-fit"
+         class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] group h-fit"
          aria-label="Piles">
 
         <div class="relative z-10">
@@ -606,9 +598,7 @@ const page = {
       </a>
           
       <a href="/treatments/diabates-reversal/"
-         class="pv-treatment-item block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4
-                transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03]
-                group h-fit"
+         class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] group h-fit"
          aria-label="Diabetes Reversal">
 
         <div class="relative z-10">
@@ -632,9 +622,7 @@ const page = {
       </a>
           
       <a href="/treatment/pcod-and-pcos/"
-         class="pv-treatment-item block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4
-                transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03]
-                group h-fit"
+         class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] group h-fit"
          aria-label="PMOS(PCOD/PCOS)">
 
         <div class="relative z-10">
@@ -658,9 +646,7 @@ const page = {
       </a>
           
       <a href="/treatment/autoimmune-diseases/"
-         class="pv-treatment-item block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4
-                transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03]
-                group h-fit"
+         class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] group h-fit"
          aria-label="Autoimmune Diseases">
 
         <div class="relative z-10">
@@ -684,9 +670,7 @@ const page = {
       </a>
           
       <a href="/ayurvedic-treatments/asthma-allergy/"
-         class="pv-treatment-item block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4
-                transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03]
-                group h-fit"
+         class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] group h-fit"
          aria-label="Asthma &amp; Allergy">
 
         <div class="relative z-10">
@@ -710,9 +694,7 @@ const page = {
       </a>
           
       <a href="/ayurvedic-treatments/stroke-recovery/"
-         class="pv-treatment-item block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4
-                transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03]
-                group h-fit"
+         class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] group h-fit"
          aria-label="Stroke Recovery">
 
         <div class="relative z-10">
@@ -736,9 +718,7 @@ const page = {
       </a>
           
       <a href="/treatment/varicose-veins/"
-         class="pv-treatment-item block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4
-                transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03]
-                group h-fit"
+         class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] group h-fit"
          aria-label="Varicose Veins">
 
         <div class="relative z-10">
@@ -762,9 +742,7 @@ const page = {
       </a>
           
       <a href="/treatments/hair-scalp-care-problems/"
-         class="pv-treatment-item block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4
-                transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03]
-                group h-fit"
+         class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] group h-fit"
          aria-label="Hair &amp; Scalp Problems">
 
         <div class="relative z-10">
@@ -788,9 +766,7 @@ const page = {
       </a>
           
       <a href="/treatment/thyroid-problems/"
-         class="pv-treatment-item block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4
-                transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03]
-                group h-fit"
+         class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] group h-fit"
          aria-label="Thyroid Disorders">
 
         <div class="relative z-10">
@@ -814,9 +790,7 @@ const page = {
       </a>
           
       <a href="/treatment/male-infertility/"
-         class="pv-treatment-item block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4
-                transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03]
-                group h-fit"
+         class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] group h-fit"
          aria-label="Male Infertility">
 
         <div class="relative z-10">
@@ -840,9 +814,7 @@ const page = {
       </a>
           
       <a href="/treatments/female-infertility/"
-         class="pv-treatment-item block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4
-                transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03]
-                group h-fit"
+         class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] group h-fit"
          aria-label="Female Infertility">
 
         <div class="relative z-10">
@@ -866,9 +838,7 @@ const page = {
       </a>
           
       <a href="/treatment/gastritis/"
-         class="pv-treatment-item block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4
-                transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03]
-                group h-fit"
+         class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] group h-fit"
          aria-label="Gastritis">
 
         <div class="relative z-10">
@@ -892,9 +862,7 @@ const page = {
       </a>
           
       <a href="/ayurvedic-treatments/liver-kidney-issue/"
-         class="pv-treatment-item block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4
-                transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03]
-                group h-fit"
+         class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] group h-fit"
          aria-label="Liver Issues">
 
         <div class="relative z-10">
@@ -918,9 +886,7 @@ const page = {
       </a>
           
       <a href="/treatment/kidney-stone/"
-         class="pv-treatment-item block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4
-                transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03]
-                group h-fit"
+         class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow block relative overflow-hidden bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] group h-fit"
          aria-label="Kidney Problems">
 
         <div class="relative z-10">
@@ -945,7 +911,7 @@ const page = {
       </div>
 
   <!-- scrolling viewport -->
-  <div id="pv-carousel" class="flex overflow-x-auto scroll-smooth scrollbar-hide"></div>
+  <div id="pv-carousel" class="flex snap-x snap-mandatory overflow-x-auto scroll-smooth scrollbar-hide"></div>
 
 </div>
 
@@ -1005,7 +971,7 @@ const page = {
 
     for (let i = 0; i < items.length; i += count) {
       const slide = document.createElement("div");
-      slide.className = "pv-slide";
+      slide.className = "pv-slide grid min-w-full snap-start gap-6 p-4 min-[769px]:grid-cols-3 max-[768px]:grid-cols-1 min-[769px]:auto-rows-[1fr] max-[768px]:auto-rows-auto";
       slide.style.flex = "0 0 100%"; // important for flex scrolling
 
       items.slice(i, i + count).forEach(item => {
@@ -1137,7 +1103,7 @@ const page = {
     </div>
 </section>
 
-<div class="vt-wrapper-9x7k"><h2 class="vt-title-9x7k">Patient Testimonials</h2><div class="vt-carousel-9x7k" id="vt-carousel-9x7k-1" role="region" aria-roledescription="carousel" aria-label="Patient Testimonials"><button type="button" class="vt-arrow-9x7k vt-prev-9x7k" aria-label="Previous testimonial" aria-controls="vt-carousel-9x7k-1-track" disabled><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg></button><div class="vt-container-9x7k vt-track-9x7k" id="vt-carousel-9x7k-1-track" tabindex="0"><div class="vt-card-9x7k" role="group" aria-roledescription="slide" aria-label="1 of 3"><div class="vt-video-wrapper-9x7k"><video class="vt-video-9x7k" controls playsinline preload="none"><source src="/videos/2026/08/joint-pain-video-testimonial.mp4" type="video/mp4"></video></div><div class="vt-content-c3d4"><p class="vt-testimonial-text-9x7k">Earlier, even simple movements were painful. Now, I’m slowly feeling better every day.</p><div><strong></strong><br><span>Joint Pain</span></div></div></div><div class="vt-card-9x7k" role="group" aria-roledescription="slide" aria-label="2 of 3"><div class="vt-video-wrapper-9x7k"><video class="vt-video-9x7k" controls playsinline preload="none"><source src="/videos/2026/08/wellness-video-testimonial.mp4" type="video/mp4"></video></div><div class="vt-content-c3d4"><p class="vt-testimonial-text-9x7k">After the wellness treatment, I just feel lighter, calmer, and completely relaxed.</p><div><strong></strong><br><span>Wellness</span></div></div></div><div class="vt-card-9x7k" role="group" aria-roledescription="slide" aria-label="3 of 3"><div class="vt-video-wrapper-9x7k"><video class="vt-video-9x7k" controls playsinline preload="none"><source src="/videos/2026/08/kalavathi-kotian-hindi-testimonial.mp4" type="video/mp4"></video></div><div class="vt-content-c3d4"><p class="vt-testimonial-text-9x7k">A heartfelt patient testimonial on overcoming pain and difficulty sitting, and experiencing renewed comfort and confidence after treatment.</p><div><strong>Kalavathi Kotian</strong><br><span>Back Pain</span></div></div></div></div><button type="button" class="vt-arrow-9x7k vt-next-9x7k" aria-label="Next testimonial" aria-controls="vt-carousel-9x7k-1-track"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg></button><div class="vt-dots-9x7k" role="group" aria-label="Choose slide"></div></div><div class="vt-view-more-wrapper-9x7k"><a href="/patient-testimonials/" class="vt-view-more-btn-9x7k">View More Testimonials</a></div></div><script is:inline id="vt-script-9x7k">
+<div class="mx-auto min-h-screen max-w-[1200px] justify-items-center bg-cream px-5 pb-6 pt-10 max-[768px]:!min-h-[auto] max-[768px]:px-4 max-[768px]:!py-[25px]"><h2 class="mb-5 mt-0 text-center text-[48px] font-bold leading-[1.25] text-[#1a1a1a] max-[768px]:text-[30px]">Patient Testimonials</h2><div class="vt-carousel-9x7k relative w-full max-[768px]:box-border max-[768px]:px-12 max-[768px]:[&.is-static]:p-0" id="vt-carousel-9x7k-1" role="region" aria-roledescription="carousel" aria-label="Patient Testimonials"><button type="button" class="hidden max-[768px]:flex max-[768px]:items-center max-[768px]:justify-center max-[768px]:absolute max-[768px]:top-[var(--vt-arrow-top,calc(50%_-_21px))] max-[768px]:-translate-y-1/2 max-[768px]:w-[38px] max-[768px]:h-[38px] max-[768px]:p-0 max-[768px]:border-0 max-[768px]:rounded-full max-[768px]:bg-white max-[768px]:text-brand max-[768px]:cursor-pointer max-[768px]:z-20 max-[768px]:shadow-[0_4px_14px_rgba(5,149,196,0.3)] max-[768px]:[transition:background_0.25s_ease,color_0.25s_ease,opacity_0.25s_ease] max-[768px]:hover:bg-white max-[768px]:hover:text-brand max-[768px]:hover:min-h-0 max-[768px]:hover:leading-none max-[768px]:focus:bg-white max-[768px]:focus:text-brand max-[768px]:focus:min-h-0 max-[768px]:focus:leading-none max-[768px]:[&:active:not([disabled])]:bg-brand max-[768px]:[&:active:not([disabled])]:text-white max-[768px]:focus-visible:outline max-[768px]:focus-visible:outline-[3px] max-[768px]:focus-visible:outline-[rgba(5,149,196,0.5)] max-[768px]:focus-visible:outline-offset-2 max-[768px]:disabled:opacity-[.35] max-[768px]:disabled:cursor-default max-[768px]:[&_svg]:w-5 max-[768px]:[&_svg]:h-5 max-[768px]:[&_svg]:block max-[768px]:[.is-static_&]:hidden motion-reduce:transition-none vt-prev-9x7k max-[768px]:left-0" aria-label="Previous testimonial" aria-controls="vt-carousel-9x7k-1-track" disabled><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg></button><div class="vt-container-9x7k mx-auto grid max-w-[1400px] grid-cols-[repeat(3,auto)] flex-wrap justify-center gap-4 max-[1024px]:grid-cols-[repeat(2,auto)] max-[768px]:grid-cols-[1fr] max-[768px]:flex max-[768px]:flex-nowrap max-[768px]:justify-start max-[768px]:gap-10 max-[768px]:!m-0 max-[768px]:!w-full max-[768px]:!p-0 max-[768px]:box-border max-[768px]:overflow-x-auto max-[768px]:overflow-y-hidden max-[768px]:snap-x max-[768px]:snap-mandatory max-[768px]:scroll-smooth max-[768px]:overscroll-x-contain max-[768px]:[touch-action:pan-x_pan-y] max-[768px]:scrollbar-hide max-[768px]:[outline:none] max-[768px]:focus-visible:rounded-2xl max-[768px]:focus-visible:shadow-[0_0_0_3px_rgba(5,149,196,0.45)] motion-reduce:max-[768px]:scroll-auto vt-track-9x7k" id="vt-carousel-9x7k-1-track" tabindex="0"><div class="vt-card-9x7k group/vt relative flex h-[500px] min-h-[320px] w-[320px] flex-none cursor-pointer overflow-hidden rounded-2xl border-[10px] border-solid border-white bg-white shadow-[0_4px_20px_0_rgba(37,99,235,0.2)] [transition:width_0.5s_cubic-bezier(0.16,1,0.3,1),box-shadow_0.3s_ease] hover:w-[600px] hover:shadow-[0_8px_30px_0_rgba(37,99,235,0.3)] max-[768px]:h-auto max-[768px]:min-h-0 max-[768px]:flex-col max-[768px]:box-border max-[768px]:snap-start max-[768px]:[scroll-snap-stop:always] max-[768px]:!m-0 max-[768px]:!w-full max-[768px]:!min-w-0 max-[768px]:!max-w-full max-[768px]:!flex-[0_0_100%]" role="group" aria-roledescription="slide" aria-label="1 of 3"><div class="vt-video-wrapper-9x7k relative z-10 flex aspect-[9/16] h-full w-[300px] shrink-0 items-center justify-center bg-[#eee] max-[768px]:h-[400px] max-[768px]:w-full"><video class="vt-video-9x7k !block h-full w-full rounded-[10px] object-contain" controls playsinline preload="none"><source src="/videos/2026/08/joint-pain-video-testimonial.mp4" type="video/mp4"></video></div><div class="flex w-0 flex-none flex-col justify-between overflow-hidden whitespace-normal rounded-[10px] px-0 py-5 text-black opacity-0 [transform:translateX(-100%)] [transition:width_0.3s_ease,padding_0.3s_ease,opacity_0.25s_ease] group-hover/vt:flex group-hover/vt:opacity-100 group-hover/vt:[transform:translateX(0)] group-[.is-playing]/vt:w-[220px] group-[.is-playing]/vt:p-5 group-[.is-playing]/vt:opacity-100 max-[768px]:!hidden"><p class="mb-[25px] text-[15px] leading-[1.7] text-[#333]">Earlier, even simple movements were painful. Now, I’m slowly feeling better every day.</p><div><strong></strong><br><span>Joint Pain</span></div></div></div><div class="vt-card-9x7k group/vt relative flex h-[500px] min-h-[320px] w-[320px] flex-none cursor-pointer overflow-hidden rounded-2xl border-[10px] border-solid border-white bg-white shadow-[0_4px_20px_0_rgba(37,99,235,0.2)] [transition:width_0.5s_cubic-bezier(0.16,1,0.3,1),box-shadow_0.3s_ease] hover:w-[600px] hover:shadow-[0_8px_30px_0_rgba(37,99,235,0.3)] max-[768px]:h-auto max-[768px]:min-h-0 max-[768px]:flex-col max-[768px]:box-border max-[768px]:snap-start max-[768px]:[scroll-snap-stop:always] max-[768px]:!m-0 max-[768px]:!w-full max-[768px]:!min-w-0 max-[768px]:!max-w-full max-[768px]:!flex-[0_0_100%]" role="group" aria-roledescription="slide" aria-label="2 of 3"><div class="vt-video-wrapper-9x7k relative z-10 flex aspect-[9/16] h-full w-[300px] shrink-0 items-center justify-center bg-[#eee] max-[768px]:h-[400px] max-[768px]:w-full"><video class="vt-video-9x7k !block h-full w-full rounded-[10px] object-contain" controls playsinline preload="none"><source src="/videos/2026/08/wellness-video-testimonial.mp4" type="video/mp4"></video></div><div class="flex w-0 flex-none flex-col justify-between overflow-hidden whitespace-normal rounded-[10px] px-0 py-5 text-black opacity-0 [transform:translateX(-100%)] [transition:width_0.3s_ease,padding_0.3s_ease,opacity_0.25s_ease] group-hover/vt:flex group-hover/vt:opacity-100 group-hover/vt:[transform:translateX(0)] group-[.is-playing]/vt:w-[220px] group-[.is-playing]/vt:p-5 group-[.is-playing]/vt:opacity-100 max-[768px]:!hidden"><p class="mb-[25px] text-[15px] leading-[1.7] text-[#333]">After the wellness treatment, I just feel lighter, calmer, and completely relaxed.</p><div><strong></strong><br><span>Wellness</span></div></div></div><div class="vt-card-9x7k group/vt relative flex h-[500px] min-h-[320px] w-[320px] flex-none cursor-pointer overflow-hidden rounded-2xl border-[10px] border-solid border-white bg-white shadow-[0_4px_20px_0_rgba(37,99,235,0.2)] [transition:width_0.5s_cubic-bezier(0.16,1,0.3,1),box-shadow_0.3s_ease] hover:w-[600px] hover:shadow-[0_8px_30px_0_rgba(37,99,235,0.3)] max-[768px]:h-auto max-[768px]:min-h-0 max-[768px]:flex-col max-[768px]:box-border max-[768px]:snap-start max-[768px]:[scroll-snap-stop:always] max-[768px]:!m-0 max-[768px]:!w-full max-[768px]:!min-w-0 max-[768px]:!max-w-full max-[768px]:!flex-[0_0_100%]" role="group" aria-roledescription="slide" aria-label="3 of 3"><div class="vt-video-wrapper-9x7k relative z-10 flex aspect-[9/16] h-full w-[300px] shrink-0 items-center justify-center bg-[#eee] max-[768px]:h-[400px] max-[768px]:w-full"><video class="vt-video-9x7k !block h-full w-full rounded-[10px] object-contain" controls playsinline preload="none"><source src="/videos/2026/08/kalavathi-kotian-hindi-testimonial.mp4" type="video/mp4"></video></div><div class="flex w-0 flex-none flex-col justify-between overflow-hidden whitespace-normal rounded-[10px] px-0 py-5 text-black opacity-0 [transform:translateX(-100%)] [transition:width_0.3s_ease,padding_0.3s_ease,opacity_0.25s_ease] group-hover/vt:flex group-hover/vt:opacity-100 group-hover/vt:[transform:translateX(0)] group-[.is-playing]/vt:w-[220px] group-[.is-playing]/vt:p-5 group-[.is-playing]/vt:opacity-100 max-[768px]:!hidden"><p class="mb-[25px] text-[15px] leading-[1.7] text-[#333]">A heartfelt patient testimonial on overcoming pain and difficulty sitting, and experiencing renewed comfort and confidence after treatment.</p><div><strong>Kalavathi Kotian</strong><br><span>Back Pain</span></div></div></div></div><button type="button" class="hidden max-[768px]:flex max-[768px]:items-center max-[768px]:justify-center max-[768px]:absolute max-[768px]:top-[var(--vt-arrow-top,calc(50%_-_21px))] max-[768px]:-translate-y-1/2 max-[768px]:w-[38px] max-[768px]:h-[38px] max-[768px]:p-0 max-[768px]:border-0 max-[768px]:rounded-full max-[768px]:bg-white max-[768px]:text-brand max-[768px]:cursor-pointer max-[768px]:z-20 max-[768px]:shadow-[0_4px_14px_rgba(5,149,196,0.3)] max-[768px]:[transition:background_0.25s_ease,color_0.25s_ease,opacity_0.25s_ease] max-[768px]:hover:bg-white max-[768px]:hover:text-brand max-[768px]:hover:min-h-0 max-[768px]:hover:leading-none max-[768px]:focus:bg-white max-[768px]:focus:text-brand max-[768px]:focus:min-h-0 max-[768px]:focus:leading-none max-[768px]:[&:active:not([disabled])]:bg-brand max-[768px]:[&:active:not([disabled])]:text-white max-[768px]:focus-visible:outline max-[768px]:focus-visible:outline-[3px] max-[768px]:focus-visible:outline-[rgba(5,149,196,0.5)] max-[768px]:focus-visible:outline-offset-2 max-[768px]:disabled:opacity-[.35] max-[768px]:disabled:cursor-default max-[768px]:[&_svg]:w-5 max-[768px]:[&_svg]:h-5 max-[768px]:[&_svg]:block max-[768px]:[.is-static_&]:hidden motion-reduce:transition-none vt-next-9x7k max-[768px]:right-0" aria-label="Next testimonial" aria-controls="vt-carousel-9x7k-1-track"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg></button><div class="vt-dots-9x7k hidden max-[768px]:mt-5 max-[768px]:flex max-[768px]:min-h-[22px] max-[768px]:flex-nowrap max-[768px]:items-center max-[768px]:justify-center max-[768px]:gap-0 max-[768px]:[.is-static_&]:hidden" role="group" aria-label="Choose slide"></div></div><div class="mt-9 p-0 text-center"><a href="/patient-testimonials/" class="m-0 inline-block rounded-[50px] bg-brand px-10 py-[14px] text-[16px] font-semibold tracking-[0.5px] text-white no-underline shadow-[0_4px_14px_rgba(5,149,196,0.3)] [transition:background_0.25s_ease,transform_0.2s_ease,box-shadow_0.25s_ease] hover:-translate-y-0.5 hover:bg-[#0478a0] hover:text-white hover:no-underline hover:shadow-[0_6px_20px_rgba(5,149,196,0.4)] active:translate-y-0 motion-reduce:transition-none">View More Testimonials</a></div></div><script is:inline id="vt-script-9x7k">
 (function(){
     var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     var behavior = reduce ? 'auto' : 'smooth';
@@ -1197,7 +1163,7 @@ const page = {
                 for (var i = 0; i < n; i++) {
                     var b = document.createElement('button');
                     b.type = 'button';
-                    b.className = 'vt-dot-9x7k';
+                    b.className = 'vt-dot-9x7k h-2 w-2 cursor-pointer rounded-full bg-[#cbd5e1] [transition:all_0.3s_ease] max-[768px]:appearance-none max-[768px]:w-[22px] max-[768px]:h-[22px] max-[768px]:min-w-0 max-[768px]:min-h-0 max-[768px]:m-0 max-[768px]:p-0 max-[768px]:border-0 max-[768px]:rounded-none max-[768px]:bg-transparent max-[768px]:shadow-none max-[768px]:[outline:none] max-[768px]:text-[0px] max-[768px]:leading-[0] max-[768px]:text-transparent max-[768px]:flex max-[768px]:items-center max-[768px]:justify-center max-[768px]:[-webkit-tap-highlight-color:transparent] max-[768px]:focus-visible:[outline:2px_solid_#0595C4] max-[768px]:focus-visible:-outline-offset-2 max-[768px]:focus-visible:rounded-md max-[768px]:before:content-[""] max-[768px]:before:block max-[768px]:before:flex-none max-[768px]:before:w-2 max-[768px]:before:h-2 max-[768px]:before:rounded-[8px] max-[768px]:before:bg-[#cfe6ef] max-[768px]:before:[transition:width_0.25s_ease,height_0.25s_ease,background_0.25s_ease] max-[768px]:[&.is-active]:before:w-5 max-[768px]:[&.is-active]:before:bg-brand max-[768px]:[&.is-edge]:before:w-[5px] max-[768px]:[&.is-edge]:before:h-[5px] motion-reduce:before:transition-none';
                     b.setAttribute('aria-label', 'Go to slide ' + (i + 1));
                     b.addEventListener('click', go.bind(null, i));
                     frag.appendChild(b);
@@ -1293,14 +1259,10 @@ const page = {
      class="flex overflow-x-auto scroll-smooth scrollbar-hide">
      
     <div id="pv-items-ther_23aa0e" class="hidden">
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/book/2025/12/Abhyanga.avif"
                              alt="Abhyanga"
                              loading="lazy"/>
@@ -1315,14 +1277,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/book/2025/10/Panchakarma.avif"
                              alt="Panchakarma"
                              loading="lazy"/>
@@ -1337,14 +1295,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/03/udvartanam-therapy-img.png"
                              alt="Udvartanam"
                              loading="lazy"/>
@@ -1359,14 +1313,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/book/2025/12/Nasyam.avif"
                              alt="Nasyam"
                              loading="lazy"/>
@@ -1381,14 +1331,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/book/2025/12/Kati-Basti.avif"
                              alt="Kati Basti"
                              loading="lazy"/>
@@ -1403,14 +1349,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/book/2025/12/Netra-Tarpana.avif"
                              alt="Netra Tarpana"
                              loading="lazy"/>
@@ -1425,14 +1367,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/02/Padabhyanga.avif"
                              alt="Padabhyanga"
                              loading="lazy"/>
@@ -1447,14 +1385,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/02/Bashpasweda.avif"
                              alt="Bashpasweda"
                              loading="lazy"/>
@@ -1469,14 +1403,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/02/Dhoomapana.avif"
                              alt="Dhoomapana"
                              loading="lazy"/>
@@ -1491,14 +1421,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/02/Greevavasthi.avif"
                              alt="Greevavasthi"
                              loading="lazy"/>
@@ -1513,14 +1439,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/02/Januvasthi.avif"
                              alt="Januvasthi"
                              loading="lazy"/>
@@ -1535,14 +1457,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/02/Karnapoorana.avif"
                              alt="Karnapoorana"
                              loading="lazy"/>
@@ -1557,14 +1475,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/02/Mukhalepa.avif"
                              alt="Mukhalepa"
                              loading="lazy"/>
@@ -1579,14 +1493,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/03/choorna-pinda-sweda-img.png"
                              alt="Choorna Pinda Sweda"
                              loading="lazy"/>
@@ -1601,14 +1511,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/03/greevavasthi-img.png"
                              alt="Greevavasthi"
                              loading="lazy"/>
@@ -1623,14 +1529,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/03/kashaya-dhara-img.png"
                              alt="Kashaya dhara"
                              loading="lazy"/>
@@ -1645,14 +1547,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/03/lepana-img.png"
                              alt="Lepana"
                              loading="lazy"/>
@@ -1667,14 +1565,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/03/nadee-sweda-img.png"
                              alt="Nadee sweda"
                              loading="lazy"/>
@@ -1689,14 +1583,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/03/prustabasti-img.png"
                              alt="Prustabasti"
                              loading="lazy"/>
@@ -1711,14 +1601,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/03/shiro-pichu-img.png"
                              alt="Shiro pichu"
                              loading="lazy"/>
@@ -1733,14 +1619,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/03/sirolepa-img.png"
                              alt="Sirolepa/Thalapothichil"
                              loading="lazy"/>
@@ -1755,14 +1637,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/03/shirobasti-img.png"
                              alt="Shirobasti"
                              loading="lazy"/>
@@ -1777,14 +1655,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/03/takradhara-img.png"
                              alt="Takradhara"
                              loading="lazy"/>
@@ -1799,14 +1673,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/03/upanaha-sweda-img.png"
                              alt="Upanaha sweda"
                              loading="lazy"/>
@@ -1821,14 +1691,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/03/valuka-sweda-img.png"
                              alt="Valuka sweda"
                              loading="lazy"/>
@@ -1843,14 +1709,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/03/vamana-karma-img.png"
                              alt="Vamana Karma"
                              loading="lazy"/>
@@ -1865,14 +1727,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/03/virechana-img.png"
                              alt="Virechana"
                              loading="lazy"/>
@@ -1887,14 +1745,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/03/siravyadha-img.png"
                              alt="Siravyadha"
                              loading="lazy"/>
@@ -1909,14 +1763,10 @@ const page = {
                 </div>
 
             </div>
-                    <div class="pv-treatment-item
-                        bg-white border border-gray-200 rounded-2xl p-4
-                        transition-all duration-500 ease-out
-                        hover:shadow-lg hover:shadow-cyan-500/30
-                        hover:scale-[1.03] hover:border-sky-500 h-fit">
+                    <div class="pv-treatment-item opacity-0 translate-y-5 animate-fade-in-up-slow bg-white border border-gray-200 rounded-2xl p-4 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.03] hover:border-sky-500 h-fit">
 
                 <div class="flex flex-col items-start gap-4">
-                    <div class="pv-therapy-icon flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
+                    <div class="bg-[linear-gradient(135deg,#f0f9ff,#e0f2fe)] [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:[transition:transform_0.4s_ease] flex-shrink-0 w-full h-40 rounded-xl overflow-hidden flex items-center justify-center">
                         <img decoding="async" src="/images/2026/03/jaulakavacharana-img.png"
                              alt="Jaulakavacharana"
                              loading="lazy"/>
@@ -1983,7 +1833,7 @@ const page = {
 
     for (let i = 0; i < originalItems.length; i += perSlide) {
       const slide = document.createElement("div");
-      slide.className = "pv-slide";
+      slide.className = "pv-slide grid min-w-full snap-start gap-6 p-4 min-[769px]:grid-cols-3 max-[768px]:grid-cols-1 min-[769px]:auto-rows-[1fr] max-[768px]:auto-rows-auto";
 
       const chunk = originalItems.slice(i, i + perSlide);
       chunk.forEach(card => slide.appendChild(card.cloneNode(true)));
@@ -2442,21 +2292,15 @@ document.addEventListener('DOMContentLoaded', function () {
 <div class="doctor-carousel-wrapper relative">
 
     <!-- CAROUSEL / GRID -->
-    <div class="doctor-carousel
-                flex md:grid
-                md:grid-cols-2 lg:grid-cols-3
-                gap-10 px-4 py-10 max-w-[1360px] mx-auto
-                overflow-x-auto md:overflow-visible">
+    <div class="doctor-carousel snap-x snap-mandatory scrollbar-hide [-webkit-overflow-scrolling:touch] max-[640px]:m-auto lg:gap-5 [&>div]:shrink-0 [&>div]:snap-start max-[640px]:[&>div]:min-w-[95%] lg:[&>div]:min-w-[300px] flex gap-10 px-4 py-10 max-w-[1360px] mx-auto overflow-x-auto">
 
-        <div class="doctor-grid-card
-                    flex-shrink-0
-                    w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
+        <div class="doctor-grid-card min-w-[300px] rounded-[20px] bg-white p-8 text-center [transition:all_0.3s_ease] hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] min-[641px]:max-[1023px]:min-w-0 flex-shrink-0 w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
 
                         <img src="/images/2026/02/Dr-Chethan-Upadhyaya-2.avif"
                  alt="best ayurvedic doctor in bangalore"
                  loading="lazy"
                  decoding="async"
-                 class="doctor-img"
+                 class="mx-auto mb-5 mt-0 block h-[220px] w-[220px] rounded-[20px] bg-[#EAF6FF] object-cover object-top"
                  onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMzAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI0UwRjJGRSIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiBkeT0iMC4zNWVtIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMTAiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMwNTk1QzQiPkNVPC90ZXh0Pjwvc3ZnPg==';">
 
             <h3 class="text-xl font-bold mb-1">Dr. Chethan Upadhyaya</h3>
@@ -2466,30 +2310,28 @@ document.addEventListener('DOMContentLoaded', function () {
                             <p class="text-slate-500 mb-4">10 Years of Experience</p>
             
             <!-- SPECIALTIES -->
-<!--             <div class="doctor-tags flex flex-wrap gap-3 justify-center mb-6">
+<!--             <div class="[&_span]:rounded-full [&_span]:bg-[#E0F2FE] [&_span]:px-[18px] [&_span]:py-2 [&_span]:text-[12px] [&_span]:font-semibold [&_span]:text-[#0284C7] flex flex-wrap gap-3 justify-center mb-6">
                                     <span>Internal Medicine</span>
                     <span>Gynecologic</span>
                             </div> -->
 
-            <a href="/ayurvedic-doctors/dr-chethan-upadhyaya/" class="btn-primary">
+            <a href="/ayurvedic-doctors/dr-chethan-upadhyaya/" class="mt-5 block rounded-full bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] p-[14px] font-semibold text-white">
                 View Profile
             </a>
 
-            <a href="#" class="btn-outline open-modal">
+            <a href="#" class="mt-[14px] block rounded-full border-2 border-solid border-brand p-[14px] font-semibold text-brand open-modal">
                 Contact Now
             </a>
 
         </div>
 
-        <div class="doctor-grid-card
-                    flex-shrink-0
-                    w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
+        <div class="doctor-grid-card min-w-[300px] rounded-[20px] bg-white p-8 text-center [transition:all_0.3s_ease] hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] min-[641px]:max-[1023px]:min-w-0 flex-shrink-0 w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
 
                         <img src="/images/2026/01/DR.-SWASTHIKA-768x880.avif"
                  alt="Dr. Swasthika Upadhyaya - BAMS, MD (Ayu), FAGE"
                  loading="lazy"
                  decoding="async"
-                 class="doctor-img"
+                 class="mx-auto mb-5 mt-0 block h-[220px] w-[220px] rounded-[20px] bg-[#EAF6FF] object-cover object-top"
                  onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMzAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI0UwRjJGRSIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiBkeT0iMC4zNWVtIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMTAiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMwNTk1QzQiPlNVPC90ZXh0Pjwvc3ZnPg==';">
 
             <h3 class="text-xl font-bold mb-1">Dr. Swasthika Upadhyaya</h3>
@@ -2499,30 +2341,28 @@ document.addEventListener('DOMContentLoaded', function () {
                             <p class="text-slate-500 mb-4">5 Years of Experience</p>
             
             <!-- SPECIALTIES -->
-<!--             <div class="doctor-tags flex flex-wrap gap-3 justify-center mb-6">
+<!--             <div class="[&_span]:rounded-full [&_span]:bg-[#E0F2FE] [&_span]:px-[18px] [&_span]:py-2 [&_span]:text-[12px] [&_span]:font-semibold [&_span]:text-[#0284C7] flex flex-wrap gap-3 justify-center mb-6">
                                     <span>Internal Medicine</span>
                     <span>Gynecologic</span>
                             </div> -->
 
-            <a href="/ayurvedic-doctors/dr-swasthika-upadhyaya/" class="btn-primary">
+            <a href="/ayurvedic-doctors/dr-swasthika-upadhyaya/" class="mt-5 block rounded-full bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] p-[14px] font-semibold text-white">
                 View Profile
             </a>
 
-            <a href="#" class="btn-outline open-modal">
+            <a href="#" class="mt-[14px] block rounded-full border-2 border-solid border-brand p-[14px] font-semibold text-brand open-modal">
                 Contact Now
             </a>
 
         </div>
 
-        <div class="doctor-grid-card
-                    flex-shrink-0
-                    w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
+        <div class="doctor-grid-card min-w-[300px] rounded-[20px] bg-white p-8 text-center [transition:all_0.3s_ease] hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] min-[641px]:max-[1023px]:min-w-0 flex-shrink-0 w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
 
                         <img src="/images/2026/01/DR.-PRAMOD-768x880.avif"
                  alt="Dr. Pramod Karanth - BAMS MD (Ayu)"
                  loading="lazy"
                  decoding="async"
-                 class="doctor-img"
+                 class="mx-auto mb-5 mt-0 block h-[220px] w-[220px] rounded-[20px] bg-[#EAF6FF] object-cover object-top"
                  onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMzAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI0UwRjJGRSIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiBkeT0iMC4zNWVtIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMTAiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMwNTk1QzQiPlBLPC90ZXh0Pjwvc3ZnPg==';">
 
             <h3 class="text-xl font-bold mb-1">Dr. Pramod Karanth</h3>
@@ -2532,30 +2372,28 @@ document.addEventListener('DOMContentLoaded', function () {
                             <p class="text-slate-500 mb-4">10 Years of Experience</p>
             
             <!-- SPECIALTIES -->
-<!--             <div class="doctor-tags flex flex-wrap gap-3 justify-center mb-6">
+<!--             <div class="[&_span]:rounded-full [&_span]:bg-[#E0F2FE] [&_span]:px-[18px] [&_span]:py-2 [&_span]:text-[12px] [&_span]:font-semibold [&_span]:text-[#0284C7] flex flex-wrap gap-3 justify-center mb-6">
                                     <span>Internal Medicine</span>
                     <span>Gynecologic</span>
                             </div> -->
 
-            <a href="/ayurvedic-doctors/dr-pramod-karanth/" class="btn-primary">
+            <a href="/ayurvedic-doctors/dr-pramod-karanth/" class="mt-5 block rounded-full bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] p-[14px] font-semibold text-white">
                 View Profile
             </a>
 
-            <a href="#" class="btn-outline open-modal">
+            <a href="#" class="mt-[14px] block rounded-full border-2 border-solid border-brand p-[14px] font-semibold text-brand open-modal">
                 Contact Now
             </a>
 
         </div>
 
-        <div class="doctor-grid-card
-                    flex-shrink-0
-                    w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
+        <div class="doctor-grid-card min-w-[300px] rounded-[20px] bg-white p-8 text-center [transition:all_0.3s_ease] hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] min-[641px]:max-[1023px]:min-w-0 flex-shrink-0 w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
 
                         <img src="/images/2026/01/Dr.-Vyshnavi-768x880.avif"
                  alt="Dr. Vyshnavi N Kini - BAMS MD (Ayu)"
                  loading="lazy"
                  decoding="async"
-                 class="doctor-img"
+                 class="mx-auto mb-5 mt-0 block h-[220px] w-[220px] rounded-[20px] bg-[#EAF6FF] object-cover object-top"
                  onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMzAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI0UwRjJGRSIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiBkeT0iMC4zNWVtIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMTAiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMwNTk1QzQiPlZOPC90ZXh0Pjwvc3ZnPg==';">
 
             <h3 class="text-xl font-bold mb-1">Dr. Vyshnavi N Kini</h3>
@@ -2565,30 +2403,28 @@ document.addEventListener('DOMContentLoaded', function () {
                             <p class="text-slate-500 mb-4">4 Years of Experience</p>
             
             <!-- SPECIALTIES -->
-<!--             <div class="doctor-tags flex flex-wrap gap-3 justify-center mb-6">
+<!--             <div class="[&_span]:rounded-full [&_span]:bg-[#E0F2FE] [&_span]:px-[18px] [&_span]:py-2 [&_span]:text-[12px] [&_span]:font-semibold [&_span]:text-[#0284C7] flex flex-wrap gap-3 justify-center mb-6">
                                     <span>Internal Medicine</span>
                     <span>Gynecologic</span>
                             </div> -->
 
-            <a href="/ayurvedic-doctors/dr-vyshnavi-n-kini/" class="btn-primary">
+            <a href="/ayurvedic-doctors/dr-vyshnavi-n-kini/" class="mt-5 block rounded-full bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] p-[14px] font-semibold text-white">
                 View Profile
             </a>
 
-            <a href="#" class="btn-outline open-modal">
+            <a href="#" class="mt-[14px] block rounded-full border-2 border-solid border-brand p-[14px] font-semibold text-brand open-modal">
                 Contact Now
             </a>
 
         </div>
 
-        <div class="doctor-grid-card
-                    flex-shrink-0
-                    w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
+        <div class="doctor-grid-card min-w-[300px] rounded-[20px] bg-white p-8 text-center [transition:all_0.3s_ease] hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] min-[641px]:max-[1023px]:min-w-0 flex-shrink-0 w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
 
                         <img src="/images/2026/01/Dr.-Pallavi-768x880.avif"
                  alt="Dr.Pallavi G Poojari - BAMS MD (Ayu)"
                  loading="lazy"
                  decoding="async"
-                 class="doctor-img"
+                 class="mx-auto mb-5 mt-0 block h-[220px] w-[220px] rounded-[20px] bg-[#EAF6FF] object-cover object-top"
                  onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMzAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI0UwRjJGRSIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiBkeT0iMC4zNWVtIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMTAiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMwNTk1QzQiPlBHPC90ZXh0Pjwvc3ZnPg==';">
 
             <h3 class="text-xl font-bold mb-1">Dr.Pallavi G Poojari</h3>
@@ -2598,30 +2434,28 @@ document.addEventListener('DOMContentLoaded', function () {
                             <p class="text-slate-500 mb-4">5 Years of Experience</p>
             
             <!-- SPECIALTIES -->
-<!--             <div class="doctor-tags flex flex-wrap gap-3 justify-center mb-6">
+<!--             <div class="[&_span]:rounded-full [&_span]:bg-[#E0F2FE] [&_span]:px-[18px] [&_span]:py-2 [&_span]:text-[12px] [&_span]:font-semibold [&_span]:text-[#0284C7] flex flex-wrap gap-3 justify-center mb-6">
                                     <span>Internal Medicine</span>
                     <span>Gynecologic</span>
                             </div> -->
 
-            <a href="/ayurvedic-doctors/dr-pallavi-g-poojari/" class="btn-primary">
+            <a href="/ayurvedic-doctors/dr-pallavi-g-poojari/" class="mt-5 block rounded-full bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] p-[14px] font-semibold text-white">
                 View Profile
             </a>
 
-            <a href="#" class="btn-outline open-modal">
+            <a href="#" class="mt-[14px] block rounded-full border-2 border-solid border-brand p-[14px] font-semibold text-brand open-modal">
                 Contact Now
             </a>
 
         </div>
 
-        <div class="doctor-grid-card
-                    flex-shrink-0
-                    w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
+        <div class="doctor-grid-card min-w-[300px] rounded-[20px] bg-white p-8 text-center [transition:all_0.3s_ease] hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] min-[641px]:max-[1023px]:min-w-0 flex-shrink-0 w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
 
                         <img src="/images/2026/01/Dr.-Kruthika-768x880.avif"
                  alt="Dr Kruttika Hegde - BAMS"
                  loading="lazy"
                  decoding="async"
-                 class="doctor-img"
+                 class="mx-auto mb-5 mt-0 block h-[220px] w-[220px] rounded-[20px] bg-[#EAF6FF] object-cover object-top"
                  onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMzAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI0UwRjJGRSIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiBkeT0iMC4zNWVtIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMTAiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMwNTk1QzQiPktIPC90ZXh0Pjwvc3ZnPg==';">
 
             <h3 class="text-xl font-bold mb-1">Dr Kruttika Hegde</h3>
@@ -2631,30 +2465,28 @@ document.addEventListener('DOMContentLoaded', function () {
                             <p class="text-slate-500 mb-4">5 Years of Experience</p>
             
             <!-- SPECIALTIES -->
-<!--             <div class="doctor-tags flex flex-wrap gap-3 justify-center mb-6">
+<!--             <div class="[&_span]:rounded-full [&_span]:bg-[#E0F2FE] [&_span]:px-[18px] [&_span]:py-2 [&_span]:text-[12px] [&_span]:font-semibold [&_span]:text-[#0284C7] flex flex-wrap gap-3 justify-center mb-6">
                                     <span>Internal Medicine</span>
                     <span>Gynecologic</span>
                             </div> -->
 
-            <a href="/ayurvedic-doctors/dr-kruttika-hegde/" class="btn-primary">
+            <a href="/ayurvedic-doctors/dr-kruttika-hegde/" class="mt-5 block rounded-full bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] p-[14px] font-semibold text-white">
                 View Profile
             </a>
 
-            <a href="#" class="btn-outline open-modal">
+            <a href="#" class="mt-[14px] block rounded-full border-2 border-solid border-brand p-[14px] font-semibold text-brand open-modal">
                 Contact Now
             </a>
 
         </div>
 
-        <div class="doctor-grid-card
-                    flex-shrink-0
-                    w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
+        <div class="doctor-grid-card min-w-[300px] rounded-[20px] bg-white p-8 text-center [transition:all_0.3s_ease] hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] min-[641px]:max-[1023px]:min-w-0 flex-shrink-0 w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
 
                         <img src="/images/2026/01/Dr.-Chinmayi-768x880.avif"
                  alt="Dr Chinmayi B U - BAMS"
                  loading="lazy"
                  decoding="async"
-                 class="doctor-img"
+                 class="mx-auto mb-5 mt-0 block h-[220px] w-[220px] rounded-[20px] bg-[#EAF6FF] object-cover object-top"
                  onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMzAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI0UwRjJGRSIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiBkeT0iMC4zNWVtIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMTAiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMwNTk1QzQiPkNCPC90ZXh0Pjwvc3ZnPg==';">
 
             <h3 class="text-xl font-bold mb-1">Dr Chinmayi B U</h3>
@@ -2664,30 +2496,28 @@ document.addEventListener('DOMContentLoaded', function () {
                             <p class="text-slate-500 mb-4">1 Years of Experience</p>
             
             <!-- SPECIALTIES -->
-<!--             <div class="doctor-tags flex flex-wrap gap-3 justify-center mb-6">
+<!--             <div class="[&_span]:rounded-full [&_span]:bg-[#E0F2FE] [&_span]:px-[18px] [&_span]:py-2 [&_span]:text-[12px] [&_span]:font-semibold [&_span]:text-[#0284C7] flex flex-wrap gap-3 justify-center mb-6">
                                     <span>Internal Medicine</span>
                     <span>Gynecologic</span>
                             </div> -->
 
-            <a href="/ayurvedic-doctors/dr-chinmayi-b-u/" class="btn-primary">
+            <a href="/ayurvedic-doctors/dr-chinmayi-b-u/" class="mt-5 block rounded-full bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] p-[14px] font-semibold text-white">
                 View Profile
             </a>
 
-            <a href="#" class="btn-outline open-modal">
+            <a href="#" class="mt-[14px] block rounded-full border-2 border-solid border-brand p-[14px] font-semibold text-brand open-modal">
                 Contact Now
             </a>
 
         </div>
 
-        <div class="doctor-grid-card
-                    flex-shrink-0
-                    w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
+        <div class="doctor-grid-card min-w-[300px] rounded-[20px] bg-white p-8 text-center [transition:all_0.3s_ease] hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] min-[641px]:max-[1023px]:min-w-0 flex-shrink-0 w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
 
                         <img src="/images/2026/01/DR.-Pragathi-768x880.avif"
                  alt="Dr. Pragathi Santhanam - BAMS"
                  loading="lazy"
                  decoding="async"
-                 class="doctor-img"
+                 class="mx-auto mb-5 mt-0 block h-[220px] w-[220px] rounded-[20px] bg-[#EAF6FF] object-cover object-top"
                  onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMzAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI0UwRjJGRSIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiBkeT0iMC4zNWVtIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMTAiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMwNTk1QzQiPlBTPC90ZXh0Pjwvc3ZnPg==';">
 
             <h3 class="text-xl font-bold mb-1">Dr. Pragathi Santhanam</h3>
@@ -2697,30 +2527,28 @@ document.addEventListener('DOMContentLoaded', function () {
                             <p class="text-slate-500 mb-4">1 Years of Experience</p>
             
             <!-- SPECIALTIES -->
-<!--             <div class="doctor-tags flex flex-wrap gap-3 justify-center mb-6">
+<!--             <div class="[&_span]:rounded-full [&_span]:bg-[#E0F2FE] [&_span]:px-[18px] [&_span]:py-2 [&_span]:text-[12px] [&_span]:font-semibold [&_span]:text-[#0284C7] flex flex-wrap gap-3 justify-center mb-6">
                                     <span>Internal Medicine</span>
                     <span>Gynecologic</span>
                             </div> -->
 
-            <a href="/ayurvedic-doctors/dr-pragathi-santhanam/" class="btn-primary">
+            <a href="/ayurvedic-doctors/dr-pragathi-santhanam/" class="mt-5 block rounded-full bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] p-[14px] font-semibold text-white">
                 View Profile
             </a>
 
-            <a href="#" class="btn-outline open-modal">
+            <a href="#" class="mt-[14px] block rounded-full border-2 border-solid border-brand p-[14px] font-semibold text-brand open-modal">
                 Contact Now
             </a>
 
         </div>
 
-        <div class="doctor-grid-card
-                    flex-shrink-0
-                    w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
+        <div class="doctor-grid-card min-w-[300px] rounded-[20px] bg-white p-8 text-center [transition:all_0.3s_ease] hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] min-[641px]:max-[1023px]:min-w-0 flex-shrink-0 w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
 
                         <img src="/images/2026/01/female-doctor-profile.avif"
                  alt="Dr Anusha - BAMS MS(Ayu)"
                  loading="lazy"
                  decoding="async"
-                 class="doctor-img"
+                 class="mx-auto mb-5 mt-0 block h-[220px] w-[220px] rounded-[20px] bg-[#EAF6FF] object-cover object-top"
                  onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMzAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI0UwRjJGRSIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiBkeT0iMC4zNWVtIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMTAiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMwNTk1QzQiPkE8L3RleHQ+PC9zdmc+';">
 
             <h3 class="text-xl font-bold mb-1">Dr Anusha</h3>
@@ -2728,30 +2556,28 @@ document.addEventListener('DOMContentLoaded', function () {
                             <p class="text-slate-500 mb-4">BAMS MS(Ayu)</p>
 
             <!-- SPECIALTIES -->
-<!--             <div class="doctor-tags flex flex-wrap gap-3 justify-center mb-6">
+<!--             <div class="[&_span]:rounded-full [&_span]:bg-[#E0F2FE] [&_span]:px-[18px] [&_span]:py-2 [&_span]:text-[12px] [&_span]:font-semibold [&_span]:text-[#0284C7] flex flex-wrap gap-3 justify-center mb-6">
                                     <span>Internal Medicine</span>
                     <span>Gynecologic</span>
                             </div> -->
 
-            <a href="/ayurvedic-doctors/dr-anusha/" class="btn-primary">
+            <a href="/ayurvedic-doctors/dr-anusha/" class="mt-5 block rounded-full bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] p-[14px] font-semibold text-white">
                 View Profile
             </a>
 
-            <a href="#" class="btn-outline open-modal">
+            <a href="#" class="mt-[14px] block rounded-full border-2 border-solid border-brand p-[14px] font-semibold text-brand open-modal">
                 Contact Now
             </a>
 
         </div>
 
-        <div class="doctor-grid-card
-                    flex-shrink-0
-                    w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
+        <div class="doctor-grid-card min-w-[300px] rounded-[20px] bg-white p-8 text-center [transition:all_0.3s_ease] hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] min-[641px]:max-[1023px]:min-w-0 flex-shrink-0 w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
 
                         <img src="/images/2026/01/female-doctor-profile.avif"
                  alt="Dr. Divya - BAMS Msc (yoga)"
                  loading="lazy"
                  decoding="async"
-                 class="doctor-img"
+                 class="mx-auto mb-5 mt-0 block h-[220px] w-[220px] rounded-[20px] bg-[#EAF6FF] object-cover object-top"
                  onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMzAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI0UwRjJGRSIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiBkeT0iMC4zNWVtIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMTAiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMwNTk1QzQiPkQ8L3RleHQ+PC9zdmc+';">
 
             <h3 class="text-xl font-bold mb-1">Dr. Divya</h3>
@@ -2761,30 +2587,28 @@ document.addEventListener('DOMContentLoaded', function () {
                             <p class="text-slate-500 mb-4">3 Years of Experience</p>
             
             <!-- SPECIALTIES -->
-<!--             <div class="doctor-tags flex flex-wrap gap-3 justify-center mb-6">
+<!--             <div class="[&_span]:rounded-full [&_span]:bg-[#E0F2FE] [&_span]:px-[18px] [&_span]:py-2 [&_span]:text-[12px] [&_span]:font-semibold [&_span]:text-[#0284C7] flex flex-wrap gap-3 justify-center mb-6">
                                     <span>Internal Medicine</span>
                     <span>Gynecologic</span>
                             </div> -->
 
-            <a href="/ayurvedic-doctors/dr-divya/" class="btn-primary">
+            <a href="/ayurvedic-doctors/dr-divya/" class="mt-5 block rounded-full bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] p-[14px] font-semibold text-white">
                 View Profile
             </a>
 
-            <a href="#" class="btn-outline open-modal">
+            <a href="#" class="mt-[14px] block rounded-full border-2 border-solid border-brand p-[14px] font-semibold text-brand open-modal">
                 Contact Now
             </a>
 
         </div>
 
-        <div class="doctor-grid-card
-                    flex-shrink-0
-                    w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
+        <div class="doctor-grid-card min-w-[300px] rounded-[20px] bg-white p-8 text-center [transition:all_0.3s_ease] hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] min-[641px]:max-[1023px]:min-w-0 flex-shrink-0 w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
 
                         <img src="/images/2026/01/female-doctor-profile.avif"
                  alt="Dr. Shubha - BAMS MS(Ayu)"
                  loading="lazy"
                  decoding="async"
-                 class="doctor-img"
+                 class="mx-auto mb-5 mt-0 block h-[220px] w-[220px] rounded-[20px] bg-[#EAF6FF] object-cover object-top"
                  onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMzAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI0UwRjJGRSIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiBkeT0iMC4zNWVtIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMTAiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMwNTk1QzQiPlM8L3RleHQ+PC9zdmc+';">
 
             <h3 class="text-xl font-bold mb-1">Dr. Shubha</h3>
@@ -2792,30 +2616,28 @@ document.addEventListener('DOMContentLoaded', function () {
                             <p class="text-slate-500 mb-4">BAMS MS(Ayu)</p>
 
             <!-- SPECIALTIES -->
-<!--             <div class="doctor-tags flex flex-wrap gap-3 justify-center mb-6">
+<!--             <div class="[&_span]:rounded-full [&_span]:bg-[#E0F2FE] [&_span]:px-[18px] [&_span]:py-2 [&_span]:text-[12px] [&_span]:font-semibold [&_span]:text-[#0284C7] flex flex-wrap gap-3 justify-center mb-6">
                                     <span>Internal Medicine</span>
                     <span>Gynecologic</span>
                             </div> -->
 
-            <a href="/ayurvedic-doctors/dr-shubha/" class="btn-primary">
+            <a href="/ayurvedic-doctors/dr-shubha/" class="mt-5 block rounded-full bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] p-[14px] font-semibold text-white">
                 View Profile
             </a>
 
-            <a href="#" class="btn-outline open-modal">
+            <a href="#" class="mt-[14px] block rounded-full border-2 border-solid border-brand p-[14px] font-semibold text-brand open-modal">
                 Contact Now
             </a>
 
         </div>
 
-        <div class="doctor-grid-card
-                    flex-shrink-0
-                    w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
+        <div class="doctor-grid-card min-w-[300px] rounded-[20px] bg-white p-8 text-center [transition:all_0.3s_ease] hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] min-[641px]:max-[1023px]:min-w-0 flex-shrink-0 w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
 
                         <img src="/images/2026/01/male-doctor-profile.avif"
                  alt="Dr Raksha - BAMS, MS (Ayu)"
                  loading="lazy"
                  decoding="async"
-                 class="doctor-img"
+                 class="mx-auto mb-5 mt-0 block h-[220px] w-[220px] rounded-[20px] bg-[#EAF6FF] object-cover object-top"
                  onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMzAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI0UwRjJGRSIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiBkeT0iMC4zNWVtIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMTAiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMwNTk1QzQiPlI8L3RleHQ+PC9zdmc+';">
 
             <h3 class="text-xl font-bold mb-1">Dr Raksha</h3>
@@ -2825,30 +2647,28 @@ document.addEventListener('DOMContentLoaded', function () {
                             <p class="text-slate-500 mb-4">6 Years of Experience</p>
             
             <!-- SPECIALTIES -->
-<!--             <div class="doctor-tags flex flex-wrap gap-3 justify-center mb-6">
+<!--             <div class="[&_span]:rounded-full [&_span]:bg-[#E0F2FE] [&_span]:px-[18px] [&_span]:py-2 [&_span]:text-[12px] [&_span]:font-semibold [&_span]:text-[#0284C7] flex flex-wrap gap-3 justify-center mb-6">
                                     <span>Internal Medicine</span>
                     <span>Gynecologic</span>
                             </div> -->
 
-            <a href="/ayurvedic-doctors/dr-raksha/" class="btn-primary">
+            <a href="/ayurvedic-doctors/dr-raksha/" class="mt-5 block rounded-full bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] p-[14px] font-semibold text-white">
                 View Profile
             </a>
 
-            <a href="#" class="btn-outline open-modal">
+            <a href="#" class="mt-[14px] block rounded-full border-2 border-solid border-brand p-[14px] font-semibold text-brand open-modal">
                 Contact Now
             </a>
 
         </div>
 
-        <div class="doctor-grid-card
-                    flex-shrink-0
-                    w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
+        <div class="doctor-grid-card min-w-[300px] rounded-[20px] bg-white p-8 text-center [transition:all_0.3s_ease] hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] min-[641px]:max-[1023px]:min-w-0 flex-shrink-0 w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
 
                         <img src="/images/2026/01/female-doctor-profile.avif"
                  alt="Dr. Sandhya Lakshmi - BAMS MD(AYU), YIC,(Ayurvedic Endocrinology &amp; women health)"
                  loading="lazy"
                  decoding="async"
-                 class="doctor-img"
+                 class="mx-auto mb-5 mt-0 block h-[220px] w-[220px] rounded-[20px] bg-[#EAF6FF] object-cover object-top"
                  onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMzAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI0UwRjJGRSIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiBkeT0iMC4zNWVtIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMTAiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMwNTk1QzQiPlNMPC90ZXh0Pjwvc3ZnPg==';">
 
             <h3 class="text-xl font-bold mb-1">Dr. Sandhya Lakshmi</h3>
@@ -2858,30 +2678,28 @@ document.addEventListener('DOMContentLoaded', function () {
                             <p class="text-slate-500 mb-4">6 Years of Experience</p>
             
             <!-- SPECIALTIES -->
-<!--             <div class="doctor-tags flex flex-wrap gap-3 justify-center mb-6">
+<!--             <div class="[&_span]:rounded-full [&_span]:bg-[#E0F2FE] [&_span]:px-[18px] [&_span]:py-2 [&_span]:text-[12px] [&_span]:font-semibold [&_span]:text-[#0284C7] flex flex-wrap gap-3 justify-center mb-6">
                                     <span>Internal Medicine</span>
                     <span>Gynecologic</span>
                             </div> -->
 
-            <a href="/ayurvedic-doctors/dr-sandhya-lakshmi/" class="btn-primary">
+            <a href="/ayurvedic-doctors/dr-sandhya-lakshmi/" class="mt-5 block rounded-full bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] p-[14px] font-semibold text-white">
                 View Profile
             </a>
 
-            <a href="#" class="btn-outline open-modal">
+            <a href="#" class="mt-[14px] block rounded-full border-2 border-solid border-brand p-[14px] font-semibold text-brand open-modal">
                 Contact Now
             </a>
 
         </div>
 
-        <div class="doctor-grid-card
-                    flex-shrink-0
-                    w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
+        <div class="doctor-grid-card min-w-[300px] rounded-[20px] bg-white p-8 text-center [transition:all_0.3s_ease] hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] min-[641px]:max-[1023px]:min-w-0 flex-shrink-0 w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
 
                         <img src="/images/2026/01/male-doctor-profile.avif"
                  alt="Dr. Vivek Gowda - BAMS, MS(Ayu)"
                  loading="lazy"
                  decoding="async"
-                 class="doctor-img"
+                 class="mx-auto mb-5 mt-0 block h-[220px] w-[220px] rounded-[20px] bg-[#EAF6FF] object-cover object-top"
                  onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMzAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI0UwRjJGRSIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiBkeT0iMC4zNWVtIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMTAiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMwNTk1QzQiPlZHPC90ZXh0Pjwvc3ZnPg==';">
 
             <h3 class="text-xl font-bold mb-1">Dr. Vivek Gowda</h3>
@@ -2891,30 +2709,28 @@ document.addEventListener('DOMContentLoaded', function () {
                             <p class="text-slate-500 mb-4">5 Years of Experience</p>
             
             <!-- SPECIALTIES -->
-<!--             <div class="doctor-tags flex flex-wrap gap-3 justify-center mb-6">
+<!--             <div class="[&_span]:rounded-full [&_span]:bg-[#E0F2FE] [&_span]:px-[18px] [&_span]:py-2 [&_span]:text-[12px] [&_span]:font-semibold [&_span]:text-[#0284C7] flex flex-wrap gap-3 justify-center mb-6">
                                     <span>Internal Medicine</span>
                     <span>Gynecologic</span>
                             </div> -->
 
-            <a href="/ayurvedic-doctors/dr-vivek-gowda/" class="btn-primary">
+            <a href="/ayurvedic-doctors/dr-vivek-gowda/" class="mt-5 block rounded-full bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] p-[14px] font-semibold text-white">
                 View Profile
             </a>
 
-            <a href="#" class="btn-outline open-modal">
+            <a href="#" class="mt-[14px] block rounded-full border-2 border-solid border-brand p-[14px] font-semibold text-brand open-modal">
                 Contact Now
             </a>
 
         </div>
 
-        <div class="doctor-grid-card
-                    flex-shrink-0
-                    w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
+        <div class="doctor-grid-card min-w-[300px] rounded-[20px] bg-white p-8 text-center [transition:all_0.3s_ease] hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] min-[641px]:max-[1023px]:min-w-0 flex-shrink-0 w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
 
                         <img src="/images/2026/01/female-doctor-profile.avif"
                  alt="Dr. Ramya - BAMS MS (Ayu)"
                  loading="lazy"
                  decoding="async"
-                 class="doctor-img"
+                 class="mx-auto mb-5 mt-0 block h-[220px] w-[220px] rounded-[20px] bg-[#EAF6FF] object-cover object-top"
                  onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMzAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI0UwRjJGRSIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiBkeT0iMC4zNWVtIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMTAiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMwNTk1QzQiPlI8L3RleHQ+PC9zdmc+';">
 
             <h3 class="text-xl font-bold mb-1">Dr. Ramya</h3>
@@ -2924,30 +2740,28 @@ document.addEventListener('DOMContentLoaded', function () {
                             <p class="text-slate-500 mb-4">4 Years of Experience</p>
             
             <!-- SPECIALTIES -->
-<!--             <div class="doctor-tags flex flex-wrap gap-3 justify-center mb-6">
+<!--             <div class="[&_span]:rounded-full [&_span]:bg-[#E0F2FE] [&_span]:px-[18px] [&_span]:py-2 [&_span]:text-[12px] [&_span]:font-semibold [&_span]:text-[#0284C7] flex flex-wrap gap-3 justify-center mb-6">
                                     <span>Internal Medicine</span>
                     <span>Gynecologic</span>
                             </div> -->
 
-            <a href="/ayurvedic-doctors/dr-ramya/" class="btn-primary">
+            <a href="/ayurvedic-doctors/dr-ramya/" class="mt-5 block rounded-full bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] p-[14px] font-semibold text-white">
                 View Profile
             </a>
 
-            <a href="#" class="btn-outline open-modal">
+            <a href="#" class="mt-[14px] block rounded-full border-2 border-solid border-brand p-[14px] font-semibold text-brand open-modal">
                 Contact Now
             </a>
 
         </div>
 
-        <div class="doctor-grid-card
-                    flex-shrink-0
-                    w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
+        <div class="doctor-grid-card min-w-[300px] rounded-[20px] bg-white p-8 text-center [transition:all_0.3s_ease] hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] min-[641px]:max-[1023px]:min-w-0 flex-shrink-0 w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
 
                         <img src="/images/2026/03/dr-adarsh-p-768x1024.avif"
                  alt="Dr. Adarsh R. Pal - BAMS (Ayu)"
                  loading="lazy"
                  decoding="async"
-                 class="doctor-img"
+                 class="mx-auto mb-5 mt-0 block h-[220px] w-[220px] rounded-[20px] bg-[#EAF6FF] object-cover object-top"
                  onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMzAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI0UwRjJGRSIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiBkeT0iMC4zNWVtIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMTAiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMwNTk1QzQiPkFSPC90ZXh0Pjwvc3ZnPg==';">
 
             <h3 class="text-xl font-bold mb-1">Dr. Adarsh R. Pal</h3>
@@ -2957,30 +2771,28 @@ document.addEventListener('DOMContentLoaded', function () {
                             <p class="text-slate-500 mb-4">5 Years of Experience</p>
             
             <!-- SPECIALTIES -->
-<!--             <div class="doctor-tags flex flex-wrap gap-3 justify-center mb-6">
+<!--             <div class="[&_span]:rounded-full [&_span]:bg-[#E0F2FE] [&_span]:px-[18px] [&_span]:py-2 [&_span]:text-[12px] [&_span]:font-semibold [&_span]:text-[#0284C7] flex flex-wrap gap-3 justify-center mb-6">
                                     <span>Internal Medicine</span>
                     <span>Gynecologic</span>
                             </div> -->
 
-            <a href="/ayurvedic-doctors/dr-adarsh-r-pal/" class="btn-primary">
+            <a href="/ayurvedic-doctors/dr-adarsh-r-pal/" class="mt-5 block rounded-full bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] p-[14px] font-semibold text-white">
                 View Profile
             </a>
 
-            <a href="#" class="btn-outline open-modal">
+            <a href="#" class="mt-[14px] block rounded-full border-2 border-solid border-brand p-[14px] font-semibold text-brand open-modal">
                 Contact Now
             </a>
 
         </div>
 
-        <div class="doctor-grid-card
-                    flex-shrink-0
-                    w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
+        <div class="doctor-grid-card min-w-[300px] rounded-[20px] bg-white p-8 text-center [transition:all_0.3s_ease] hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] min-[641px]:max-[1023px]:min-w-0 flex-shrink-0 w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
 
                         <img src="/images/2026/08/dr-akarsha-krishna-img-768x849.avif"
                  alt="Dr. Akarsha Krishna - BAMS, MD (Ayu)"
                  loading="lazy"
                  decoding="async"
-                 class="doctor-img"
+                 class="mx-auto mb-5 mt-0 block h-[220px] w-[220px] rounded-[20px] bg-[#EAF6FF] object-cover object-top"
                  onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMzAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI0UwRjJGRSIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiBkeT0iMC4zNWVtIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMTAiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMwNTk1QzQiPkFLPC90ZXh0Pjwvc3ZnPg==';">
 
             <h3 class="text-xl font-bold mb-1">Dr. Akarsha Krishna</h3>
@@ -2990,30 +2802,28 @@ document.addEventListener('DOMContentLoaded', function () {
                             <p class="text-slate-500 mb-4">4 Years of Experience</p>
             
             <!-- SPECIALTIES -->
-<!--             <div class="doctor-tags flex flex-wrap gap-3 justify-center mb-6">
+<!--             <div class="[&_span]:rounded-full [&_span]:bg-[#E0F2FE] [&_span]:px-[18px] [&_span]:py-2 [&_span]:text-[12px] [&_span]:font-semibold [&_span]:text-[#0284C7] flex flex-wrap gap-3 justify-center mb-6">
                                     <span>Internal Medicine</span>
                     <span>Gynecologic</span>
                             </div> -->
 
-            <a href="/ayurvedic-doctors/dr-akarsha-krishna/" class="btn-primary">
+            <a href="/ayurvedic-doctors/dr-akarsha-krishna/" class="mt-5 block rounded-full bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] p-[14px] font-semibold text-white">
                 View Profile
             </a>
 
-            <a href="#" class="btn-outline open-modal">
+            <a href="#" class="mt-[14px] block rounded-full border-2 border-solid border-brand p-[14px] font-semibold text-brand open-modal">
                 Contact Now
             </a>
 
         </div>
 
-        <div class="doctor-grid-card
-                    flex-shrink-0
-                    w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
+        <div class="doctor-grid-card min-w-[300px] rounded-[20px] bg-white p-8 text-center [transition:all_0.3s_ease] hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] min-[641px]:max-[1023px]:min-w-0 flex-shrink-0 w-full sm:w-[32%] md:w-[32%] lg:w-[32%]">
 
                         <img src="/images/2026/08/dr-shreya-img-768x849.avif"
                  alt="Dr. Shreya S Shetty - B.A.M.S., M.S [Ayu] [Shalya Tantra]"
                  loading="lazy"
                  decoding="async"
-                 class="doctor-img"
+                 class="mx-auto mb-5 mt-0 block h-[220px] w-[220px] rounded-[20px] bg-[#EAF6FF] object-cover object-top"
                  onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMzAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI0UwRjJGRSIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiBkeT0iMC4zNWVtIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMTAiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMwNTk1QzQiPlNTPC90ZXh0Pjwvc3ZnPg==';">
 
             <h3 class="text-xl font-bold mb-1">Dr. Shreya S Shetty</h3>
@@ -3023,16 +2833,16 @@ document.addEventListener('DOMContentLoaded', function () {
                             <p class="text-slate-500 mb-4">3 Years of Experience</p>
             
             <!-- SPECIALTIES -->
-<!--             <div class="doctor-tags flex flex-wrap gap-3 justify-center mb-6">
+<!--             <div class="[&_span]:rounded-full [&_span]:bg-[#E0F2FE] [&_span]:px-[18px] [&_span]:py-2 [&_span]:text-[12px] [&_span]:font-semibold [&_span]:text-[#0284C7] flex flex-wrap gap-3 justify-center mb-6">
                                     <span>Internal Medicine</span>
                     <span>Gynecologic</span>
                             </div> -->
 
-            <a href="/ayurvedic-doctors/dr-shreya-s-shetty/" class="btn-primary">
+            <a href="/ayurvedic-doctors/dr-shreya-s-shetty/" class="mt-5 block rounded-full bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] p-[14px] font-semibold text-white">
                 View Profile
             </a>
 
-            <a href="#" class="btn-outline open-modal">
+            <a href="#" class="mt-[14px] block rounded-full border-2 border-solid border-brand p-[14px] font-semibold text-brand open-modal">
                 Contact Now
             </a>
 
@@ -3041,7 +2851,7 @@ document.addEventListener('DOMContentLoaded', function () {
     </div>
 
     <!-- ARROWS -->
-    <div class="doctor-arrows w-[90%] mx-auto flex justify-end gap-4 mt-6 pr-6">
+    <div class="[&_button]:text-[22px] [&_button]:font-bold [&_button]:leading-none w-[90%] mx-auto flex justify-end gap-4 mt-6 pr-6">
         <button class="doctor-prev w-12 h-12 flex items-center justify-center rounded-full bg-white text-[#0595C4]
                        border shadow-md transition-all duration-300 hover:bg-gradient-to-b hover:from-[#5AD6FF] hover:to-[#0595C4]
                        hover:text-white hover:shadow-lg hover:shadow-cyan-500/40 hover:scale-[1.05]"
@@ -4551,7 +4361,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div id="pvTalkViewport" class="overflow-hidden w-full">
 
                 <!-- Flat track: prepended clones + originals + appended clones -->
-                <div id="pvTalkTrack" class="pb-4">
+                <div id="pvTalkTrack" class="flex gap-6 pb-4 will-change-transform [&.pv-animating]:[transition:transform_0.48s_cubic-bezier(0.4,0,0.2,1)]">
 
                                         <div class="shrink-0 rounded-[20px] overflow-hidden bg-white [width:280px]"
                          aria-hidden="true">
@@ -4907,27 +4717,27 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
         <section id="pv_blog_1" class="py-16 px-4">
-            <div class="pv-blog-header max-w-[1340px] mx-auto mb-6 flex items-end">
-                <div class="pv-blog-header-content">
-                    <h2 class="pv-blog-title">Explore our blog</h2>
-                    <p class="pv-blog-subtitle">
+            <div class="flex justify-between gap-[30px] max-[768px]:flex-col max-[768px]:px-[15px] max-[768px]:!mb-[25px] max-w-[1340px] mx-auto mb-6 flex items-end">
+                <div class="flex-1">
+                    <h2 class="m-0 mb-[15px] text-[48px] font-bold leading-[1.2] text-[#111] max-[1024px]:text-[40px] max-[768px]:text-[32px] max-[480px]:text-[28px]">Explore our blog</h2>
+                    <p class="m-0 text-[16px] leading-[1.6] text-[#666] max-[768px]:text-[15px] max-[768px]:[&_br]:hidden">
                         Discover comprehensive healthcare solutions tailored to your needs, including<br>
                         preventive care, advanced treatments, and personalized support for a healthier life.
                     </p>
                 </div>
-                <div class="pv-blog-header-button">
-                    <a href="/blogs/" class="pv-view-all-btn">View All Blogs</a>
+                <div class="shrink-0 pt-[10px] max-[768px]:w-full max-[768px]:pt-0">
+                    <a href="/blogs/" class="inline-block rounded-[50px] bg-gradient-to-b from-[#5AD6FF] to-[#0595C4] px-10 py-[14px] text-[16px] font-semibold text-white no-underline shadow-[0_4px_12px_rgba(5,149,196,0.3)] [transition:opacity_0.3s_ease,transform_0.2s_ease] hover:-translate-y-0.5 hover:opacity-90 max-[768px]:w-full max-[768px]:px-[30px] max-[768px]:py-3 max-[768px]:text-center">View All Blogs</a>
                 </div>
             </div>
             <div class="max-w-[1440px] mx-auto px-4">
-                <div class="pv-blog-cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="pv-blog-cards [@media(pointer:coarse)]:!flex [@media(pointer:coarse)]:gap-4 [@media(pointer:coarse)]:overflow-x-auto [@media(pointer:coarse)]:snap-x [@media(pointer:coarse)]:snap-mandatory [@media(pointer:coarse)]:pb-[10px] [@media(pointer:coarse)]:scrollbar-hide [@media(pointer:coarse)]:[&>*]:flex-[0_0_85%] [@media(pointer:coarse)]:[&>*]:snap-start grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     
     <LatestPostCards count={3} decoding="async" />
 
                     </div>
 
                 <!-- ✅ Dots (mobile only via CSS) -->
-                <div class="pv-blog-dots" aria-label="Blog carousel navigation"></div>
+                <div class="pv-blog-dots hidden justify-center gap-[10px] mt-[30px] max-[768px]:flex max-[768px]:!mt-[15px] [@media(pointer:coarse)]:!flex [@media(pointer:coarse)]:justify-center [@media(pointer:coarse)]:gap-[10px] [@media(pointer:coarse)]:mt-[14px] [@media(pointer:fine)]:!hidden" aria-label="Blog carousel navigation"></div>
             </div>
 
             <!-- ✅ Mobile carousel CSS + JS (scoped to this shortcode instance) -->
@@ -4952,7 +4762,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     var dots = cards.map(function (_, i) {
                         var b = document.createElement('button');
                         b.type = 'button';
-                        b.className = 'pv-blog-dot' + (i === 0 ? ' is-active' : '');
+                        b.className = 'pv-blog-dot h-2 w-2 cursor-pointer rounded-[999px] border-0 bg-[#cbd5e1] p-0 [transition:all_0.3s_ease] [&.is-active]:w-[18px] [&.is-active]:bg-[#111827] [&.is-active]:[transition:width_0.2s_ease]' + (i === 0 ? ' is-active' : '');
                         b.setAttribute('aria-label', 'Go to slide ' + (i + 1));
                         b.addEventListener('click', function () {
                             var target = cards[i];
@@ -5073,14 +4883,14 @@ function pv_renderFAQ() {
     ];
     
     container.innerHTML = allFaqs.map((faq, i) => `
-        <div class="pv-faq-item">
-            <button class="pv-faq-question ${i === 0 ? 'active' : ''}" onclick="pv_toggleFAQ(${i})">
-               <span class="pv-faq-icon-wrapper">
+        <div class="border-b border-[#EEEEEE] px-[10px] pb-[32px] pt-[22px] max-[768px]:!pb-[20px] max-[768px]:!pt-[15px]">
+            <button class="pv-faq-question flex w-full cursor-pointer items-center justify-between border-none bg-transparent bg-none p-0 text-left text-[20px] font-semibold text-[#111] [transition:color_0.2s_ease] [&.active]:text-brand ${i === 0 ? 'active' : ''}" onclick="pv_toggleFAQ(${i})">
+               <span class="flex flex-1 items-center gap-3">
 					<span>${faq.q}</span>
 			   </span>
-                <span class="pv-faq-toggle ${i === 0 ? 'active' : ''}" id="pv-icon-${i}">${i === 0 ? '−' : '+'}</span>
+                <span class="pv-faq-toggle shrink-0 text-[28px] font-semibold leading-none text-[#999] [transition:color_0.2s_ease] [&.active]:text-brand ${i === 0 ? 'active' : ''}" id="pv-icon-${i}">${i === 0 ? '−' : '+'}</span>
             </button>
-            <div class="pv-faq-answer ${i === 0 ? 'open' : ''}" id="pv-answer-${i}" style="max-height: ${i === 0 ? '500px' : '0px'}">
+            <div class="pv-faq-answer max-h-0 mt-0 overflow-hidden text-[16px] leading-[1.7] text-[#6F6C8F] [transition:max-height_0.3s_ease] [&.open]:mt-4 ${i === 0 ? 'open' : ''}" id="pv-answer-${i}" style="max-height: ${i === 0 ? '500px' : '0px'}">
                 ${faq.a}
             </div>
         </div>

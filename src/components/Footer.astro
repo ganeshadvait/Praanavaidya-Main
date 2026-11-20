@@ -4,12 +4,12 @@ import HiringPopup from './HiringPopup.astro';
 interface Props { showHiringPopup?: boolean }
 const { showHiringPopup = false } = Astro.props;
 ---
-<div class="pv-footer-wrapper bg-[#FFF7F1]">
+<div class="rounded-t-3xl bg-brand-footer px-6 pb-12 pt-20 text-white">
 
     <!-- DESKTOP FOOTER -->
-    <div class="pv-footer-desktop">
+    <div class="mx-auto max-w-[1360px] max-[768px]:!hidden min-[769px]:!block">
 
-        <div class="pv-footer-grid">
+        <div class="mb-[48px] grid grid-cols-[37%_13%_50%] gap-6">
 
             <!-- Column 1: Praanavaidya Info -->
             <div class="[grid-column:span_1]">
@@ -179,7 +179,7 @@ We believe good healthcare is a combination of treatment, guidance, clarity, and
     </div>
 
     <!-- MOBILE FOOTER -->
-    <div class="pv-footer-mobile">
+    <div class="max-[768px]:!block min-[769px]:!hidden">
 
         <a class="[display:inline-block] [margin-bottom:1rem] [text-decoration:none]" href="/">
 				  <span class="[background:#fff] [padding:10px_14px] [border-radius:12px] [display:inline-flex] [align-items:center]">
@@ -364,8 +364,8 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
     <!-- Global Modal -->
    <!-- Global Modal -->
-      <div id="globalModal" class="fixed inset-0 bg-black/50 backdrop-blur-sm hidden z-[999999] flex items-center justify-center p-4">
-        <div class="bg-white rounded-2xl shadow-2xl w-full max-w-5xl relative overflow-hidden">
+      <div id="globalModal" class="fixed inset-0 bg-black/50 backdrop-blur-sm hidden z-[999999] flex items-center justify-center p-4 invisible opacity-0 [transition:opacity_0.3s_ease,visibility_0.3s_ease] [&.show]:visible [&.show]:opacity-100">
+        <div class="bg-white rounded-2xl shadow-2xl w-full max-w-5xl relative overflow-hidden opacity-0 [transform:scale(0.95)_translateY(-20px)] [transition:transform_0.3s_cubic-bezier(0.34,1.56,0.64,1),opacity_0.3s_ease] [.show>&]:opacity-100 [.show>&]:[transform:scale(1)_translateY(0)] max-[640px]:m-4 max-[640px]:max-h-[90vh] max-[640px]:overflow-y-auto">
             
             <!-- Close Button -->
             <button class="modal-close absolute top-4 right-4 text-gray-400 hover:text-gray-700 w-8 h-8 flex items-center justify-center rounded-full hover:bg-white/50 transition-all duration-200 hover:rotate-90 transform z-10">
@@ -426,7 +426,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <!-- Dropdown Menu -->
                 <div 
                     id="countryMenu"
-                    class="absolute top-full left-0 mt-1 bg-white border-2 border-gray-200 rounded-lg shadow-lg overflow-hidden z-50 opacity-0 invisible scale-95 origin-top transition-all duration-200 [min-width:140px]"
+                    class="absolute top-full left-0 mt-1 bg-white border-2 border-gray-200 rounded-lg shadow-lg overflow-hidden z-50 opacity-0 invisible scale-95 origin-top transition-[opacity,visibility,transform] duration-200 [min-width:140px]"
                 >
                     <button type="button" class="country-option w-full flex items-center gap-3 px-4 py-3 hover:bg-gray-50 transition-colors duration-150" data-code="+91" data-flag="🇮🇳">
                         <span class="text-xl">🇮🇳</span>

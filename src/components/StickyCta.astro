@@ -1,47 +1,47 @@
 ---
 // Floating "Our Locations / Contact Us" sticky CTA.
 ---
-<div class="sticky-cta" id="stickyCta">
+<div class="fixed bottom-4 left-1/2 z-[9999] flex max-w-[95%] -translate-x-1/2 items-center gap-[6px] rounded-[240px] bg-white p-[6px] shadow-[0_8px_24px_rgba(0,0,0,0.12)] [transition:all_0.3s_ease] max-[480px]:w-[95%] md:hidden [&.expanded]:min-h-[200px] [&.expanded]:w-[95%] [&.expanded]:max-w-[500px] [&.expanded]:flex-col [&.expanded]:rounded-[20px] [&.expanded]:p-5" id="stickyCta">
     <!-- Initial Buttons -->
-    <div class="cta-initial-buttons">
-      <button class="cta-btn" id="locationsToggle" type="button">
+    <div class="flex w-full gap-[6px] max-[480px]:justify-between md:hidden [.expanded_&]:!hidden">
+      <button class="w-1/2 whitespace-nowrap rounded-full border-none px-[22px] py-[14px] text-[15px] font-medium no-underline cursor-pointer [transition:background_0.2s] hover:bg-[#f5f5f5] bg-[#f7f7f7] text-[#111]" id="locationsToggle" type="button">
         Our Locations
       </button>
-      <button class="cta-btn" id="contactToggle" type="button">
+      <button class="w-1/2 whitespace-nowrap rounded-full border-none px-[22px] py-[14px] text-[15px] font-medium no-underline cursor-pointer [transition:background_0.2s] hover:bg-[#f5f5f5] bg-brand text-white" id="contactToggle" type="button">
         Contact Us
       </button>
     </div>
     
     <!-- Expanded Content - Locations -->
-    <div class="expanded-content" id="locationsContent">
-      <div class="expanded-header">
-        <span class="expanded-title">Choose Your Location</span>
-        <button class="close-btn" id="closeLocations" type="button">×</button>
+    <div class="hidden w-full" id="locationsContent">
+      <div class="mb-4 flex items-center justify-between">
+        <span class="text-[16px] font-semibold text-[#111]">Choose Your Location</span>
+        <button class="flex h-8 w-8 items-center justify-center rounded-full border-none bg-[#f5f5f5] text-[20px] text-[#666] cursor-pointer [transition:background_0.2s] hover:bg-[#e5e5e5]" id="closeLocations" type="button">×</button>
       </div>
-      <div class="locations-grid" id="locationsGrid">
-        <a href="https://maps.app.goo.gl/9aogSEqiEDBjSeVK7" target="_blank" rel="noopener" class="location-btn">Jayanagar</a>
-		<a href="https://maps.app.goo.gl/3qDeMucneJiyW6pJ6" target="_blank" rel="noopener" class="location-btn">Indiranagar</a>
-        <a href="https://maps.app.goo.gl/Y2V4W84xrxFaoy4i7" target="_blank" rel="noopener" class="location-btn">Rajajinagar</a>
-        <a href=" https://maps.app.goo.gl/wMuEvTCyNGn3PBsz5" target="_blank" rel="noopener" class="location-btn">Yelahanka</a>
-		<a href="https://maps.app.goo.gl/9KVaxGz7L6wk5vxTA" target="_blank" rel="noopener" class="location-btn">Mumbai</a>
-        <a href="https://maps.app.goo.gl/JbwWdkFbs4g6i3eB7" target="_blank" rel="noopener" class="location-btn">Mangalore</a>
-		<a href="https://maps.app.goo.gl/p2uveXTr5x26nKjM8" target="_blank" rel="noopener" class="location-btn">Hubballi</a>
-		<a href="https://maps.app.goo.gl/PzmWLqwNysJ3ahhAA" target="_blank" rel="noopener" class="location-btn">Delhi</a>
-		<a href="https://maps.app.goo.gl/QV7G6afw5bQYBPtv7" target="_blank" rel="noopener" class="location-btn">Lucknow</a>
+      <div class="grid grid-cols-2 gap-2 max-[480px]:grid-cols-1" id="locationsGrid">
+        <a href="https://maps.app.goo.gl/9aogSEqiEDBjSeVK7" target="_blank" rel="noopener" class="location-btn block rounded-xl border-none bg-[#f5f5f5] px-4 py-3 text-center text-[14px] font-medium text-[#111] no-underline cursor-pointer [transition:all_0.2s] hover:-translate-y-0.5 hover:bg-[#e5e5e5]">Jayanagar</a>
+		<a href="https://maps.app.goo.gl/3qDeMucneJiyW6pJ6" target="_blank" rel="noopener" class="location-btn block rounded-xl border-none bg-[#f5f5f5] px-4 py-3 text-center text-[14px] font-medium text-[#111] no-underline cursor-pointer [transition:all_0.2s] hover:-translate-y-0.5 hover:bg-[#e5e5e5]">Indiranagar</a>
+        <a href="https://maps.app.goo.gl/Y2V4W84xrxFaoy4i7" target="_blank" rel="noopener" class="location-btn block rounded-xl border-none bg-[#f5f5f5] px-4 py-3 text-center text-[14px] font-medium text-[#111] no-underline cursor-pointer [transition:all_0.2s] hover:-translate-y-0.5 hover:bg-[#e5e5e5]">Rajajinagar</a>
+        <a href=" https://maps.app.goo.gl/wMuEvTCyNGn3PBsz5" target="_blank" rel="noopener" class="location-btn block rounded-xl border-none bg-[#f5f5f5] px-4 py-3 text-center text-[14px] font-medium text-[#111] no-underline cursor-pointer [transition:all_0.2s] hover:-translate-y-0.5 hover:bg-[#e5e5e5]">Yelahanka</a>
+		<a href="https://maps.app.goo.gl/9KVaxGz7L6wk5vxTA" target="_blank" rel="noopener" class="location-btn block rounded-xl border-none bg-[#f5f5f5] px-4 py-3 text-center text-[14px] font-medium text-[#111] no-underline cursor-pointer [transition:all_0.2s] hover:-translate-y-0.5 hover:bg-[#e5e5e5]">Mumbai</a>
+        <a href="https://maps.app.goo.gl/JbwWdkFbs4g6i3eB7" target="_blank" rel="noopener" class="location-btn block rounded-xl border-none bg-[#f5f5f5] px-4 py-3 text-center text-[14px] font-medium text-[#111] no-underline cursor-pointer [transition:all_0.2s] hover:-translate-y-0.5 hover:bg-[#e5e5e5]">Mangalore</a>
+		<a href="https://maps.app.goo.gl/p2uveXTr5x26nKjM8" target="_blank" rel="noopener" class="location-btn block rounded-xl border-none bg-[#f5f5f5] px-4 py-3 text-center text-[14px] font-medium text-[#111] no-underline cursor-pointer [transition:all_0.2s] hover:-translate-y-0.5 hover:bg-[#e5e5e5]">Hubballi</a>
+		<a href="https://maps.app.goo.gl/PzmWLqwNysJ3ahhAA" target="_blank" rel="noopener" class="location-btn block rounded-xl border-none bg-[#f5f5f5] px-4 py-3 text-center text-[14px] font-medium text-[#111] no-underline cursor-pointer [transition:all_0.2s] hover:-translate-y-0.5 hover:bg-[#e5e5e5]">Delhi</a>
+		<a href="https://maps.app.goo.gl/QV7G6afw5bQYBPtv7" target="_blank" rel="noopener" class="location-btn block rounded-xl border-none bg-[#f5f5f5] px-4 py-3 text-center text-[14px] font-medium text-[#111] no-underline cursor-pointer [transition:all_0.2s] hover:-translate-y-0.5 hover:bg-[#e5e5e5]">Lucknow</a>
       </div>
     </div>
     
     <!-- Expanded Content - Contact -->
-    <div class="expanded-content" id="contactContent">
-      <div class="expanded-header">
-        <span class="expanded-title">Get in Touch</span>
-        <button class="close-btn" id="closeContact" type="button">×</button>
+    <div class="hidden w-full" id="contactContent">
+      <div class="mb-4 flex items-center justify-between">
+        <span class="text-[16px] font-semibold text-[#111]">Get in Touch</span>
+        <button class="flex h-8 w-8 items-center justify-center rounded-full border-none bg-[#f5f5f5] text-[20px] text-[#666] cursor-pointer [transition:background_0.2s] hover:bg-[#e5e5e5]" id="closeContact" type="button">×</button>
       </div>
-      <div class="contact-options">
-        <a href="https://wa.me/+919611773811" target="_blank" rel="noopener" class="contact-btn whatsapp" id="whatsappBtn">
+      <div class="flex flex-col gap-[10px]">
+        <a href="https://wa.me/+919611773811" target="_blank" rel="noopener" class="flex items-center justify-center gap-2 rounded-xl border-none px-5 py-[14px] text-center text-[15px] font-medium no-underline cursor-pointer [transition:all_0.2s] bg-[#f7f7f7] text-black hover:bg-[#20BA5A]" id="whatsappBtn">
           <span></span> WhatsApp
         </a>
-        <a href="tel:08065903131" class="contact-btn call" id="callBtn">
+        <a href="tel:08065903131" class="flex items-center justify-center gap-2 rounded-xl border-none px-5 py-[14px] text-center text-[15px] font-medium no-underline cursor-pointer [transition:all_0.2s] bg-brand text-white hover:bg-[#0062CC]" id="callBtn">
           <span></span> Call Now
         </a>
       </div>
