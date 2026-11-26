@@ -1,5 +1,5 @@
 import { defineCollection } from 'astro:content';
-import { glob } from 'astro/loaders';
+import { wordpressPosts } from './lib/wordpress';
 import { z } from 'astro/zod';
 
 const seo = z.object({
@@ -11,16 +11,12 @@ const seo = z.object({
 });
 
 /**
- * Blog posts migrated from WordPress. One JSON file per post in src/content/posts/,
- * the file name is the URL slug (https://praanavaidya.com/<slug>/).
+ * Blog posts, fetched from the WordPress blog (https://blog.praanavaidya.com) on every build.
+ * The slug is the URL (https://praanavaidya.com/<slug>/). See src/lib/wordpress.ts.
  * HTML fields (title, heroLabel, heroExcerpt, content, card.excerpt) are rendered as-is.
  */
 const posts = defineCollection({
-  loader: glob({
-    pattern: '*.json',
-    base: './src/content/posts',
-    generateId: ({ entry }) => entry.replace(/\.json$/, ''),
-  }),
+  loader: wordpressPosts(),
   schema: z.object({
     wpId: z.number(),
     title: z.string(),

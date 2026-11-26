@@ -7,6 +7,12 @@ export default {
     // classes toggled at runtime by the theme scripts
     './public/assets/**/*.js',
   ],
+  // WordPress block classes used inside blog posts, which are fetched from WordPress at build
+  // time (src/lib/wordpress.ts) and so are not in any file Tailwind scans.
+  safelist: [
+    'aligncenter', 'alignleft', 'alignright', 'is-layout-flow', 'wp-block-image', 'wp-block-quote',
+    'wp-block-separator', 'wp-block-table', 'has-fixed-layout', 'has-palette-color-1-color', 'has-palette-color-2-color',
+  ],
   theme: {
     // the old theme centred .container (margin: 0 auto)
     container: { center: true },

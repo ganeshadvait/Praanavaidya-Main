@@ -13,7 +13,8 @@ import { fileURLToPath } from 'node:url';
 
 /** Sitemap groups, in index order. First matching rule wins. */
 const GROUPS = [
-  { name: 'post', match: (p, ctx) => ctx.postSlugs.has(p.replace(/^\/|\/$/g, '')) },
+  // blog posts are detected by WordPress' "single-post" body class
+  { name: 'post', match: (p, ctx) => ctx.isPost },
   { name: 'page', match: () => false }, // filled by the fallback below
   { name: 'treatment', match: (p) => p.startsWith('/ayurvedic-treatments/') },
   { name: 'doctor', match: (p) => p.startsWith('/ayurvedic-doctors/') },
@@ -32,7 +33,7 @@ const meta = (html, key) => {
 };
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-export default function sitemap({ postsDir = 'src/content/posts' } = {}) {
+export default function sitemap() {
   let site;
   return {
     name: 'praanavaidya-sitemap',
@@ -43,9 +44,6 @@ export default function sitemap({ postsDir = 'src/content/posts' } = {}) {
       },
       'astro:build:done': ({ dir, pages, logger }) => {
         const outDir = fileURLToPath(dir);
-        const postSlugs = new Set(
-          fs.existsSync(postsDir) ? fs.readdirSync(postsDir).filter((f) => f.endsWith('.json')).map((f) => f.replace(/\.json$/, '')) : [],
-        );
         const groups = Object.fromEntries(GROUPS.map((g) => [g.name, []]));
 
         for (const { pathname } of pages) {
@@ -64,7 +62,8 @@ export default function sitemap({ postsDir = 'src/content/posts' } = {}) {
           const lastmod = meta(html, 'article:modified_time') || meta(html, 'article:published_time');
           const image = meta(html, 'og:image');
           const entry = { loc, lastmod, image: image && image.startsWith(site) ? image : undefined };
-          const group = GROUPS.find((g) => g.match(p, { postSlugs })) || GROUPS.find((g) => g.name === 'page');
+          const isPost = /<body[^>]*class="[^"]*\bsingle-post\b/.test(html);
+          const group = GROUPS.find((g) => g.match(p, { isPost })) || GROUPS.find((g) => g.name === 'page');
           groups[group.name].push(entry);
         }
 
